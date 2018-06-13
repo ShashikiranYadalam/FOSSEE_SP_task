@@ -1,0 +1,78 @@
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>poly2lsf</title>
+    <style type="text/css" media="all">
+      @import url("scilab_code.css");
+      @import url("xml_code.css");
+      @import url("c_code.css");
+      @import url("style.css");
+    </style>
+  </head>
+  <body>
+    <div class="manualnavbar">
+    <table width="100%"><tr>
+      <td width="30%">
+    	<span class="previous"><a href="poly2ac.html">&lt;&lt; poly2ac</a></span>
+
+      </td>
+      <td width="40%" class="center">
+      	<span class="top"><a href="section_2e98f8a1cb454f172f7800a3f418cac4.html">FOSSEE Signal Processing Toolbox</a></span>
+
+      </td>
+      <td width="30%" class="next">
+      	<span class="next"><a href="poly2rc.html">poly2rc &gt;&gt;</a></span>
+
+      </td>
+    </tr></table>
+      <hr />
+    </div>
+
+
+
+    <span class="path"><a href="index.html">FOSSEE Signal Processing Toolbox</a> &gt;&gt; <a href="section_2e98f8a1cb454f172f7800a3f418cac4.html">FOSSEE Signal Processing Toolbox</a> &gt; poly2lsf</span>
+
+    <br /><br />
+    <div class="refnamediv"><h1 class="refname">poly2lsf</h1>
+    <p class="refpurpose">Calculates the line spectral frequencies for the given prediction polynomial</p></div>
+
+
+<div class="refsynopsisdiv"><h3 class="title">Calling Sequence</h3>
+   <div class="synopsis"><pre><span class="default">lsf</span><span class="default"> = </span><span class="functionid">poly2lsf</span><span class="default">(</span><span class="default">a</span><span class="default">)</span>
+<span class="functionid">poly2lsf</span> <span class="default">maps</span> <span class="default">Prediction</span> <span class="default">polynomial</span> <span class="default">coefficients</span> <span class="default">to</span> <span class="default">line</span> <span class="default">spectral</span> <span class="default">frequencies</span><span class="default">.</span></pre></div></div>
+<div class="refsection"><h3 class="title">Parameters</h3>
+   <dl><dt><span class="term">a:</span>
+      <dd><p class="para">Coefficients of prediction polynomial(the roots of the polynomial has to be inside the unity circle)</p></dd></dt></dl>
+<dl><dt><span class="term">lsf:</span>
+      <dd><p class="para">Line spectral frequencies</p></dd></dt></dl></div>
+
+<div class="refsection"><h3 class="title">Example</h3>
+   <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabid">X</span><span class="scilaboperator">=</span><span class="scilabopenclose">[</span><span class="scilabnumber">1</span> <span class="scilabnumber">0.6149</span> <span class="scilabnumber">0.9899</span> <span class="scilabnumber">0</span> <span class="scilabnumber">0.0031</span> <span class="scilaboperator">-</span><span class="scilabnumber">0.0082</span><span class="scilabopenclose">]</span> 
+<span class="scilabid">lsf</span> <span class="scilaboperator">=</span> <span class="scilabid">poly2lsf</span><span class="scilabopenclose">(</span><span class="scilabid">X</span><span class="scilabopenclose">)</span>
+<span class="scilabid">EXPECTED</span> <span class="scilabid">OUTPUT</span><span class="scilabspecial">:</span>
+<span class="scilabid">lsf</span>  <span class="scilaboperator">=</span><span class="scilabnumber">0.7841731</span>  <span class="scilabnumber">1.5605415</span>  <span class="scilabnumber">1.8776459</span>  <span class="scilabnumber">1.8984313</span>  <span class="scilabnumber">2.3592523</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
+
+<div class="refsection"><h3 class="title">Authors</h3>
+   <ul class="itemizedlist"><li class="member">Jitnder Singh</li></ul></div>
+    <br />
+
+    <div class="manualnavbar">
+    <table width="100%">
+    <tr><td colspan="3" class="next"><a href="http://bugzilla.scilab.org/enter_bug.cgi?product=Scilab%20software&component=Documentation%20pages" class="ulink">Report an issue</a></td></tr>
+<tr>
+      <td width="30%">
+    	<span class="previous"><a href="poly2ac.html">&lt;&lt; poly2ac</a></span>
+
+      </td>
+      <td width="40%" class="center">
+      	<span class="top"><a href="section_2e98f8a1cb454f172f7800a3f418cac4.html">FOSSEE Signal Processing Toolbox</a></span>
+
+      </td>
+      <td width="30%" class="next">
+      	<span class="next"><a href="poly2rc.html">poly2rc &gt;&gt;</a></span>
+
+      </td>
+    </tr></table>
+      <hr />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+7.Function: cconv.sci
+Comments are added to scilab code.
+
+46.Function: peak2rms.sci 
+Error corrected: the condition testing for equality is '=='at line 72.
+The test cases are corrected.
+
+47.Function: peig.sci
+Test cases are added to the function peig.sci for generating Pseudospectrum using eigenvector method.
+The location of the functions subspaceMethodsInputParser.sci and musicBase.sci has to be mentioned properly in exec statement at line79.
+
+
+48.Function: periodogram.sci
+Test cases are added.
+
+53.Function: pmusic.sci
+Test cases are added.
+
+
+
+54.Function: poly2lsf.sci
+The input prediction polynomial coefficients has roots outside the unity circle.
+So the prediction polynomial is changed to (coefficients)
+X=[1 0.6149 0.9899 0 0.0031 -0.0082]  so that it has oots inside the unity circle.
+The output is 
+-> lsf = poly2lsf(X)
+ lsf  =
+ 
+    0.7841731  
+    1.5605415  
+    1.8776459  
+    1.8984313  
+    2.3592523  
+
+
+55.Function: polyscale.sci
+Test cases and description is added to the scilab code. 
+
+ 
+56.Function: polyval.sci
+Test cases are added to the scilab code.
+
+
+
+61.Function: rc2poly.sci
+X = [7 6 5 8 3 6]
+[a, efinal] = rc2poly(X)......will show an error as enough number of input arguments are not specified,which is checked in line 34 of the code.
+
+The correct expected output can be acheived by mentioning as below:
+k = [0.3090 0.9800 0.0031 0.0082 -0.0082];
+a = rc2poly(k)
+OUTPUT:a= 1.    0.6148162    0.9898814    0.0000243    0.0031580     - 0.0082 
+
+62.Function: rcosdesign.sci
+Test cases and examples are added to the code.
+
+ 
+66.Function: rlevinson
+EXPECTED OUTPUT is seen with auto-regressive system parameters X=[1 6 5 8 3 6]
+
+
+67.Function: rooteig
+ s=exp(1i*pi/2*n)+2*exp(1i*pi/4*n)+exp(1i*pi/3*n)+randn(1,100)....//ERROR as pi and i should have a prefix '%'
+
+
+TEST CASE:
+n=0:99;   
+s=exp(1*%i*%pi/2*n)+2*exp(1*%i*%pi/4*n)+exp(1*%i*%pi/3*n)+rand(1,100,"normal");  
+exec('/home/shashi/Downloads/FOSSEE-Signal-Processing-Toolbox-master/macros/corrmtx.sci',-1);
+X = corrmtx(s,12,'mod');
+[W,P] = rooteig(X,3);
+OUTPUT:
+W =   0.7883
+      1.5674
+      1.0429
+P =   4.1748
+      1.0572
+      1.2419
+
+
+69.Function: rootmusic
+n=0:99;   
+s=exp(1i*pi/2*n)+2*exp(1i*pi/4*n)+exp(1i*pi/3*n)+randn(1,100);  //ERROR....there should be prefix '%' for pi and i.Also the scilab function to generate te random normalised noise is wrong.
+
+corrected example:
+n=0:99;   
+s=exp(1*%i*%pi/2*n)+2*exp(1*%i*%pi/4*n)+exp(1*%i*%pi/3*n)+rand(1,100,"normal");
+exec('/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox-master/macros/corrmtx.sci',-1); //NOTE THAT the location of the function 'corrmtx.sci' has to be mentioned properely.
+[A,R]=corrmtx(s,12,'mod');
+[W,P]=rootmusic(R,2,'corr');
+
+
+EXPECTED OUTPUT:
+W  =
+ 
+    0.8177930  
+    1.4443121  
+P  =
+ 
+    413.40322  
+    87.259403  
+ 
+  
+71.Function: schurrc
+Comments are added and the test cases are added to the code. 
+
+72.Function: slewrate
+Test cases are added to the function.
+
+73.Function: sos2ss
+ERROR :!--error 4 
+Undefined variable: t
+at line      26 of function sos2ss called by :  
+[A,B,C,D] = sos2ss(sos,2)
+
+the variable t which is the degree of the polynomial has to be defined at line 25.
+
+The code is corrected and the test cases and description of the function is added to the scilab code. 
+
+74.Function: sosbreak
+Test cases are added.
+To verify the output, use the 'coeff(zerosort(i))' to see the coefficients of the polynomial. 
+
+
+
+76.Function: specgram
+NOTE:Use function 'Matplot' to plot spectrogram
+
+Test cases and descriptions are added and examples are provided.
+
+
+Function sos2tf
+Test cases are added to scilab code.
+
+84.Function: upsamplefill
+The given scilab code which calls octave function is not working.
+The new function upsamplefillll.sci is built and added to the library.
+Test cases are added. 
+
+85.Function wrev.sci
+The function doesn’t work for character strings.
+So the function is built again and is added as wreverse.sci.
+Test cases and description is added.
+
+86.Function: zerocrossing.sci
+The function isn’t working.It is showing an ERROR as below:
+-->x0= zerocrossing(x,y);
+'union' undefined near line 39 column 12
+Warning: stack problem.., cleared.
+
+
+So a new function is built and saved as zerocrossings.sci.
+Test cases and description is added.
+Examples are given
+
+
+
