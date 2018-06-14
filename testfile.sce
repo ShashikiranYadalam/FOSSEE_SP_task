@@ -1,3 +1,4 @@
+cd macros/
 getd .
 
 test_pass=[]
