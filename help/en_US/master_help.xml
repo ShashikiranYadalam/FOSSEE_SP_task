@@ -1,286 +1,286 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book [
 <!--Begin Entities-->
-<!ENTITY a6d48fd6f0d8ed40da5e93222001a39ff SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/ac2poly.xml">
-<!ENTITY ac7957e30218e0b6b75aaec4c48520165 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/ac2rc.xml">
-<!ENTITY a4db95a36ecf17f354fa14e76b5628726 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/arParEst.xml">
-<!ENTITY ac58e854cca68d963b76a76493ba325b6 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/ar_psd.xml">
-<!ENTITY a59c331adf5344586812dd9cb0ba5de9b SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/arburg.xml">
-<!ENTITY a70949c3296e0e24e535fee658dce2280 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/arch_fit.xml">
-<!ENTITY a40ef9bc49250000d0260477cbcb0257c SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/arch_rnd.xml">
-<!ENTITY a03a4fa7d29d7ee7483aaf3877c053003 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/arch_test.xml">
-<!ENTITY a327a2ae7d46961daec351be04c1c1a62 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/arcov.xml">
-<!ENTITY abd5770233d8f55752a29ff5f221a069e SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/arma_rnd.xml">
-<!ENTITY ab67d5bfbf55db491994dac2278205dd9 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/armcov.xml">
-<!ENTITY afef0d220ae7a189717e72c5d7759295d SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/aryule.xml">
-<!ENTITY a9f2c1c974edfef150838e0617915ccef SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/autoreg_matrix.xml">
-<!ENTITY a288c4e6814d481a81eea62334bd81471 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/barthannwin.xml">
-<!ENTITY a8cce19a0e601a02c1fd60af23f8159ad SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/bartlett.xml">
-<!ENTITY af3366a65fee55236bb8cb82ceb96d743 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/besselap.xml">
-<!ENTITY a1145d1f4a7e909160c31b175a3d12bbb SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/besself.xml">
-<!ENTITY a8d8410ceee8662df239d27232ef9b57c SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/bilinear.xml">
-<!ENTITY ab6d53d5273ecee7ab72c95db4503de65 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/bitrevorder.xml">
-<!ENTITY aff5e41991d9e0a9bbd78a55fd9849110 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/blackman.xml">
-<!ENTITY a2857672e87c0d4e9205352ba9f05feed SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/blackmanharris.xml">
-<!ENTITY a61d8102049bc4e579a353270ef7fa6c2 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/blackmannuttall.xml">
-<!ENTITY aab35cc5ff6c79c0edede71fb1b82fe0d SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/bohmanwin.xml">
-<!ENTITY a0c648dc245b09a0a39d0df741959189c SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/boxcar.xml">
-<!ENTITY ac03a1e6c4a51a50fcf6b7306138033db SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/buffer.xml">
-<!ENTITY a69394e90f9a09d232f52349dfc6c9e63 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/buttap.xml">
-<!ENTITY a8dec5903cc04cceed6bfb3f8a52ab4f5 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/butter.xml">
-<!ENTITY aecb48165363a14735f1eed2506fa0d27 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/buttord.xml">
-<!ENTITY a0c9333ad06aa1a2a402c72d19881306a SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/cceps.xml">
-<!ENTITY a51657a40a3ef89c3db344feb5219453f SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/cconv.xml">
-<!ENTITY a14b010749cca63a5ed957d1d006fb374 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/cell2sos.xml">
-<!ENTITY a0442b95bee1044a988807dba3b181b7d SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/cheb.xml">
-<!ENTITY a93e3eba56d5802bbf2e64423caaf712f SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/cheb1ap.xml">
-<!ENTITY a8737b1697ddff98bd705900e3fed31d9 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/cheb1ord.xml">
-<!ENTITY af64381c7c6e105bf548f8689a9693112 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/cheb2ap.xml">
-<!ENTITY a61be2424a87ac14ae823ac63f786cebe SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/cheb2ord.xml">
-<!ENTITY af42ef056a92d03bd540ac26e784c38ef SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/chebwin.xml">
-<!ENTITY ad07c88a191b6e6b1db16009038399d58 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/cheby1.xml">
-<!ENTITY aa8d07231ff7b06ab71d4cee432ca4542 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/cheby2.xml">
-<!ENTITY ac938291ecf48a328c1c9f787adb68a40 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/check.xml">
-<!ENTITY a45f720f50ed0aa2622ff01cf91adbde8 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/chirp.xml">
-<!ENTITY af6869199c6790b15fa8cfb88b41f0c34 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/cl2bp.xml">
-<!ENTITY af0ea87d5f6ed5fd7fa6cf14a85c0d849 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/clustersegment.xml">
-<!ENTITY a31ddb4639ad68f9bea38cb0fe40abe88 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/cmorwavf.xml">
-<!ENTITY ab7312abe0f3f0957221c63668ee57659 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/cohere.xml">
-<!ENTITY a3643c95b772cd21f1f6a70635df67e8f SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/convmtx.xml">
-<!ENTITY a9b4e8edd8b4414656e1b622691a8d452 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/corrmtx.xml">
-<!ENTITY ae3efd72e25030c7df8474f5695e8c6b6 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/cplxreal.xml">
-<!ENTITY a1f30bac89ebe3158fb2562fa5d75df4a SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/cpsd.xml">
-<!ENTITY a5b016a73e114fe22353e3409f8631dc5 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/cummax.xml">
-<!ENTITY aaa802d856ab0024a1998d7a268e27e53 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/cummin.xml">
-<!ENTITY ab8816a68f28d6ff54804a854cf785172 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/czt.xml">
-<!ENTITY ab6f835af3b81a3d5372be822f28e9b73 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/db.xml">
-<!ENTITY af465d89be363b11138965dfd6cc74fda SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/db2pow.xml">
-<!ENTITY ad9a49e83aa6b462501d349da6cea1129 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/dctmtx.xml">
-<!ENTITY a85ee96589b9dc5f195977692ed17d4b0 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/decimate.xml">
-<!ENTITY a55f07012f1019c1e3164cf40246ffad3 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/detrend1.xml">
-<!ENTITY ae16fdb6d8d8c3fa3b050b0bc0c8c74bd SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/dftmtx.xml">
-<!ENTITY aca6662df706680024909da317aebc48e SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/diffpara.xml">
-<!ENTITY abd4ffe136770a8e1102fc643c86a9da8 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/diric.xml">
-<!ENTITY ab816a633597ab0f820e219896344bffb SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/downsample.xml">
-<!ENTITY aebc7962bbdbefd5d2a7e39e7acb65dd5 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/dst1.xml">
-<!ENTITY a6bb5efe5d7044699391e79155f037bc2 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/durbinlevinson.xml">
-<!ENTITY af9d3c86f2f2c4f7d1e50ed2d8954787a SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/dutycycle.xml">
-<!ENTITY a50f41863a1a3437ff17fc12503bdd6d8 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/dwt.xml">
-<!ENTITY ace21cf2bade85f1faac022e0010470aa SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/ellip.xml">
-<!ENTITY a3abdf74673bf5442a02767c8f9188aee SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/ellipap.xml">
-<!ENTITY aa51edf97f2e8c1b247fa3bc08ef208ef SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/ellipord.xml">
-<!ENTITY a9501b5427fc0a30cb7187ed7e7ee938b SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/enbw.xml">
-<!ENTITY acac7a7426f5c66631648fe6428817395 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/eqtflength.xml">
-<!ENTITY a6e77aced175efe5e4e391500a474abf3 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/falltime.xml">
-<!ENTITY a85d6a548d9eda4b4ef19ca5670cc1cd4 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/fft.xml">
-<!ENTITY a5fff1c48e2b2a95558c836c032bd3520 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/fft1.xml">
-<!ENTITY ad1fd3386ed9250d6b856e79b2713e398 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/fft2.xml">
-<!ENTITY af8cd81ab9fe83098f3a78d0baef7022f SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/fft21.xml">
-<!ENTITY a36ca99af812f819cb1fa6f2de08b9ebe SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/fftconv.xml">
-<!ENTITY a5389e23d275dbfce73a56db67b44c26f SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/fftfilt.xml">
-<!ENTITY a0143d271aa14881592d4cd5a090688d3 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/fftn.xml">
-<!ENTITY a9d3aef0cd2ee65c9fef2c9ea990ba5a7 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/fftshift1.xml">
-<!ENTITY a781618638d54db85af9b83cd2844e205 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/fftw1.xml">
-<!ENTITY ab33207f1c0498142947d1c60ab9088c3 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/fht.xml">
-<!ENTITY a2bc634d171a74aaa552deda6a041b96d SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/filter1.xml">
-<!ENTITY a20f9f94f5325cdce61a4301998537f7b SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/filter2.xml">
-<!ENTITY a3a2ae4cf9f8ac8329a44f3c5ad3b498e SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/filternorm.xml">
-<!ENTITY ac54dce2c9a96ee9fb8c57aa0b5a9d123 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/filtfilt.xml">
-<!ENTITY a0b4b4097f7dc154477401d54a5b87cdd SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/filtic.xml">
-<!ENTITY a599f3180bb708a2a6115117bde7a7f39 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/filtord.xml">
-<!ENTITY a7088323da49c6ebc8b379dde897d362e SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/findpeaks.xml">
-<!ENTITY a24eb42e84e894622e3190d6ac8e42689 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/fir1.xml">
-<!ENTITY a4c3b83fa83c4d8d31e454ce10c8e00cf SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/fir2.xml">
-<!ENTITY a6a6ab2191288eb1816993a0fb1336d6c SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/firpmord.xml">
-<!ENTITY aabe97783cd8307370d62d189d2accb00 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/firtype.xml">
-<!ENTITY a6fb2237ab46c61b5109784708749517f SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/flattopwin.xml">
-<!ENTITY abae0d7571e28a94b3c3acfc333058bc0 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/fracshift.xml">
-<!ENTITY a8b879a8b6ed854a94de3a3a1e2faeb5f SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/fractdiff.xml">
-<!ENTITY a8444c72818740b57a9a3400cd295502f SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/freqs.xml">
-<!ENTITY a447f8d17867c8ba2c3f8981114225928 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/freqz.xml">
-<!ENTITY a9d3343f5a2451f6685fa2732b75d9574 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/fwhm.xml">
-<!ENTITY acce62326ce92b6b377009f32c037134d SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/fwhmjlt.xml">
-<!ENTITY a6087e3dccfdd927d0c7b202ae2cb07d5 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/fwht.xml">
-<!ENTITY a7ecee19bfb6d7f21f50e82de7c2ef610 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/gauspuls.xml">
-<!ENTITY ad982a25689535be826819e2d58374a2d SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/gaussdesign.xml">
-<!ENTITY a2f7767cf2141b3334e93714afe16c6ad SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/gaussian.xml">
-<!ENTITY afb6d813241e9fc4efb0adcb7fa128081 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/gausswin.xml">
-<!ENTITY aaf3554f1fb75c6d27300d3b5af603af5 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/gmonopuls.xml">
-<!ENTITY af84cff77de42371c2f53647093065fee SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/goertzel.xml">
-<!ENTITY a0559f03ecec669515da90343d046b5ed SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/grpdelay.xml">
-<!ENTITY ab23dfe10a0946a6bea5c3a03e07bb4f7 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/hamming.xml">
-<!ENTITY a49c8e1e9ca8d809b883e1d424fb1de3a SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/hann.xml">
-<!ENTITY a5f28dceca89ee7c6985a15a29191b103 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/hanning.xml">
-<!ENTITY a24df5c01268eee5d27f0ec2a2dfdbddb SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/helperHarmonicDistortionAmplifier.xml">
-<!ENTITY a75f91e91952c6babaac4a83e6baaf5ac SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/hilbert1.xml">
-<!ENTITY a263abf5f5b1505227f5863abf41ae182 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/hurst.xml">
-<!ENTITY a34219386b2459fd779fa35482e8a8cd5 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/icceps.xml">
-<!ENTITY a3406353c469a6c8b3b132f76599ee8ee SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/idct1.xml">
-<!ENTITY abb471abb7d5ee55faf6d452a150e4b2e SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/idct2.xml">
-<!ENTITY a40fd3cf98fba37046675663ee30bc988 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/idst1.xml">
-<!ENTITY abb6f7db2f14f61ec6d25de2be4391298 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/ifft.xml">
-<!ENTITY a3d3c1fcee19b29b11dd8689d3e301b1d SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/ifft1.xml">
-<!ENTITY ab8c5d44135121da5550661598cbefd90 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/ifft2.xml">
-<!ENTITY a1ebb1616d0699ec3c9d9477349c4c43f SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/ifftn.xml">
-<!ENTITY ae7e4ca46a1e7a8cb9868b28dbf22dd27 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/ifftshift1.xml">
-<!ENTITY a9551e07e89e8a2dde213a60d90c9ed31 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/ifht.xml">
-<!ENTITY a9adff342d54e88d55fd586972c69b59a SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/ifwht.xml">
-<!ENTITY a00a955cda0a305f6fb62e5fddbde5f0f SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/iirlp2mb.xml">
-<!ENTITY a48b3621555026fa4e55a6e35dbf779ac SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/impinvar.xml">
-<!ENTITY a215a214ca673032051b99c6490108134 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/impz.xml">
-<!ENTITY abda356fd1c9d2fbaadfb015f9e3683e9 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/impzlength.xml">
-<!ENTITY a86d76b321205134f20d4d6a0b0a0cff3 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/interp.xml">
-<!ENTITY afbbb65e607e84ce3caa466b4b83e1fb6 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/intfilt.xml">
-<!ENTITY a98d10b655d2d785b5fced87caa287a54 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/invfreq.xml">
-<!ENTITY acd5720a2293dc38388175d42c72a78e2 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/invfreqs.xml">
-<!ENTITY ae7842453bb58bd35e8102e631bdf0f13 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/invfreqz.xml">
-<!ENTITY a28c191cfff8fe5643e329eb967c19555 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/invimpinvar.xml">
-<!ENTITY ade4560ecdfa9164c75ed937cfd627959 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/is2rc.xml">
-<!ENTITY acc35febda1e724e204389839257812cc SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/isallpass.xml">
-<!ENTITY abb3a82f56709cfef897dcf3795cab806 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/isfir.xml">
-<!ENTITY a32d299926aac82765d2e927479a40d77 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/islinphase.xml">
-<!ENTITY a0a9c939e439b905d1fc21ba67b1b3878 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/ismaxphase.xml">
-<!ENTITY ab10e02ac820a0f5431b96a08789026d5 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/isminphase.xml">
-<!ENTITY ab4da481dc38f1aebed3241b22fd9ab26 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/isstable.xml">
-<!ENTITY adce0655e9200cca9d5ea3c33b198154c SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/kaiser.xml">
-<!ENTITY abf8e11c7c995e980113e41d3cbba48c7 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/kaiserord.xml">
-<!ENTITY a3a9556352603160df91cf405f360e4ad SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/lar2rc.xml">
-<!ENTITY a93c082abb63c719dda44de69d9d84ac0 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/latc2tf.xml">
-<!ENTITY a6a66099d8eac47baa783e105f3be39be SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/latcfilt.xml">
-<!ENTITY a113c44cb9f1fded6efb926ce2f38f00a SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/latcfilt1.xml">
-<!ENTITY af3c64e6c1449ac940d3258a394c16d94 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/levdown.xml">
-<!ENTITY aabdff1a814783e40020b89575b5cf9c0 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/levin.xml">
-<!ENTITY a5aaa62b1659035c93ca4648470fdec20 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/levinson.xml">
-<!ENTITY a4e63374773ef9524aaa6b254f888cbbb SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/lpc.xml">
-<!ENTITY aeae9bfe4ad8b0ff7e134204ae7888c0d SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/lsf2poly.xml">
-<!ENTITY aeb6e4ef6d445d9a58c3cd9eeea459235 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/mag2db.xml">
-<!ENTITY a23be56c4acbf1b1528b66a847d958e17 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/marcumq.xml">
-<!ENTITY aa7bece0271cfb2620fd724b4c107d3fe SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/medfilt1.xml">
-<!ENTITY a3699cc16c1ae9ab0bb0ee3763a397b02 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/mexihat.xml">
-<!ENTITY a3b64b6cd7ca3ab433c8faebcda4baa28 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/meyeraux.xml">
-<!ENTITY ab5b9dd566b474f56952ce0cdda75f2a4 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/midcross.xml">
-<!ENTITY a06d2f6578de860a27041dded42c8f61c SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/modulate.xml">
-<!ENTITY a0070c5cbabd5644a447ecb2c5a2a7b00 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/morlet.xml">
-<!ENTITY a57707f41465b7a8df73fe1ea4cc1abea SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/movingrms.xml">
-<!ENTITY a28beeab4fcfcfc85b9baa7c27338bf29 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/mscohere.xml">
-<!ENTITY ab631b0669921c0a2621e2826b04f52b0 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/musicBase.xml">
-<!ENTITY ab4a04792f9b3d12c90537d5517b7e06d SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/ncauer.xml">
-<!ENTITY a47708f433336ecec54d21c8385d9483e SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/nnls.xml">
-<!ENTITY a70ae32c1776e7a0b4b722b2636e89175 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/nuttallwin.xml">
-<!ENTITY ad71221e2b19a52a058bd08ca36cca186 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/parzenwin.xml">
-<!ENTITY ac6c797463efbc649644a2dbb35c743b4 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/pburg.xml">
-<!ENTITY ab04dd07992a35f1cabe0808bdb52e8b4 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/pchip.xml">
-<!ENTITY a48e70a9f1a2a21bb00e7a5b0220a665d SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/pchips.xml">
-<!ENTITY a64800f6e1ad06aeb01f629a16d13de7f SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/peak2peak.xml">
-<!ENTITY a58dd7bc31291f7e2523481f1b41e507f SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/peak2rms.xml">
-<!ENTITY a0f295ad92c9e06dbe4a94ed0bc884e59 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/pei_tseng_notch.xml">
-<!ENTITY ac4f89686f282ecd2ca5f6b723e7370d5 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/peig.xml">
-<!ENTITY ab092f298c8f8c2632033eeeca8f4edc5 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/periodogram.xml">
-<!ENTITY ada5071f7d4933fad490678136896d56f SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/phaseInputParseAs_ab.xml">
-<!ENTITY a9888521ae49d7806bc013d4bb77b279e SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/phaseInputParseAs_sos.xml">
-<!ENTITY acee383b84ea7dc454cf12b0547285e54 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/phasedelay.xml">
-<!ENTITY a49635491b06daace6bed0459a34d60aa SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/phasez.xml">
-<!ENTITY af619a8c3810af30234f0708550b3ba75 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/pmusic.xml">
-<!ENTITY a30ee34c3ade603eb329d2627dbf5dc46 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/poly2ac.xml">
-<!ENTITY a951d85169e96d5b7b452a14d876a8b68 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/poly2lsf.xml">
-<!ENTITY a9c553af48032fae4f2206f4dbbef5dd8 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/poly2rc.xml">
-<!ENTITY af3bd0b7940f3724480f1c9c6cd459de1 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/polyscale.xml">
-<!ENTITY a78235c3f59efce2bdc4c86471e0de4a4 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/polystab.xml">
-<!ENTITY a696cf5ce2f740cb43582730af2f37cc6 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/polyval.xml">
-<!ENTITY ad9a5f79cdcbc7156d1f7b6b92c537542 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/pow2db.xml">
-<!ENTITY ad72b06d5ff03c346bff3976574291f46 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/primitive.xml">
-<!ENTITY a164ee8b923bbbf75ad483be0edfd4144 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/prony.xml">
-<!ENTITY a900ee0a0798d3a6220ee0b2a3ec40422 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/pulseperiod.xml">
-<!ENTITY a0d4ca1c800188f357e1707ad07d353f3 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/pulsesep.xml">
-<!ENTITY afc3d1f04b05e8386d91b1b246afa2e8f SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/pulsewidth.xml">
-<!ENTITY a72afa12cfad9d9f84f0453c480dbaecf SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/pulstran.xml">
-<!ENTITY ae80568a0554a26b8bc70ce981c91ef59 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/pwelch.xml">
-<!ENTITY a3d728da2150e2ebffada64878ae835fb SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/pyulear.xml">
-<!ENTITY a9a10cfc9b146fc9c66e4c4c1755ffa8a SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/qp_kaiser.xml">
-<!ENTITY aadedb877c87facf97d90b29df2e9d244 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/rc2ac.xml">
-<!ENTITY ad8c7b6258be6007315f05a0cd829f109 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/rc2is.xml">
-<!ENTITY a1c7fd56df85f78742a939db2798f7773 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/rc2lar.xml">
-<!ENTITY a3a66bbc7d6d60d96a571b20af68b0f9b SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/rc2poly.xml">
-<!ENTITY a5a275c3055528c6226bf5bfbe950eff3 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/rceps.xml">
-<!ENTITY af03f0ffbfdd1970f6e35a412271e61d3 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/rcosdesign.xml">
-<!ENTITY a967a8e3c2fb7132527098c30a0237f94 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/rectpuls.xml">
-<!ENTITY ab9ba4edb636e90d0e8ad0ade3d813996 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/rectwin.xml">
-<!ENTITY a27c3aed28094353fe92583392a8893dd SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/remez1.xml">
-<!ENTITY a9c15485e5286634cf69db87569aa4adf SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/resample.xml">
-<!ENTITY a1dea62460ea98f940d509671f312eac1 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/residued.xml">
-<!ENTITY ab5ab4e22f9e11030a1c8038f11e01a1e SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/residuez.xml">
-<!ENTITY aa4fbd0b6daedf85209ac6eb6c41994f2 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/risetime.xml">
-<!ENTITY ae5e4d6d45af511ee01fec3e5f3988693 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/rlevinson.xml">
-<!ENTITY a4e157ef6062b76262605c7bda30e6ca4 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/rms.xml">
-<!ENTITY ac91112e48e39e344682a43a907cd2dfb SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/rooteig.xml">
-<!ENTITY abdefe95aed55ff71db65b0be00048593 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/rootmusic.xml">
-<!ENTITY a9e0c1453650bfde310cbc3ed41e8cdfe SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/rssq.xml">
-<!ENTITY aa5a9860a0a0d8d8f2dde4ebe63cc2a29 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/sampled2continuous.xml">
-<!ENTITY a9d6c5ba99c6a5270f20400560761959e SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/sawtooth.xml">
-<!ENTITY ab59025b88d5d38303e18688a174c82e1 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/schtrig.xml">
-<!ENTITY ac54096aaf65917045c3fa71a058f3809 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/schurrc.xml">
-<!ENTITY a33a6dbdf26d036c568d0a7ecea0670f6 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/seqperiod.xml">
-<!ENTITY a247e92040aba8d29b401d0015b161fda SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/sftrans.xml">
-<!ENTITY a97e183f001297ab3934d7d19ff47bad4 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/sgolay.xml">
-<!ENTITY ab434428f1d21df5127cee0f2d02dc064 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/sgolayfilt.xml">
-<!ENTITY abc4b18bbf3c0b8c53b009866ab3c699f SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/shanwavf.xml">
-<!ENTITY a310b410613b3e05e026fdf38a9ad5ba2 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/shiftdata.xml">
-<!ENTITY a24d1d7e08f5f53368a163e3d911358ca SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/sigmoid_train.xml">
-<!ENTITY a753e976a495a2a935568a4cfc3ecdc9c SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/sinetone.xml">
-<!ENTITY a6b0fdd5a46667b87f667e2d9b8bebd83 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/sinewave.xml">
-<!ENTITY a8b3ff056b889d7b848a5ee8f1c8a9a0e SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/slewrate.xml">
-<!ENTITY af57c42e6ec33bad925df02f83227ab8d SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/sos2cell.xml">
-<!ENTITY a89057fdd8f96a623543b0d0a1d8a3598 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/sos2ss.xml">
-<!ENTITY ac1128968df56d4961822eff0cd573d81 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/sos2tf.xml">
-<!ENTITY acced25e81f68002932775ab494e86c0b SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/sos2zp.xml">
-<!ENTITY abd58d1e009bca5b006241c4e7c37e62e SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/sosbreak.xml">
-<!ENTITY a413d7872cfd2be360e99aef0745e9b75 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/sosfilt.xml">
-<!ENTITY af7b3f0aa40a37dff598db2c09488c67f SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/specgram.xml">
-<!ENTITY afb3f65823e4c2e0fa7717371e3c89997 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/spectral_adf.xml">
-<!ENTITY a78a8953e7ec3ae103b47a679ce8a4645 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/spectral_xdf.xml">
-<!ENTITY a5c404fd742bc35c5494ee9f8069263cd SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/spencer.xml">
-<!ENTITY a84aba64742ff9982482e79571df93ec3 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/ss2sos.xml">
-<!ENTITY a773742ceff97fda58be7789fafc2a85b SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/statelevels.xml">
-<!ENTITY aedf4baa2f707ff6d922c1f497fc66d77 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/stft.xml">
-<!ENTITY a25a8f7bc9143d10161fd2f12d83dfefa SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/stmcb.xml">
-<!ENTITY af3805895f23aa88ad23c36f9c6b8281b SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/strips.xml">
-<!ENTITY a1102eb816823a333b9c725955cdda000 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/subspaceMethodsInputParser.xml">
-<!ENTITY a0961bdaa3b3ab99da450ea4c864baa76 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/synthesis.xml">
-<!ENTITY ab216ace3845ea3c50f5bdd9435b16183 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/tf2sos.xml">
-<!ENTITY ac6692a13bac111032ea39a7da4820bf2 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/tf2zp.xml">
-<!ENTITY a972b08c38a0231be4f48caaa88ece1e3 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/tf2zpk.xml">
-<!ENTITY abccf77df0a7701d4c92e391b894263d9 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/tfe.xml">
-<!ENTITY a546ddb2d8403a3c59428b0009de3a3d1 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/tfestimate.xml">
-<!ENTITY a030b93b2e424f1fd01c0ccbea2776238 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/transpose.xml">
-<!ENTITY ab375686dd2d50e26cdd79f50fe242c24 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/trial_iirlp2mb.xml">
-<!ENTITY a5f3618275e4bb9773a8d16adf3d9b6e5 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/triang.xml">
-<!ENTITY a4ff9e6103f6950866537f224b22d124c SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/tripuls.xml">
-<!ENTITY a0877d09cd43e4bad7308b7ca98dbe5b4 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/truth.xml">
-<!ENTITY a03fc1c9030e0c21ae8828b00e4a3924c SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/tukeywin.xml">
-<!ENTITY abcc7f5f0382f3471a691926681f49a93 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/udecode.xml">
-<!ENTITY a353e09e18e94132ebbe5b20f2836ae55 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/uencode.xml">
-<!ENTITY a7195df064f3053dc99c65b0f06aee39f SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/ultrwin.xml">
-<!ENTITY ac0bf374de5e178478364baffc452c859 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/unshiftdata.xml">
-<!ENTITY ab5d80335b70619ce9e1bd77a3c1c472d SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/unwrap2.xml">
-<!ENTITY abe6ffbf314fc78c70f4433270dddd50c SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/upfirdn.xml">
-<!ENTITY a9b35c3e6edc51c809b49963c4f159649 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/upsample.xml">
-<!ENTITY a34b3df8cb801a13569b6d22dce7d26f0 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/upsamplefill.xml">
-<!ENTITY a53defacb9abb8d9403b0c6e50e3ed5d1 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/var.xml">
-<!ENTITY a607d11828fdc8a1d6553fcc495681c1b SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/vco.xml">
-<!ENTITY a023c864a2b1c36eaf15be4821bd308cb SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/wconv.xml">
-<!ENTITY a5149a3308dc3870964599286dc0ceaa1 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/welchwin.xml">
-<!ENTITY ad4b576500342ee0a39c367e48d195cb9 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/window.xml">
-<!ENTITY a92dfe7f317f031e6769c957075cc69e2 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/wkeep.xml">
-<!ENTITY a114a8f6c95953e864730d4141b205574 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/wrev.xml">
-<!ENTITY af77a34b6391abd6c3d231e9425888b35 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/xcorr1.xml">
-<!ENTITY a0ca690a032ecf36a9d9803937697a7f6 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/xcorr2.xml">
-<!ENTITY adf0b74ca428c5fb8f56a74720a9fe586 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/xcov1.xml">
-<!ENTITY a515a022dcb1330c1b7444a3155f420b8 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/yulewalker.xml">
-<!ENTITY a912cb49bec4fac8b85abe2831f7d790d SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/zerocrossing.xml">
-<!ENTITY a193c1fbc5557b32065ade18630e980c1 SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/zp2sos.xml">
-<!ENTITY ab0388f3344df3bdb1f0fcaec8529a05e SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/zp2ss.xml">
-<!ENTITY acd7102dce85d931c42a4ceea387ef4ee SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/zp2tf.xml">
-<!ENTITY a8c60470528b327dc2d28b5417c9b81ce SYSTEM "/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox/help/en_US/zplane.xml">
+<!ENTITY a1f38ce355d4b4db0fa28606ba0c52022 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/ac2poly.xml">
+<!ENTITY a3a2555099748b8e27468b75fa18aa283 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/ac2rc.xml">
+<!ENTITY af276d0affd607d1b61258195534326f0 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/arParEst.xml">
+<!ENTITY a08383eed46abb8ca63ae31983c379e7c SYSTEM "/home/shashi/Desktop/FSP/help/en_US/ar_psd.xml">
+<!ENTITY a7d2588d65c51ff1013b4d0d1efa394f5 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/arburg.xml">
+<!ENTITY a7d8b36a83e013740d249e89e20ed31fc SYSTEM "/home/shashi/Desktop/FSP/help/en_US/arch_fit.xml">
+<!ENTITY a01d64b93d19d1b96634724d139c7619f SYSTEM "/home/shashi/Desktop/FSP/help/en_US/arch_rnd.xml">
+<!ENTITY a9bfac34b2f7daaef78c0b7f08c1b62c1 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/arch_test.xml">
+<!ENTITY abe7f6ec0a27198e71d1871154e556e67 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/arcov.xml">
+<!ENTITY a1a6926cf4921b5beb8c4edda5122c33d SYSTEM "/home/shashi/Desktop/FSP/help/en_US/arma_rnd.xml">
+<!ENTITY ad52d42752e7084380e60364efe2f58e3 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/armcov.xml">
+<!ENTITY a60442decfcff42dbc8ee2b695ba988c8 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/aryule.xml">
+<!ENTITY a32287855dc17e665abdfb3c9e6269840 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/autoreg_matrix.xml">
+<!ENTITY aab5b2a4733e9e3cc47bf4e00c471963e SYSTEM "/home/shashi/Desktop/FSP/help/en_US/barthannwin.xml">
+<!ENTITY af7e7d16116d3d047f451e8bfde1c5fa8 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/bartlett.xml">
+<!ENTITY add0f9a60c349b325b11bfb04cb864ff4 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/besselap.xml">
+<!ENTITY a50c9dce79193c410f660547d358e6e70 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/besself.xml">
+<!ENTITY a97f314b7123a3efcfb4297f12fa760d5 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/bilinear.xml">
+<!ENTITY a3122ec4d913a34e9c912744f1e4b435e SYSTEM "/home/shashi/Desktop/FSP/help/en_US/bitrevorder.xml">
+<!ENTITY a9e7646aa59cf76bb2f576e728ed560ed SYSTEM "/home/shashi/Desktop/FSP/help/en_US/blackman.xml">
+<!ENTITY abb29805b87e6749d575f84f0f808b458 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/blackmanharris.xml">
+<!ENTITY acc20a1295150d9b856198243d97b35b6 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/blackmannuttall.xml">
+<!ENTITY ae9a24da3ce6f1f16fb75335018ca204c SYSTEM "/home/shashi/Desktop/FSP/help/en_US/bohmanwin.xml">
+<!ENTITY ac638e296c76556f6e72ec5c85c0f9b04 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/boxcar.xml">
+<!ENTITY a4a8d4bd25d02a934fd0ab307055c2fd6 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/buffer.xml">
+<!ENTITY a6668b0306cf868b812b118149e8dbba2 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/buttap.xml">
+<!ENTITY af71217689bb42a53c764362130e540c0 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/butter.xml">
+<!ENTITY a6594ec92bc11b0f7963da54865217dde SYSTEM "/home/shashi/Desktop/FSP/help/en_US/buttord.xml">
+<!ENTITY af04e03363abd974909ab1bd7b882314c SYSTEM "/home/shashi/Desktop/FSP/help/en_US/cceps.xml">
+<!ENTITY a41d274c9c149a5f49ec7bba7a58853ba SYSTEM "/home/shashi/Desktop/FSP/help/en_US/cconv.xml">
+<!ENTITY a68b23a1536efd2e3cd64cf485f506c1e SYSTEM "/home/shashi/Desktop/FSP/help/en_US/cell2sos.xml">
+<!ENTITY ab9d6f0cbdec0778b2dd7e0ef458404c3 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/cheb.xml">
+<!ENTITY a728aa2bcaef77d259af2198c0ceffbeb SYSTEM "/home/shashi/Desktop/FSP/help/en_US/cheb1ap.xml">
+<!ENTITY a0b4d999ce5723075ce02b49f8c09058b SYSTEM "/home/shashi/Desktop/FSP/help/en_US/cheb1ord.xml">
+<!ENTITY a3aeb9cb01b93a058c13dc899c06080c8 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/cheb2ap.xml">
+<!ENTITY a91e4e4f55618a613b068ce933e5d1217 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/cheb2ord.xml">
+<!ENTITY a5129393f3294a7cb8b5740489e4bd706 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/chebwin.xml">
+<!ENTITY a35605bcf360d125fd86c150555f1d96f SYSTEM "/home/shashi/Desktop/FSP/help/en_US/cheby1.xml">
+<!ENTITY a0f2243dcb426e869fb59723543e1affe SYSTEM "/home/shashi/Desktop/FSP/help/en_US/cheby2.xml">
+<!ENTITY a8a16dac5105a04347f42bc93a0f9ce7b SYSTEM "/home/shashi/Desktop/FSP/help/en_US/check.xml">
+<!ENTITY a5831375e9197c8546dcbc3d522757747 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/chirp.xml">
+<!ENTITY ae5d90f042c92af9d6758cf3951357a35 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/cl2bp.xml">
+<!ENTITY affcbb5034879bb0b7c436ff9da52e331 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/clustersegment.xml">
+<!ENTITY a900f22b8b21d69198d205a0e0659da59 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/cmorwavf.xml">
+<!ENTITY afb1606f420ca3fb93afccb67f4484e8f SYSTEM "/home/shashi/Desktop/FSP/help/en_US/cohere.xml">
+<!ENTITY a159b00611edb61af41e7b2ba14a1d386 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/convmtx.xml">
+<!ENTITY a3597f75ef876a221f402d1c6048bfd8e SYSTEM "/home/shashi/Desktop/FSP/help/en_US/corrmtx.xml">
+<!ENTITY aa78d96d050f545ee66ac022e992f6b8d SYSTEM "/home/shashi/Desktop/FSP/help/en_US/cplxreal.xml">
+<!ENTITY a4fd0307ee0dd733ad6882428fcd37995 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/cpsd.xml">
+<!ENTITY a3f655d5a2f995247a8930be4860bbce4 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/cummax.xml">
+<!ENTITY ac95a4e03a28832a8a65fc2ca4ec65c11 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/cummin.xml">
+<!ENTITY aad1740ae856940a6904a2a23912f8af6 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/czt.xml">
+<!ENTITY a4079995d4fc1b163b77beb23253fae7c SYSTEM "/home/shashi/Desktop/FSP/help/en_US/db.xml">
+<!ENTITY af3acc95760cbcb301aec659894886eab SYSTEM "/home/shashi/Desktop/FSP/help/en_US/db2pow.xml">
+<!ENTITY a180c3801dc6ec21d565cda89950d50be SYSTEM "/home/shashi/Desktop/FSP/help/en_US/dctmtx.xml">
+<!ENTITY a8e9d6e7d74dc80071435b2611ce7b40e SYSTEM "/home/shashi/Desktop/FSP/help/en_US/decimate.xml">
+<!ENTITY ab5069afc8a3a4fdac36f3b72874170e3 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/detrend1.xml">
+<!ENTITY ae2fe206d867483be93606474fe663714 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/dftmtx.xml">
+<!ENTITY aac8f1a6f9b3ece1a4ba93cd76339f0af SYSTEM "/home/shashi/Desktop/FSP/help/en_US/diffpara.xml">
+<!ENTITY ab752b12e1b17c1e21606bcb7be2da9dc SYSTEM "/home/shashi/Desktop/FSP/help/en_US/diric.xml">
+<!ENTITY afbbb12c0632e930850b5ae3d41f35b64 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/downsample.xml">
+<!ENTITY a1c855b04b1bf19b2d6b8bf3b455322ed SYSTEM "/home/shashi/Desktop/FSP/help/en_US/dst1.xml">
+<!ENTITY abd65b92c7fba439a2d00cdabbd22bf37 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/durbinlevinson.xml">
+<!ENTITY ab2ab1366e84e5a0df51cc673b37a3190 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/dutycycle.xml">
+<!ENTITY a5f321ffeca06b737c33a50e93da08a80 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/dwt.xml">
+<!ENTITY a1ee5104e6d4e1917b301c9165e77e9ad SYSTEM "/home/shashi/Desktop/FSP/help/en_US/ellip.xml">
+<!ENTITY a71da84058c5d865e8f97e6385c08b86a SYSTEM "/home/shashi/Desktop/FSP/help/en_US/ellipap.xml">
+<!ENTITY a584510ca20815ec571af3db1fe88600d SYSTEM "/home/shashi/Desktop/FSP/help/en_US/ellipord.xml">
+<!ENTITY a3d7759acd90db7575e3203cf42639e2a SYSTEM "/home/shashi/Desktop/FSP/help/en_US/enbw.xml">
+<!ENTITY a1eebfa5dbe7d9ae249d0613e08f027fb SYSTEM "/home/shashi/Desktop/FSP/help/en_US/eqtflength.xml">
+<!ENTITY a4ca540bdc81d5a2c8e6b71c9fa3c3588 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/falltime.xml">
+<!ENTITY a8d38f60ad59811ddffe4aedd8f3675c5 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/fft.xml">
+<!ENTITY a7c76dac1b7dd6d03e2b5298709a6fb4f SYSTEM "/home/shashi/Desktop/FSP/help/en_US/fft1.xml">
+<!ENTITY a4496afbd8fd0954a8d2951a8154890b1 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/fft2.xml">
+<!ENTITY acfc6b12320e7f2fa14919f4ff38752e6 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/fft21.xml">
+<!ENTITY a22aa96fcc354cf947c0da0a45d10ee65 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/fftconv.xml">
+<!ENTITY aa58385f8ca4c708ef2d8e57fcac5d559 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/fftfilt.xml">
+<!ENTITY a41bcb6bc9770c908f5b45e5e9258b911 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/fftn.xml">
+<!ENTITY a78570bf8ebbab0b63cecb74eb2a439f8 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/fftshift1.xml">
+<!ENTITY adc0fb3ffff0262b4dce5113c317aadc5 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/fftw1.xml">
+<!ENTITY a2a8faf56fb3024c98755a90bb94f5e43 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/fht.xml">
+<!ENTITY ac6a33a5909c81c883707b60a5cd6ea42 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/filter1.xml">
+<!ENTITY a81e652023e08d0a365c65e1b83181bfc SYSTEM "/home/shashi/Desktop/FSP/help/en_US/filter2.xml">
+<!ENTITY ad17488acbffe90f4d473c4a742df0787 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/filternorm.xml">
+<!ENTITY aea5fac479683784b91e1eb2f1d847368 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/filtfilt.xml">
+<!ENTITY a8c025fef4e2d511a7f3519cf89abfb02 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/filtic.xml">
+<!ENTITY aba73c6253e304e9264edd89c62416381 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/filtord.xml">
+<!ENTITY a3df72b9bf45b38b3f0189089fa287ac7 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/findpeaks.xml">
+<!ENTITY adc9e9d0e319d63e7590fd76b9e152241 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/fir1.xml">
+<!ENTITY aeaa24c20cd9080a4f263b2a9ad94bc10 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/fir2.xml">
+<!ENTITY a42f78e00e7ebc32a3dc877bda277cda6 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/firpmord.xml">
+<!ENTITY a7b6d52cbebc69df405695681b5bff4bf SYSTEM "/home/shashi/Desktop/FSP/help/en_US/firtype.xml">
+<!ENTITY affab44eac1cd1dfdad77b6513b3be53c SYSTEM "/home/shashi/Desktop/FSP/help/en_US/flattopwin.xml">
+<!ENTITY a6f93006f610d1d33faf5729bda7235b2 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/fracshift.xml">
+<!ENTITY a75be5a2b4b558a390a067f5c43c60c80 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/fractdiff.xml">
+<!ENTITY a8d7a7d18df67904a5cc8f77fe52bc9d9 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/freqs.xml">
+<!ENTITY ad260933c313419dbb5b0fdaf9d3657c6 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/freqz.xml">
+<!ENTITY a16bb69ead474d7adde17ee938a243840 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/fwhm.xml">
+<!ENTITY a69486562f1e369d742aac824c393e9c7 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/fwhmjlt.xml">
+<!ENTITY a298e7be000be5603227fc18ee9e96547 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/fwht.xml">
+<!ENTITY a4512b410783011b72558e58162d7f37a SYSTEM "/home/shashi/Desktop/FSP/help/en_US/gauspuls.xml">
+<!ENTITY a746cb68b423dff2ca728d87e4d4a5afb SYSTEM "/home/shashi/Desktop/FSP/help/en_US/gaussdesign.xml">
+<!ENTITY ad83e0bbe78e51a2f461175cc323fa106 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/gaussian.xml">
+<!ENTITY a96960f615bcc17d0771790369d01cb35 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/gausswin.xml">
+<!ENTITY a011730347e6730ea04c4db9016342590 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/gmonopuls.xml">
+<!ENTITY a4d9adf0cc173e84d8d63bdfc541d0f6a SYSTEM "/home/shashi/Desktop/FSP/help/en_US/goertzel.xml">
+<!ENTITY ad3293a86aa73bcaeb2d49def4aa56bea SYSTEM "/home/shashi/Desktop/FSP/help/en_US/grpdelay.xml">
+<!ENTITY a7998a86a8e4b15f39158d26ae807f797 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/hamming.xml">
+<!ENTITY abfd48f9c21a775a0f1a3275c3d66f3e9 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/hann.xml">
+<!ENTITY ae08749a2370272470daf97c21d856899 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/hanning.xml">
+<!ENTITY a443a892b91c6cacab18bed9d5876a4ea SYSTEM "/home/shashi/Desktop/FSP/help/en_US/helperHarmonicDistortionAmplifier.xml">
+<!ENTITY a8b8981124087716d771655043fb54288 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/hilbert1.xml">
+<!ENTITY a9681ff6bd27dd8a98c66a9d7e1ebf35c SYSTEM "/home/shashi/Desktop/FSP/help/en_US/hurst.xml">
+<!ENTITY ac9a627e6d68a118e19bb1441c1f9365c SYSTEM "/home/shashi/Desktop/FSP/help/en_US/icceps.xml">
+<!ENTITY a9f2fa4669463d0b695ba69974cc31773 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/idct1.xml">
+<!ENTITY ae6b9b13142bb76698bc16915395ec9cd SYSTEM "/home/shashi/Desktop/FSP/help/en_US/idct2.xml">
+<!ENTITY a0f532cc3b0639e5e969b63f2d00fa2af SYSTEM "/home/shashi/Desktop/FSP/help/en_US/idst1.xml">
+<!ENTITY ac94a2f253d03165a66df33f10faabf0d SYSTEM "/home/shashi/Desktop/FSP/help/en_US/ifft.xml">
+<!ENTITY a6378e5ecb274375e2864a99627f3cab2 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/ifft1.xml">
+<!ENTITY a6c42bb6cdfd3b155b1e7226e9cd3470a SYSTEM "/home/shashi/Desktop/FSP/help/en_US/ifft2.xml">
+<!ENTITY a4166b98c8d95c9dccaa0d6b2bda262da SYSTEM "/home/shashi/Desktop/FSP/help/en_US/ifftn.xml">
+<!ENTITY a0af74b609817c3c44eb58cf4b37e4917 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/ifftshift1.xml">
+<!ENTITY a6d41c1ebcdcd78407a2cdae5881e4019 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/ifht.xml">
+<!ENTITY ae829b6581e53845e4d2da0f9f80a52a8 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/ifwht.xml">
+<!ENTITY a1fe5ae79ed11af49b5165f9769372ca7 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/iirlp2mb.xml">
+<!ENTITY a5d8fdd7635b5b811381475a46beed0f2 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/impinvar.xml">
+<!ENTITY afff99a7b505dcf6181f9bf67eba2b460 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/impz.xml">
+<!ENTITY a72560cf05d4b39154618690086fd49dd SYSTEM "/home/shashi/Desktop/FSP/help/en_US/impzlength.xml">
+<!ENTITY a95724e3facec69fc2f5509b9f6e2e9cc SYSTEM "/home/shashi/Desktop/FSP/help/en_US/interp.xml">
+<!ENTITY a590c00dd1649e903e66fb6802ca860a5 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/intfilt.xml">
+<!ENTITY a74322911febf21fbe63f13a848161eeb SYSTEM "/home/shashi/Desktop/FSP/help/en_US/invfreq.xml">
+<!ENTITY abc38c80c34db83994b3e7fe495934901 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/invfreqs.xml">
+<!ENTITY a8e932ad7d05d4701e29254d614fa488f SYSTEM "/home/shashi/Desktop/FSP/help/en_US/invfreqz.xml">
+<!ENTITY a3d1f0737ee9ff6bfd652c76cb443c354 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/invimpinvar.xml">
+<!ENTITY a3800e6d87d43efb86dc01085dd031acc SYSTEM "/home/shashi/Desktop/FSP/help/en_US/is2rc.xml">
+<!ENTITY a9cf2cdb878700a63ef6df231d1b5c164 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/isallpass.xml">
+<!ENTITY aedab148b4b162af5fb6ac4b057039168 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/isfir.xml">
+<!ENTITY a254d205c269e68cc2fd32937975e9203 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/islinphase.xml">
+<!ENTITY ac165371cd6638dbc45ac85eaec7e3116 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/ismaxphase.xml">
+<!ENTITY afee1c860516e1a515f8345a884cf91ae SYSTEM "/home/shashi/Desktop/FSP/help/en_US/isminphase.xml">
+<!ENTITY af70490c60226987f75463b0320d72007 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/isstable.xml">
+<!ENTITY a75c29c899b1360b57dc192b4e7ad4200 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/kaiser.xml">
+<!ENTITY aac09f0b405e7e2c838466220a2a4c294 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/kaiserord.xml">
+<!ENTITY af1fa40d962a0551ff0beb4769b43ceab SYSTEM "/home/shashi/Desktop/FSP/help/en_US/lar2rc.xml">
+<!ENTITY a5f956bff8252c93d210688704d3ffc21 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/latc2tf.xml">
+<!ENTITY a3c522386f8762594f5f2bc2698ec1d60 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/latcfilt.xml">
+<!ENTITY ae7fef9afd23e85cf67d0fd9ee3895052 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/latcfilt1.xml">
+<!ENTITY a1df74252130d45ae59280a443244f885 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/levdown.xml">
+<!ENTITY ac527f04c3c38fd528655d814bb27d626 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/levin.xml">
+<!ENTITY a9d050c84ca89fcde01b5c7548b63fd33 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/levinson.xml">
+<!ENTITY a89d1ce429938d4d2df6ecb871d774a55 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/lpc.xml">
+<!ENTITY a55231cf6be89a7cbe95f0553834d29fc SYSTEM "/home/shashi/Desktop/FSP/help/en_US/lsf2poly.xml">
+<!ENTITY a0517205c19eb93d389fc90566c48333d SYSTEM "/home/shashi/Desktop/FSP/help/en_US/mag2db.xml">
+<!ENTITY a6b7aad7ea9d2c202f62c2c1ca6dc073a SYSTEM "/home/shashi/Desktop/FSP/help/en_US/marcumq.xml">
+<!ENTITY a109ec27dedaef1589f4888f84b20fb2e SYSTEM "/home/shashi/Desktop/FSP/help/en_US/medfilt1.xml">
+<!ENTITY a853006387dec425ebfbe5d83fba18f4a SYSTEM "/home/shashi/Desktop/FSP/help/en_US/mexihat.xml">
+<!ENTITY ad6e44dbbc10429acbdc043052494776b SYSTEM "/home/shashi/Desktop/FSP/help/en_US/meyeraux.xml">
+<!ENTITY a4e22a9044d770ebcdb8089cc16e225b9 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/midcross.xml">
+<!ENTITY a9b14d4fbc192f2b47f0a505891b9f94e SYSTEM "/home/shashi/Desktop/FSP/help/en_US/modulate.xml">
+<!ENTITY a43c5a8450714c9efe53c39efb132615b SYSTEM "/home/shashi/Desktop/FSP/help/en_US/morlet.xml">
+<!ENTITY ad1f812deb34d3f9cc2e1244e29fcb6d3 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/movingrms.xml">
+<!ENTITY a55cb1770a0e5dcd2c0a726000e288651 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/mscohere.xml">
+<!ENTITY a47e82d6ee91dce2ecb820ba37ce94c91 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/musicBase.xml">
+<!ENTITY afe953031910e012d09204550ccf7a693 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/ncauer.xml">
+<!ENTITY a62ae5fac7a4136c786526e388bc7282a SYSTEM "/home/shashi/Desktop/FSP/help/en_US/nnls.xml">
+<!ENTITY abfe1ddd28fb777bb6d40f49d67d26c9d SYSTEM "/home/shashi/Desktop/FSP/help/en_US/nuttallwin.xml">
+<!ENTITY a8a83bea982d59f90f447ecfdbe8e67c3 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/parzenwin.xml">
+<!ENTITY a30b946c69ba6d2a03d1efff0b378d2b0 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/pburg.xml">
+<!ENTITY ad4b89bc08f19186f5768c0dcd7d7b501 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/pchip.xml">
+<!ENTITY a21ae4efcd340495e111688e9c37b7425 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/pchips.xml">
+<!ENTITY a1ff057f2631baad36a812aec97e09365 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/peak2peak.xml">
+<!ENTITY aae5b1ff37a878bfb7c73f44796e26e6b SYSTEM "/home/shashi/Desktop/FSP/help/en_US/peak2rms.xml">
+<!ENTITY aaa72a6e2cb6cb52e25964090f72d93b9 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/pei_tseng_notch.xml">
+<!ENTITY ab91943ba504c7870157e1034a2ed7471 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/peig.xml">
+<!ENTITY a49848271cbff28196f12c1dce154727c SYSTEM "/home/shashi/Desktop/FSP/help/en_US/periodogram.xml">
+<!ENTITY a0e05da4c11f355bc82103941c341ad77 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/phaseInputParseAs_ab.xml">
+<!ENTITY a929ffe9b908a86f53c44cc2110fc6f77 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/phaseInputParseAs_sos.xml">
+<!ENTITY a4ddb44d3c12357b506b2541d82a3005b SYSTEM "/home/shashi/Desktop/FSP/help/en_US/phasedelay.xml">
+<!ENTITY a0c6977146bd66dce40b7fc2e86659bf0 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/phasez.xml">
+<!ENTITY aa8f32e3f314e269865fe19a635c94a0c SYSTEM "/home/shashi/Desktop/FSP/help/en_US/pmusic.xml">
+<!ENTITY a56f6bf365ab61d0ab4d4dcbe32346f9a SYSTEM "/home/shashi/Desktop/FSP/help/en_US/poly2ac.xml">
+<!ENTITY a5e19306184dbf567f58f87200dd4ab2c SYSTEM "/home/shashi/Desktop/FSP/help/en_US/poly2lsf.xml">
+<!ENTITY ad0187373d8445522d14cf68be94f0f6b SYSTEM "/home/shashi/Desktop/FSP/help/en_US/poly2rc.xml">
+<!ENTITY a3af5d5f75abd7dc75e08ed11cb4bd1af SYSTEM "/home/shashi/Desktop/FSP/help/en_US/polyscale.xml">
+<!ENTITY ad3fd06ec720a5ba1034848ac70a0594d SYSTEM "/home/shashi/Desktop/FSP/help/en_US/polystab.xml">
+<!ENTITY adb838cc2548157dad2c764222dc13ff9 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/polyval.xml">
+<!ENTITY a1ae23f2709b9469371f477538eb4cd27 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/pow2db.xml">
+<!ENTITY a53e23efc8839fe1ced044eb78bf0203b SYSTEM "/home/shashi/Desktop/FSP/help/en_US/primitive.xml">
+<!ENTITY a0f7160a0b865f3e8a73199cc99e95482 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/prony.xml">
+<!ENTITY a778b2e7cba53a6e7d85559b0978daa1a SYSTEM "/home/shashi/Desktop/FSP/help/en_US/pulseperiod.xml">
+<!ENTITY adcc086caa112768bbb7395cf88ed5252 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/pulsesep.xml">
+<!ENTITY a36d3c8341630078fe7b78061bd158f88 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/pulsewidth.xml">
+<!ENTITY a9efbdad220a3b1cc9abc1af350bf1efb SYSTEM "/home/shashi/Desktop/FSP/help/en_US/pulstran.xml">
+<!ENTITY a171c2d94cf638822654740b31a6e1172 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/pwelch.xml">
+<!ENTITY a40191092151f7905d054d580deeb2ba5 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/pyulear.xml">
+<!ENTITY aa1636ac05a1cfe06526778e50f1050ee SYSTEM "/home/shashi/Desktop/FSP/help/en_US/qp_kaiser.xml">
+<!ENTITY ad819a15e88e74336058e6f44dfd159c9 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/rc2ac.xml">
+<!ENTITY a3195a5c522ec4b7c565b2de131357c52 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/rc2is.xml">
+<!ENTITY ade320a268be45d268f10e056f2ed4cb3 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/rc2lar.xml">
+<!ENTITY a93a45f4e8d7920f1321b9ee9615e84f0 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/rc2poly.xml">
+<!ENTITY a747e7a52d0880a432cbdedfd57de524e SYSTEM "/home/shashi/Desktop/FSP/help/en_US/rceps.xml">
+<!ENTITY a27749ac67d9890c5873689033a654064 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/rcosdesign.xml">
+<!ENTITY a1f4147a01399385247ca49a3834667dc SYSTEM "/home/shashi/Desktop/FSP/help/en_US/rectpuls.xml">
+<!ENTITY a5348029b068e8f9fde429d8593480d2e SYSTEM "/home/shashi/Desktop/FSP/help/en_US/rectwin.xml">
+<!ENTITY a4e23bd52f76a4f5aaac2624073a0b56f SYSTEM "/home/shashi/Desktop/FSP/help/en_US/remez1.xml">
+<!ENTITY a06e7cc8fbc287d434a6f1c7108539c90 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/resample.xml">
+<!ENTITY a05dd1309040f3972da9fe56203ce803f SYSTEM "/home/shashi/Desktop/FSP/help/en_US/residued.xml">
+<!ENTITY a8c766f651b033d46229a3c675e5dfdd3 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/residuez.xml">
+<!ENTITY aebae68b5c2ae81dd0df99a5cc8884f59 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/risetime.xml">
+<!ENTITY a85ffd47260754f35d83f3f8f988554e1 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/rlevinson.xml">
+<!ENTITY a5dbb1b20e117069400733f748367b0f3 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/rms.xml">
+<!ENTITY ab743ad57196cd16285be6b25a02fb492 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/rooteig.xml">
+<!ENTITY a6b75fca40fb3f4d6972eae1901e68491 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/rootmusic.xml">
+<!ENTITY ab1055ce59b4eee43d0ddb8c33dc8e592 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/rssq.xml">
+<!ENTITY ad1f6d3342614f843938da13a5dd32aed SYSTEM "/home/shashi/Desktop/FSP/help/en_US/sampled2continuous.xml">
+<!ENTITY a9f04a263daf3f8fb57ba8415d26ccd76 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/sawtooth.xml">
+<!ENTITY aaf10903b3973c21cf6e6785c660785ac SYSTEM "/home/shashi/Desktop/FSP/help/en_US/schtrig.xml">
+<!ENTITY a5eff43fd297b27ae868b501fcf58efe8 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/schurrc.xml">
+<!ENTITY a09302c419dda32c9412ed46d3d0c9c75 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/seqperiod.xml">
+<!ENTITY ab8b7507887bf1d002b5e723438a07380 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/sftrans.xml">
+<!ENTITY a5e3f881097db5732670b7e8c567978f3 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/sgolay.xml">
+<!ENTITY a38420fe3ff6e37619af777a4443e35b9 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/sgolayfilt.xml">
+<!ENTITY a946ea876a2e871c4bc9967c2dcb89ceb SYSTEM "/home/shashi/Desktop/FSP/help/en_US/shanwavf.xml">
+<!ENTITY ae164598460b82a76d0b618be0924a1f0 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/shiftdata.xml">
+<!ENTITY aa20a2b5074385d1b819e2b4ec8a991d1 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/sigmoid_train.xml">
+<!ENTITY a3ec000617a2c8071b16d8ccfc5c396c5 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/sinetone.xml">
+<!ENTITY a3f280c2ed5cd009db0ae04fef2d20619 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/sinewave.xml">
+<!ENTITY a1f228a9f2c77a7bbcdff7d0bc9b733d2 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/slewrate.xml">
+<!ENTITY a79abd20f88af8f920fd768dbec00f943 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/sos2cell.xml">
+<!ENTITY a8db4acef9cf75bebd49b3e464536b144 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/sos2ss.xml">
+<!ENTITY ac2a6711e23b110ab2f0045ad5c2fed36 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/sos2tf.xml">
+<!ENTITY a23843eecb3c97b9cfc0cbdc08d6caf27 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/sos2zp.xml">
+<!ENTITY a1e604b65cb90b9477260ed4d39cca474 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/sosbreak.xml">
+<!ENTITY ab808606567a30a86db04cd2d3857606c SYSTEM "/home/shashi/Desktop/FSP/help/en_US/sosfilt.xml">
+<!ENTITY a53e7fed0aa043328dc16328a659405a8 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/specgram.xml">
+<!ENTITY abc386a024c256f1d756e2bd54ee26323 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/spectral_adf.xml">
+<!ENTITY a4911cc2cc0181f0a72579c0473d9327c SYSTEM "/home/shashi/Desktop/FSP/help/en_US/spectral_xdf.xml">
+<!ENTITY ad2d66af8e5b95684b7b7a99c4974de8f SYSTEM "/home/shashi/Desktop/FSP/help/en_US/spencer.xml">
+<!ENTITY aca048e607eab43002641623f968ec3a6 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/ss2sos.xml">
+<!ENTITY a53c356233efbacb7970ebfc6c7c77daa SYSTEM "/home/shashi/Desktop/FSP/help/en_US/statelevels.xml">
+<!ENTITY ad312e13f6075b41b38b96029ef314a7d SYSTEM "/home/shashi/Desktop/FSP/help/en_US/stft.xml">
+<!ENTITY a4cdfefe9cf3c7eefc2217bc77c140da6 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/stmcb.xml">
+<!ENTITY ae8a6d9c942031326a73866cb0a5ebcf0 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/strips.xml">
+<!ENTITY a4075773606e3aee8ef55990fc7820457 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/subspaceMethodsInputParser.xml">
+<!ENTITY ad024c4aa6543921d236634f90893c9ad SYSTEM "/home/shashi/Desktop/FSP/help/en_US/synthesis.xml">
+<!ENTITY ad1bdb777e5db94a5311e751d46d95a7e SYSTEM "/home/shashi/Desktop/FSP/help/en_US/tf2sos.xml">
+<!ENTITY afe2d67866e9fa652ee349b5b99f4d076 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/tf2zp.xml">
+<!ENTITY abcac40f2583b53294167a46b1bc24527 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/tf2zpk.xml">
+<!ENTITY a235c5bc1362b305a6ea5cc5df04798cb SYSTEM "/home/shashi/Desktop/FSP/help/en_US/tfe.xml">
+<!ENTITY aa4f3c5c6e7d2acf8f82163a03bead61e SYSTEM "/home/shashi/Desktop/FSP/help/en_US/tfestimate.xml">
+<!ENTITY a3b2232809b08fd2e8a7e790026665530 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/transpose.xml">
+<!ENTITY ac6b04daf311cd2e80192eb766be1192b SYSTEM "/home/shashi/Desktop/FSP/help/en_US/trial_iirlp2mb.xml">
+<!ENTITY a25f4fb9d4422486d167f3bf00f84db3d SYSTEM "/home/shashi/Desktop/FSP/help/en_US/triang.xml">
+<!ENTITY a79f5c72af4230ce8c9d8f37e48e11430 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/tripuls.xml">
+<!ENTITY a31dd8605bc6272b723b8daf2045c49e2 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/truth.xml">
+<!ENTITY ade06cf94feb21f1f527c55e5a6ff6e66 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/tukeywin.xml">
+<!ENTITY a5d93d9852f770ecf42efb3cb2a797852 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/udecode.xml">
+<!ENTITY ad77e2aa50a0cb960309d500cc9b5256a SYSTEM "/home/shashi/Desktop/FSP/help/en_US/uencode.xml">
+<!ENTITY a53094e3b19044177afdc9c453f9f3eb8 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/ultrwin.xml">
+<!ENTITY ab0eb7f47db627ba5970b9d0ba35e01e2 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/unshiftdata.xml">
+<!ENTITY a780da7522a7e9e55d09b6c85e355c241 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/unwrap2.xml">
+<!ENTITY aad0dd1309c4c29a2f1b245e92405f594 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/upfirdn.xml">
+<!ENTITY a8f5d8204d9f71175b18d8fd77491c84e SYSTEM "/home/shashi/Desktop/FSP/help/en_US/upsample.xml">
+<!ENTITY ad9b711f25c05cd7c2ed3eec03f85f7ab SYSTEM "/home/shashi/Desktop/FSP/help/en_US/upsamplefill.xml">
+<!ENTITY a7ae1bb7039d60a58c52d1b6165507620 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/var.xml">
+<!ENTITY ace5b8fd6a692bedc219602a68eec4308 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/vco.xml">
+<!ENTITY aaf7bc09ecb55c7077306a5790a439dee SYSTEM "/home/shashi/Desktop/FSP/help/en_US/wconv.xml">
+<!ENTITY a4cc1eda1d503e395cf77e0cd0d6030b8 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/welchwin.xml">
+<!ENTITY a8a007f54412cf70ae470b9ba8a9f0b36 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/window.xml">
+<!ENTITY a38b574c15bab79e50798d1731a2db83f SYSTEM "/home/shashi/Desktop/FSP/help/en_US/wkeep.xml">
+<!ENTITY aa2003febcd6ae18c652281b7c452b860 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/wrev.xml">
+<!ENTITY a7c4aae39f58dcd38d3a14a89c60481a9 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/xcorr1.xml">
+<!ENTITY a81799a45974d9cb5429551dcfd12100a SYSTEM "/home/shashi/Desktop/FSP/help/en_US/xcorr2.xml">
+<!ENTITY a9a3f651c83b3d65af2f1858bdb6af3af SYSTEM "/home/shashi/Desktop/FSP/help/en_US/xcov1.xml">
+<!ENTITY a4cb03d5f6a1a7fea0a62f78d59519b8c SYSTEM "/home/shashi/Desktop/FSP/help/en_US/yulewalker.xml">
+<!ENTITY aacaa106866f889b9cedad8f7124ba77a SYSTEM "/home/shashi/Desktop/FSP/help/en_US/zerocrossing.xml">
+<!ENTITY ae19bcf59e4f9ee5fa265f53d063ed61e SYSTEM "/home/shashi/Desktop/FSP/help/en_US/zp2sos.xml">
+<!ENTITY aed446ed3432a2836c37378610eaec473 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/zp2ss.xml">
+<!ENTITY a6b4d38011b5e4d7e993f2b028214e5a5 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/zp2tf.xml">
+<!ENTITY aa882fa40721031f7ecbc26b4e15a3c74 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/zplane.xml">
 <!--End Entities-->
 ]>
 <book version="5.0-subset Scilab" xml:lang="en_US"
@@ -295,287 +295,287 @@
     <title>FOSSEE Signal Processing Toolbox</title>
   </info>
 
-<part xml:id='section_2e98f8a1cb454f172f7800a3f418cac4'>
+<part xml:id='section_bb45a542725f0412ce4c44a5afd1c791'>
 <title>FOSSEE Signal Processing Toolbox</title>
-&a6d48fd6f0d8ed40da5e93222001a39ff;
-&ac7957e30218e0b6b75aaec4c48520165;
-&a4db95a36ecf17f354fa14e76b5628726;
-&ac58e854cca68d963b76a76493ba325b6;
-&a59c331adf5344586812dd9cb0ba5de9b;
-&a70949c3296e0e24e535fee658dce2280;
-&a40ef9bc49250000d0260477cbcb0257c;
-&a03a4fa7d29d7ee7483aaf3877c053003;
-&a327a2ae7d46961daec351be04c1c1a62;
-&abd5770233d8f55752a29ff5f221a069e;
-&ab67d5bfbf55db491994dac2278205dd9;
-&afef0d220ae7a189717e72c5d7759295d;
-&a9f2c1c974edfef150838e0617915ccef;
-&a288c4e6814d481a81eea62334bd81471;
-&a8cce19a0e601a02c1fd60af23f8159ad;
-&af3366a65fee55236bb8cb82ceb96d743;
-&a1145d1f4a7e909160c31b175a3d12bbb;
-&a8d8410ceee8662df239d27232ef9b57c;
-&ab6d53d5273ecee7ab72c95db4503de65;
-&aff5e41991d9e0a9bbd78a55fd9849110;
-&a2857672e87c0d4e9205352ba9f05feed;
-&a61d8102049bc4e579a353270ef7fa6c2;
-&aab35cc5ff6c79c0edede71fb1b82fe0d;
-&a0c648dc245b09a0a39d0df741959189c;
-&ac03a1e6c4a51a50fcf6b7306138033db;
-&a69394e90f9a09d232f52349dfc6c9e63;
-&a8dec5903cc04cceed6bfb3f8a52ab4f5;
-&aecb48165363a14735f1eed2506fa0d27;
-&a0c9333ad06aa1a2a402c72d19881306a;
-&a51657a40a3ef89c3db344feb5219453f;
-&a14b010749cca63a5ed957d1d006fb374;
-&a0442b95bee1044a988807dba3b181b7d;
-&a93e3eba56d5802bbf2e64423caaf712f;
-&a8737b1697ddff98bd705900e3fed31d9;
-&af64381c7c6e105bf548f8689a9693112;
-&a61be2424a87ac14ae823ac63f786cebe;
-&af42ef056a92d03bd540ac26e784c38ef;
-&ad07c88a191b6e6b1db16009038399d58;
-&aa8d07231ff7b06ab71d4cee432ca4542;
-&ac938291ecf48a328c1c9f787adb68a40;
-&a45f720f50ed0aa2622ff01cf91adbde8;
-&af6869199c6790b15fa8cfb88b41f0c34;
-&af0ea87d5f6ed5fd7fa6cf14a85c0d849;
-&a31ddb4639ad68f9bea38cb0fe40abe88;
-&ab7312abe0f3f0957221c63668ee57659;
-&a3643c95b772cd21f1f6a70635df67e8f;
-&a9b4e8edd8b4414656e1b622691a8d452;
-&ae3efd72e25030c7df8474f5695e8c6b6;
-&a1f30bac89ebe3158fb2562fa5d75df4a;
-&a5b016a73e114fe22353e3409f8631dc5;
-&aaa802d856ab0024a1998d7a268e27e53;
-&ab8816a68f28d6ff54804a854cf785172;
-&ab6f835af3b81a3d5372be822f28e9b73;
-&af465d89be363b11138965dfd6cc74fda;
-&ad9a49e83aa6b462501d349da6cea1129;
-&a85ee96589b9dc5f195977692ed17d4b0;
-&a55f07012f1019c1e3164cf40246ffad3;
-&ae16fdb6d8d8c3fa3b050b0bc0c8c74bd;
-&aca6662df706680024909da317aebc48e;
-&abd4ffe136770a8e1102fc643c86a9da8;
-&ab816a633597ab0f820e219896344bffb;
-&aebc7962bbdbefd5d2a7e39e7acb65dd5;
-&a6bb5efe5d7044699391e79155f037bc2;
-&af9d3c86f2f2c4f7d1e50ed2d8954787a;
-&a50f41863a1a3437ff17fc12503bdd6d8;
-&ace21cf2bade85f1faac022e0010470aa;
-&a3abdf74673bf5442a02767c8f9188aee;
-&aa51edf97f2e8c1b247fa3bc08ef208ef;
-&a9501b5427fc0a30cb7187ed7e7ee938b;
-&acac7a7426f5c66631648fe6428817395;
-&a6e77aced175efe5e4e391500a474abf3;
-&a85d6a548d9eda4b4ef19ca5670cc1cd4;
-&a5fff1c48e2b2a95558c836c032bd3520;
-&ad1fd3386ed9250d6b856e79b2713e398;
-&af8cd81ab9fe83098f3a78d0baef7022f;
-&a36ca99af812f819cb1fa6f2de08b9ebe;
-&a5389e23d275dbfce73a56db67b44c26f;
-&a0143d271aa14881592d4cd5a090688d3;
-&a9d3aef0cd2ee65c9fef2c9ea990ba5a7;
-&a781618638d54db85af9b83cd2844e205;
-&ab33207f1c0498142947d1c60ab9088c3;
-&a2bc634d171a74aaa552deda6a041b96d;
-&a20f9f94f5325cdce61a4301998537f7b;
-&a3a2ae4cf9f8ac8329a44f3c5ad3b498e;
-&ac54dce2c9a96ee9fb8c57aa0b5a9d123;
-&a0b4b4097f7dc154477401d54a5b87cdd;
-&a599f3180bb708a2a6115117bde7a7f39;
-&a7088323da49c6ebc8b379dde897d362e;
-&a24eb42e84e894622e3190d6ac8e42689;
-&a4c3b83fa83c4d8d31e454ce10c8e00cf;
-&a6a6ab2191288eb1816993a0fb1336d6c;
-&aabe97783cd8307370d62d189d2accb00;
-&a6fb2237ab46c61b5109784708749517f;
-&abae0d7571e28a94b3c3acfc333058bc0;
-&a8b879a8b6ed854a94de3a3a1e2faeb5f;
-&a8444c72818740b57a9a3400cd295502f;
-&a447f8d17867c8ba2c3f8981114225928;
-&a9d3343f5a2451f6685fa2732b75d9574;
-&acce62326ce92b6b377009f32c037134d;
-&a6087e3dccfdd927d0c7b202ae2cb07d5;
-&a7ecee19bfb6d7f21f50e82de7c2ef610;
-&ad982a25689535be826819e2d58374a2d;
-&a2f7767cf2141b3334e93714afe16c6ad;
-&afb6d813241e9fc4efb0adcb7fa128081;
-&aaf3554f1fb75c6d27300d3b5af603af5;
-&af84cff77de42371c2f53647093065fee;
-&a0559f03ecec669515da90343d046b5ed;
-&ab23dfe10a0946a6bea5c3a03e07bb4f7;
-&a49c8e1e9ca8d809b883e1d424fb1de3a;
-&a5f28dceca89ee7c6985a15a29191b103;
-&a24df5c01268eee5d27f0ec2a2dfdbddb;
-&a75f91e91952c6babaac4a83e6baaf5ac;
-&a263abf5f5b1505227f5863abf41ae182;
-&a34219386b2459fd779fa35482e8a8cd5;
-&a3406353c469a6c8b3b132f76599ee8ee;
-&abb471abb7d5ee55faf6d452a150e4b2e;
-&a40fd3cf98fba37046675663ee30bc988;
-&abb6f7db2f14f61ec6d25de2be4391298;
-&a3d3c1fcee19b29b11dd8689d3e301b1d;
-&ab8c5d44135121da5550661598cbefd90;
-&a1ebb1616d0699ec3c9d9477349c4c43f;
-&ae7e4ca46a1e7a8cb9868b28dbf22dd27;
-&a9551e07e89e8a2dde213a60d90c9ed31;
-&a9adff342d54e88d55fd586972c69b59a;
-&a00a955cda0a305f6fb62e5fddbde5f0f;
-&a48b3621555026fa4e55a6e35dbf779ac;
-&a215a214ca673032051b99c6490108134;
-&abda356fd1c9d2fbaadfb015f9e3683e9;
-&a86d76b321205134f20d4d6a0b0a0cff3;
-&afbbb65e607e84ce3caa466b4b83e1fb6;
-&a98d10b655d2d785b5fced87caa287a54;
-&acd5720a2293dc38388175d42c72a78e2;
-&ae7842453bb58bd35e8102e631bdf0f13;
-&a28c191cfff8fe5643e329eb967c19555;
-&ade4560ecdfa9164c75ed937cfd627959;
-&acc35febda1e724e204389839257812cc;
-&abb3a82f56709cfef897dcf3795cab806;
-&a32d299926aac82765d2e927479a40d77;
-&a0a9c939e439b905d1fc21ba67b1b3878;
-&ab10e02ac820a0f5431b96a08789026d5;
-&ab4da481dc38f1aebed3241b22fd9ab26;
-&adce0655e9200cca9d5ea3c33b198154c;
-&abf8e11c7c995e980113e41d3cbba48c7;
-&a3a9556352603160df91cf405f360e4ad;
-&a93c082abb63c719dda44de69d9d84ac0;
-&a6a66099d8eac47baa783e105f3be39be;
-&a113c44cb9f1fded6efb926ce2f38f00a;
-&af3c64e6c1449ac940d3258a394c16d94;
-&aabdff1a814783e40020b89575b5cf9c0;
-&a5aaa62b1659035c93ca4648470fdec20;
-&a4e63374773ef9524aaa6b254f888cbbb;
-&aeae9bfe4ad8b0ff7e134204ae7888c0d;
-&aeb6e4ef6d445d9a58c3cd9eeea459235;
-&a23be56c4acbf1b1528b66a847d958e17;
-&aa7bece0271cfb2620fd724b4c107d3fe;
-&a3699cc16c1ae9ab0bb0ee3763a397b02;
-&a3b64b6cd7ca3ab433c8faebcda4baa28;
-&ab5b9dd566b474f56952ce0cdda75f2a4;
-&a06d2f6578de860a27041dded42c8f61c;
-&a0070c5cbabd5644a447ecb2c5a2a7b00;
-&a57707f41465b7a8df73fe1ea4cc1abea;
-&a28beeab4fcfcfc85b9baa7c27338bf29;
-&ab631b0669921c0a2621e2826b04f52b0;
-&ab4a04792f9b3d12c90537d5517b7e06d;
-&a47708f433336ecec54d21c8385d9483e;
-&a70ae32c1776e7a0b4b722b2636e89175;
-&ad71221e2b19a52a058bd08ca36cca186;
-&ac6c797463efbc649644a2dbb35c743b4;
-&ab04dd07992a35f1cabe0808bdb52e8b4;
-&a48e70a9f1a2a21bb00e7a5b0220a665d;
-&a64800f6e1ad06aeb01f629a16d13de7f;
-&a58dd7bc31291f7e2523481f1b41e507f;
-&a0f295ad92c9e06dbe4a94ed0bc884e59;
-&ac4f89686f282ecd2ca5f6b723e7370d5;
-&ab092f298c8f8c2632033eeeca8f4edc5;
-&ada5071f7d4933fad490678136896d56f;
-&a9888521ae49d7806bc013d4bb77b279e;
-&acee383b84ea7dc454cf12b0547285e54;
-&a49635491b06daace6bed0459a34d60aa;
-&af619a8c3810af30234f0708550b3ba75;
-&a30ee34c3ade603eb329d2627dbf5dc46;
-&a951d85169e96d5b7b452a14d876a8b68;
-&a9c553af48032fae4f2206f4dbbef5dd8;
-&af3bd0b7940f3724480f1c9c6cd459de1;
-&a78235c3f59efce2bdc4c86471e0de4a4;
-&a696cf5ce2f740cb43582730af2f37cc6;
-&ad9a5f79cdcbc7156d1f7b6b92c537542;
-&ad72b06d5ff03c346bff3976574291f46;
-&a164ee8b923bbbf75ad483be0edfd4144;
-&a900ee0a0798d3a6220ee0b2a3ec40422;
-&a0d4ca1c800188f357e1707ad07d353f3;
-&afc3d1f04b05e8386d91b1b246afa2e8f;
-&a72afa12cfad9d9f84f0453c480dbaecf;
-&ae80568a0554a26b8bc70ce981c91ef59;
-&a3d728da2150e2ebffada64878ae835fb;
-&a9a10cfc9b146fc9c66e4c4c1755ffa8a;
-&aadedb877c87facf97d90b29df2e9d244;
-&ad8c7b6258be6007315f05a0cd829f109;
-&a1c7fd56df85f78742a939db2798f7773;
-&a3a66bbc7d6d60d96a571b20af68b0f9b;
-&a5a275c3055528c6226bf5bfbe950eff3;
-&af03f0ffbfdd1970f6e35a412271e61d3;
-&a967a8e3c2fb7132527098c30a0237f94;
-&ab9ba4edb636e90d0e8ad0ade3d813996;
-&a27c3aed28094353fe92583392a8893dd;
-&a9c15485e5286634cf69db87569aa4adf;
-&a1dea62460ea98f940d509671f312eac1;
-&ab5ab4e22f9e11030a1c8038f11e01a1e;
-&aa4fbd0b6daedf85209ac6eb6c41994f2;
-&ae5e4d6d45af511ee01fec3e5f3988693;
-&a4e157ef6062b76262605c7bda30e6ca4;
-&ac91112e48e39e344682a43a907cd2dfb;
-&abdefe95aed55ff71db65b0be00048593;
-&a9e0c1453650bfde310cbc3ed41e8cdfe;
-&aa5a9860a0a0d8d8f2dde4ebe63cc2a29;
-&a9d6c5ba99c6a5270f20400560761959e;
-&ab59025b88d5d38303e18688a174c82e1;
-&ac54096aaf65917045c3fa71a058f3809;
-&a33a6dbdf26d036c568d0a7ecea0670f6;
-&a247e92040aba8d29b401d0015b161fda;
-&a97e183f001297ab3934d7d19ff47bad4;
-&ab434428f1d21df5127cee0f2d02dc064;
-&abc4b18bbf3c0b8c53b009866ab3c699f;
-&a310b410613b3e05e026fdf38a9ad5ba2;
-&a24d1d7e08f5f53368a163e3d911358ca;
-&a753e976a495a2a935568a4cfc3ecdc9c;
-&a6b0fdd5a46667b87f667e2d9b8bebd83;
-&a8b3ff056b889d7b848a5ee8f1c8a9a0e;
-&af57c42e6ec33bad925df02f83227ab8d;
-&a89057fdd8f96a623543b0d0a1d8a3598;
-&ac1128968df56d4961822eff0cd573d81;
-&acced25e81f68002932775ab494e86c0b;
-&abd58d1e009bca5b006241c4e7c37e62e;
-&a413d7872cfd2be360e99aef0745e9b75;
-&af7b3f0aa40a37dff598db2c09488c67f;
-&afb3f65823e4c2e0fa7717371e3c89997;
-&a78a8953e7ec3ae103b47a679ce8a4645;
-&a5c404fd742bc35c5494ee9f8069263cd;
-&a84aba64742ff9982482e79571df93ec3;
-&a773742ceff97fda58be7789fafc2a85b;
-&aedf4baa2f707ff6d922c1f497fc66d77;
-&a25a8f7bc9143d10161fd2f12d83dfefa;
-&af3805895f23aa88ad23c36f9c6b8281b;
-&a1102eb816823a333b9c725955cdda000;
-&a0961bdaa3b3ab99da450ea4c864baa76;
-&ab216ace3845ea3c50f5bdd9435b16183;
-&ac6692a13bac111032ea39a7da4820bf2;
-&a972b08c38a0231be4f48caaa88ece1e3;
-&abccf77df0a7701d4c92e391b894263d9;
-&a546ddb2d8403a3c59428b0009de3a3d1;
-&a030b93b2e424f1fd01c0ccbea2776238;
-&ab375686dd2d50e26cdd79f50fe242c24;
-&a5f3618275e4bb9773a8d16adf3d9b6e5;
-&a4ff9e6103f6950866537f224b22d124c;
-&a0877d09cd43e4bad7308b7ca98dbe5b4;
-&a03fc1c9030e0c21ae8828b00e4a3924c;
-&abcc7f5f0382f3471a691926681f49a93;
-&a353e09e18e94132ebbe5b20f2836ae55;
-&a7195df064f3053dc99c65b0f06aee39f;
-&ac0bf374de5e178478364baffc452c859;
-&ab5d80335b70619ce9e1bd77a3c1c472d;
-&abe6ffbf314fc78c70f4433270dddd50c;
-&a9b35c3e6edc51c809b49963c4f159649;
-&a34b3df8cb801a13569b6d22dce7d26f0;
-&a53defacb9abb8d9403b0c6e50e3ed5d1;
-&a607d11828fdc8a1d6553fcc495681c1b;
-&a023c864a2b1c36eaf15be4821bd308cb;
-&a5149a3308dc3870964599286dc0ceaa1;
-&ad4b576500342ee0a39c367e48d195cb9;
-&a92dfe7f317f031e6769c957075cc69e2;
-&a114a8f6c95953e864730d4141b205574;
-&af77a34b6391abd6c3d231e9425888b35;
-&a0ca690a032ecf36a9d9803937697a7f6;
-&adf0b74ca428c5fb8f56a74720a9fe586;
-&a515a022dcb1330c1b7444a3155f420b8;
-&a912cb49bec4fac8b85abe2831f7d790d;
-&a193c1fbc5557b32065ade18630e980c1;
-&ab0388f3344df3bdb1f0fcaec8529a05e;
-&acd7102dce85d931c42a4ceea387ef4ee;
-&a8c60470528b327dc2d28b5417c9b81ce;
+&a1f38ce355d4b4db0fa28606ba0c52022;
+&a3a2555099748b8e27468b75fa18aa283;
+&af276d0affd607d1b61258195534326f0;
+&a08383eed46abb8ca63ae31983c379e7c;
+&a7d2588d65c51ff1013b4d0d1efa394f5;
+&a7d8b36a83e013740d249e89e20ed31fc;
+&a01d64b93d19d1b96634724d139c7619f;
+&a9bfac34b2f7daaef78c0b7f08c1b62c1;
+&abe7f6ec0a27198e71d1871154e556e67;
+&a1a6926cf4921b5beb8c4edda5122c33d;
+&ad52d42752e7084380e60364efe2f58e3;
+&a60442decfcff42dbc8ee2b695ba988c8;
+&a32287855dc17e665abdfb3c9e6269840;
+&aab5b2a4733e9e3cc47bf4e00c471963e;
+&af7e7d16116d3d047f451e8bfde1c5fa8;
+&add0f9a60c349b325b11bfb04cb864ff4;
+&a50c9dce79193c410f660547d358e6e70;
+&a97f314b7123a3efcfb4297f12fa760d5;
+&a3122ec4d913a34e9c912744f1e4b435e;
+&a9e7646aa59cf76bb2f576e728ed560ed;
+&abb29805b87e6749d575f84f0f808b458;
+&acc20a1295150d9b856198243d97b35b6;
+&ae9a24da3ce6f1f16fb75335018ca204c;
+&ac638e296c76556f6e72ec5c85c0f9b04;
+&a4a8d4bd25d02a934fd0ab307055c2fd6;
+&a6668b0306cf868b812b118149e8dbba2;
+&af71217689bb42a53c764362130e540c0;
+&a6594ec92bc11b0f7963da54865217dde;
+&af04e03363abd974909ab1bd7b882314c;
+&a41d274c9c149a5f49ec7bba7a58853ba;
+&a68b23a1536efd2e3cd64cf485f506c1e;
+&ab9d6f0cbdec0778b2dd7e0ef458404c3;
+&a728aa2bcaef77d259af2198c0ceffbeb;
+&a0b4d999ce5723075ce02b49f8c09058b;
+&a3aeb9cb01b93a058c13dc899c06080c8;
+&a91e4e4f55618a613b068ce933e5d1217;
+&a5129393f3294a7cb8b5740489e4bd706;
+&a35605bcf360d125fd86c150555f1d96f;
+&a0f2243dcb426e869fb59723543e1affe;
+&a8a16dac5105a04347f42bc93a0f9ce7b;
+&a5831375e9197c8546dcbc3d522757747;
+&ae5d90f042c92af9d6758cf3951357a35;
+&affcbb5034879bb0b7c436ff9da52e331;
+&a900f22b8b21d69198d205a0e0659da59;
+&afb1606f420ca3fb93afccb67f4484e8f;
+&a159b00611edb61af41e7b2ba14a1d386;
+&a3597f75ef876a221f402d1c6048bfd8e;
+&aa78d96d050f545ee66ac022e992f6b8d;
+&a4fd0307ee0dd733ad6882428fcd37995;
+&a3f655d5a2f995247a8930be4860bbce4;
+&ac95a4e03a28832a8a65fc2ca4ec65c11;
+&aad1740ae856940a6904a2a23912f8af6;
+&a4079995d4fc1b163b77beb23253fae7c;
+&af3acc95760cbcb301aec659894886eab;
+&a180c3801dc6ec21d565cda89950d50be;
+&a8e9d6e7d74dc80071435b2611ce7b40e;
+&ab5069afc8a3a4fdac36f3b72874170e3;
+&ae2fe206d867483be93606474fe663714;
+&aac8f1a6f9b3ece1a4ba93cd76339f0af;
+&ab752b12e1b17c1e21606bcb7be2da9dc;
+&afbbb12c0632e930850b5ae3d41f35b64;
+&a1c855b04b1bf19b2d6b8bf3b455322ed;
+&abd65b92c7fba439a2d00cdabbd22bf37;
+&ab2ab1366e84e5a0df51cc673b37a3190;
+&a5f321ffeca06b737c33a50e93da08a80;
+&a1ee5104e6d4e1917b301c9165e77e9ad;
+&a71da84058c5d865e8f97e6385c08b86a;
+&a584510ca20815ec571af3db1fe88600d;
+&a3d7759acd90db7575e3203cf42639e2a;
+&a1eebfa5dbe7d9ae249d0613e08f027fb;
+&a4ca540bdc81d5a2c8e6b71c9fa3c3588;
+&a8d38f60ad59811ddffe4aedd8f3675c5;
+&a7c76dac1b7dd6d03e2b5298709a6fb4f;
+&a4496afbd8fd0954a8d2951a8154890b1;
+&acfc6b12320e7f2fa14919f4ff38752e6;
+&a22aa96fcc354cf947c0da0a45d10ee65;
+&aa58385f8ca4c708ef2d8e57fcac5d559;
+&a41bcb6bc9770c908f5b45e5e9258b911;
+&a78570bf8ebbab0b63cecb74eb2a439f8;
+&adc0fb3ffff0262b4dce5113c317aadc5;
+&a2a8faf56fb3024c98755a90bb94f5e43;
+&ac6a33a5909c81c883707b60a5cd6ea42;
+&a81e652023e08d0a365c65e1b83181bfc;
+&ad17488acbffe90f4d473c4a742df0787;
+&aea5fac479683784b91e1eb2f1d847368;
+&a8c025fef4e2d511a7f3519cf89abfb02;
+&aba73c6253e304e9264edd89c62416381;
+&a3df72b9bf45b38b3f0189089fa287ac7;
+&adc9e9d0e319d63e7590fd76b9e152241;
+&aeaa24c20cd9080a4f263b2a9ad94bc10;
+&a42f78e00e7ebc32a3dc877bda277cda6;
+&a7b6d52cbebc69df405695681b5bff4bf;
+&affab44eac1cd1dfdad77b6513b3be53c;
+&a6f93006f610d1d33faf5729bda7235b2;
+&a75be5a2b4b558a390a067f5c43c60c80;
+&a8d7a7d18df67904a5cc8f77fe52bc9d9;
+&ad260933c313419dbb5b0fdaf9d3657c6;
+&a16bb69ead474d7adde17ee938a243840;
+&a69486562f1e369d742aac824c393e9c7;
+&a298e7be000be5603227fc18ee9e96547;
+&a4512b410783011b72558e58162d7f37a;
+&a746cb68b423dff2ca728d87e4d4a5afb;
+&ad83e0bbe78e51a2f461175cc323fa106;
+&a96960f615bcc17d0771790369d01cb35;
+&a011730347e6730ea04c4db9016342590;
+&a4d9adf0cc173e84d8d63bdfc541d0f6a;
+&ad3293a86aa73bcaeb2d49def4aa56bea;
+&a7998a86a8e4b15f39158d26ae807f797;
+&abfd48f9c21a775a0f1a3275c3d66f3e9;
+&ae08749a2370272470daf97c21d856899;
+&a443a892b91c6cacab18bed9d5876a4ea;
+&a8b8981124087716d771655043fb54288;
+&a9681ff6bd27dd8a98c66a9d7e1ebf35c;
+&ac9a627e6d68a118e19bb1441c1f9365c;
+&a9f2fa4669463d0b695ba69974cc31773;
+&ae6b9b13142bb76698bc16915395ec9cd;
+&a0f532cc3b0639e5e969b63f2d00fa2af;
+&ac94a2f253d03165a66df33f10faabf0d;
+&a6378e5ecb274375e2864a99627f3cab2;
+&a6c42bb6cdfd3b155b1e7226e9cd3470a;
+&a4166b98c8d95c9dccaa0d6b2bda262da;
+&a0af74b609817c3c44eb58cf4b37e4917;
+&a6d41c1ebcdcd78407a2cdae5881e4019;
+&ae829b6581e53845e4d2da0f9f80a52a8;
+&a1fe5ae79ed11af49b5165f9769372ca7;
+&a5d8fdd7635b5b811381475a46beed0f2;
+&afff99a7b505dcf6181f9bf67eba2b460;
+&a72560cf05d4b39154618690086fd49dd;
+&a95724e3facec69fc2f5509b9f6e2e9cc;
+&a590c00dd1649e903e66fb6802ca860a5;
+&a74322911febf21fbe63f13a848161eeb;
+&abc38c80c34db83994b3e7fe495934901;
+&a8e932ad7d05d4701e29254d614fa488f;
+&a3d1f0737ee9ff6bfd652c76cb443c354;
+&a3800e6d87d43efb86dc01085dd031acc;
+&a9cf2cdb878700a63ef6df231d1b5c164;
+&aedab148b4b162af5fb6ac4b057039168;
+&a254d205c269e68cc2fd32937975e9203;
+&ac165371cd6638dbc45ac85eaec7e3116;
+&afee1c860516e1a515f8345a884cf91ae;
+&af70490c60226987f75463b0320d72007;
+&a75c29c899b1360b57dc192b4e7ad4200;
+&aac09f0b405e7e2c838466220a2a4c294;
+&af1fa40d962a0551ff0beb4769b43ceab;
+&a5f956bff8252c93d210688704d3ffc21;
+&a3c522386f8762594f5f2bc2698ec1d60;
+&ae7fef9afd23e85cf67d0fd9ee3895052;
+&a1df74252130d45ae59280a443244f885;
+&ac527f04c3c38fd528655d814bb27d626;
+&a9d050c84ca89fcde01b5c7548b63fd33;
+&a89d1ce429938d4d2df6ecb871d774a55;
+&a55231cf6be89a7cbe95f0553834d29fc;
+&a0517205c19eb93d389fc90566c48333d;
+&a6b7aad7ea9d2c202f62c2c1ca6dc073a;
+&a109ec27dedaef1589f4888f84b20fb2e;
+&a853006387dec425ebfbe5d83fba18f4a;
+&ad6e44dbbc10429acbdc043052494776b;
+&a4e22a9044d770ebcdb8089cc16e225b9;
+&a9b14d4fbc192f2b47f0a505891b9f94e;
+&a43c5a8450714c9efe53c39efb132615b;
+&ad1f812deb34d3f9cc2e1244e29fcb6d3;
+&a55cb1770a0e5dcd2c0a726000e288651;
+&a47e82d6ee91dce2ecb820ba37ce94c91;
+&afe953031910e012d09204550ccf7a693;
+&a62ae5fac7a4136c786526e388bc7282a;
+&abfe1ddd28fb777bb6d40f49d67d26c9d;
+&a8a83bea982d59f90f447ecfdbe8e67c3;
+&a30b946c69ba6d2a03d1efff0b378d2b0;
+&ad4b89bc08f19186f5768c0dcd7d7b501;
+&a21ae4efcd340495e111688e9c37b7425;
+&a1ff057f2631baad36a812aec97e09365;
+&aae5b1ff37a878bfb7c73f44796e26e6b;
+&aaa72a6e2cb6cb52e25964090f72d93b9;
+&ab91943ba504c7870157e1034a2ed7471;
+&a49848271cbff28196f12c1dce154727c;
+&a0e05da4c11f355bc82103941c341ad77;
+&a929ffe9b908a86f53c44cc2110fc6f77;
+&a4ddb44d3c12357b506b2541d82a3005b;
+&a0c6977146bd66dce40b7fc2e86659bf0;
+&aa8f32e3f314e269865fe19a635c94a0c;
+&a56f6bf365ab61d0ab4d4dcbe32346f9a;
+&a5e19306184dbf567f58f87200dd4ab2c;
+&ad0187373d8445522d14cf68be94f0f6b;
+&a3af5d5f75abd7dc75e08ed11cb4bd1af;
+&ad3fd06ec720a5ba1034848ac70a0594d;
+&adb838cc2548157dad2c764222dc13ff9;
+&a1ae23f2709b9469371f477538eb4cd27;
+&a53e23efc8839fe1ced044eb78bf0203b;
+&a0f7160a0b865f3e8a73199cc99e95482;
+&a778b2e7cba53a6e7d85559b0978daa1a;
+&adcc086caa112768bbb7395cf88ed5252;
+&a36d3c8341630078fe7b78061bd158f88;
+&a9efbdad220a3b1cc9abc1af350bf1efb;
+&a171c2d94cf638822654740b31a6e1172;
+&a40191092151f7905d054d580deeb2ba5;
+&aa1636ac05a1cfe06526778e50f1050ee;
+&ad819a15e88e74336058e6f44dfd159c9;
+&a3195a5c522ec4b7c565b2de131357c52;
+&ade320a268be45d268f10e056f2ed4cb3;
+&a93a45f4e8d7920f1321b9ee9615e84f0;
+&a747e7a52d0880a432cbdedfd57de524e;
+&a27749ac67d9890c5873689033a654064;
+&a1f4147a01399385247ca49a3834667dc;
+&a5348029b068e8f9fde429d8593480d2e;
+&a4e23bd52f76a4f5aaac2624073a0b56f;
+&a06e7cc8fbc287d434a6f1c7108539c90;
+&a05dd1309040f3972da9fe56203ce803f;
+&a8c766f651b033d46229a3c675e5dfdd3;
+&aebae68b5c2ae81dd0df99a5cc8884f59;
+&a85ffd47260754f35d83f3f8f988554e1;
+&a5dbb1b20e117069400733f748367b0f3;
+&ab743ad57196cd16285be6b25a02fb492;
+&a6b75fca40fb3f4d6972eae1901e68491;
+&ab1055ce59b4eee43d0ddb8c33dc8e592;
+&ad1f6d3342614f843938da13a5dd32aed;
+&a9f04a263daf3f8fb57ba8415d26ccd76;
+&aaf10903b3973c21cf6e6785c660785ac;
+&a5eff43fd297b27ae868b501fcf58efe8;
+&a09302c419dda32c9412ed46d3d0c9c75;
+&ab8b7507887bf1d002b5e723438a07380;
+&a5e3f881097db5732670b7e8c567978f3;
+&a38420fe3ff6e37619af777a4443e35b9;
+&a946ea876a2e871c4bc9967c2dcb89ceb;
+&ae164598460b82a76d0b618be0924a1f0;
+&aa20a2b5074385d1b819e2b4ec8a991d1;
+&a3ec000617a2c8071b16d8ccfc5c396c5;
+&a3f280c2ed5cd009db0ae04fef2d20619;
+&a1f228a9f2c77a7bbcdff7d0bc9b733d2;
+&a79abd20f88af8f920fd768dbec00f943;
+&a8db4acef9cf75bebd49b3e464536b144;
+&ac2a6711e23b110ab2f0045ad5c2fed36;
+&a23843eecb3c97b9cfc0cbdc08d6caf27;
+&a1e604b65cb90b9477260ed4d39cca474;
+&ab808606567a30a86db04cd2d3857606c;
+&a53e7fed0aa043328dc16328a659405a8;
+&abc386a024c256f1d756e2bd54ee26323;
+&a4911cc2cc0181f0a72579c0473d9327c;
+&ad2d66af8e5b95684b7b7a99c4974de8f;
+&aca048e607eab43002641623f968ec3a6;
+&a53c356233efbacb7970ebfc6c7c77daa;
+&ad312e13f6075b41b38b96029ef314a7d;
+&a4cdfefe9cf3c7eefc2217bc77c140da6;
+&ae8a6d9c942031326a73866cb0a5ebcf0;
+&a4075773606e3aee8ef55990fc7820457;
+&ad024c4aa6543921d236634f90893c9ad;
+&ad1bdb777e5db94a5311e751d46d95a7e;
+&afe2d67866e9fa652ee349b5b99f4d076;
+&abcac40f2583b53294167a46b1bc24527;
+&a235c5bc1362b305a6ea5cc5df04798cb;
+&aa4f3c5c6e7d2acf8f82163a03bead61e;
+&a3b2232809b08fd2e8a7e790026665530;
+&ac6b04daf311cd2e80192eb766be1192b;
+&a25f4fb9d4422486d167f3bf00f84db3d;
+&a79f5c72af4230ce8c9d8f37e48e11430;
+&a31dd8605bc6272b723b8daf2045c49e2;
+&ade06cf94feb21f1f527c55e5a6ff6e66;
+&a5d93d9852f770ecf42efb3cb2a797852;
+&ad77e2aa50a0cb960309d500cc9b5256a;
+&a53094e3b19044177afdc9c453f9f3eb8;
+&ab0eb7f47db627ba5970b9d0ba35e01e2;
+&a780da7522a7e9e55d09b6c85e355c241;
+&aad0dd1309c4c29a2f1b245e92405f594;
+&a8f5d8204d9f71175b18d8fd77491c84e;
+&ad9b711f25c05cd7c2ed3eec03f85f7ab;
+&a7ae1bb7039d60a58c52d1b6165507620;
+&ace5b8fd6a692bedc219602a68eec4308;
+&aaf7bc09ecb55c7077306a5790a439dee;
+&a4cc1eda1d503e395cf77e0cd0d6030b8;
+&a8a007f54412cf70ae470b9ba8a9f0b36;
+&a38b574c15bab79e50798d1731a2db83f;
+&aa2003febcd6ae18c652281b7c452b860;
+&a7c4aae39f58dcd38d3a14a89c60481a9;
+&a81799a45974d9cb5429551dcfd12100a;
+&a9a3f651c83b3d65af2f1858bdb6af3af;
+&a4cb03d5f6a1a7fea0a62f78d59519b8c;
+&aacaa106866f889b9cedad8f7124ba77a;
+&ae19bcf59e4f9ee5fa265f53d063ed61e;
+&aed446ed3432a2836c37378610eaec473;
+&a6b4d38011b5e4d7e993f2b028214e5a5;
+&aa882fa40721031f7ecbc26b4e15a3c74;
 </part>
 </book>
