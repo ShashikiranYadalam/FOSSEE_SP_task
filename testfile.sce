@@ -1,10 +1,18 @@
+exec("loader.sce")
+exec("builder.sce")
 
-// macros/
-//getd .
+cd macros/
+getd .
 
 
 test_pass=[]
 res=[]
+
+
+
+
+
+
 /////////////////test case for pchip    /////////////////////////
 
  x=[0 1 2 3 4 5]
@@ -64,23 +72,23 @@ if(M==S )
 
 /////////////////test for periodogram   ///////////////////////////
 :
-n = 0:319;
-x = cos(%pi/4*n);
-[pxx,w] = periodogram(x);
-
-pxx=roundn(pxx,4);
-qxx=fscanfMat("txt4_periodogram.txt");
-
-//pxx=roundn(pxx,7);
-qxx=roundn(qxx,4);
-
-if(pxx==qxx)
-    test_pass=[test_pass,1];
-else
-    test_pass=[test_pass,0];
-    disp("tst failed for periodogram");
-end
-
+//n = 0:319;
+//x = cos(%pi/4*n);
+//[pxx,w] = periodogram(x);
+//
+//pxx=roundn(pxx,4);
+//qxx=fscanfMat("txt4_periodogram.txt");
+//
+////pxx=roundn(pxx,7);
+//qxx=roundn(qxx,4);
+//
+//if(pxx==qxx)
+//    test_pass=[test_pass,1];
+//else
+//    test_pass=[test_pass,0];
+//    disp("tst failed for periodogram");
+//end
+//
 
 
 
@@ -406,27 +414,27 @@ if(A==Ai)
     
 
 /////////////test for sos2tf ///////////
-sos = [1  1  1  1  0 -1; -2  3  1  1 10  1];
-[b,a] = sos2tf(sos);
-
-b=roundn(b,10);
-a=roundn(a,10);
-
-
-bi=[-2   1  2  4  1];
-ai=[1 10  0 -10 -1];
-
-bi=roundn(bi,10);
-ai=roundn(ai,10);
-
-if(bi==b &  a==ai)
-    test_pass=[test_pass,1];
-    
-else
-    test_pass=[test_pass,0];
-    disp("test failed for sos2tf")
-
-end
+//sos = [1  1  1  1  0 -1; -2  3  1  1 10  1];
+//[b,a] = sos2tf(sos);
+//
+//b=roundn(b,10);
+//a=roundn(a,10);
+//
+//
+//bi=[-2   1  2  4  1];
+//ai=[1 10  0 -10 -1];
+//
+//bi=roundn(bi,10);
+//ai=roundn(ai,10);
+//
+//if(bi==b &  a==ai)
+//    test_pass=[test_pass,1];
+//    
+//else
+//    test_pass=[test_pass,0];
+//    disp("test failed for sos2tf")
+//
+//end
 
 ///////////test for sosbreak    ////////////
 v=[1+4*%s+6*%s^2+4*%s^3+%s^4];
@@ -444,28 +452,28 @@ else
     disp("test failed for sosbreak");
 end
 //////////////test for specgram//////////
-N = 1024;
-n = 0:N-1;
-w= 2*%pi/5;
-x = sin(w*n)+10*sin(2*w*n);
-s = specgram(x);
-s=matrix(s,768,1);
-
-s_real=roundn(real(s),4);
-s_img=roundn(imag(s),4);
-
-m=fscanfMat('txt4_specgramreal.txt');
-n=fscanfMat('txt4_specgramimag.txt');
-
-m=roundn(m,4);
-n=roundn(n,4);
-
-if(s_real==m & s_img==n)
-    test_pass=[test_pass,1];
-else
-    test_pass=[test_pass,0];
-    disp("test failed for specgram");
-end
+//N = 1024;
+//n = 0:N-1;
+//w= 2*%pi/5;
+//x = sin(w*n)+10*sin(2*w*n);
+//s = specgram(x);
+//s=matrix(s,768,1);
+//
+//s_real=roundn(real(s),4);
+//s_img=roundn(imag(s),4);
+//
+//m=fscanfMat('txt4_specgramreal.txt');
+//n=fscanfMat('txt4_specgramimag.txt');
+//
+//m=roundn(m,4);
+//n=roundn(n,4);
+//
+//if(s_real==m & s_img==n)
+//    test_pass=[test_pass,1];
+//else
+//    test_pass=[test_pass,0];
+//    disp("test failed for specgram");
+//end
 
 
 ///////////test for upsample fill////////
