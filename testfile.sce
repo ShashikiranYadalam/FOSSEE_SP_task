@@ -1,5 +1,5 @@
-cd macros/
-getd .
+// macros/
+//getd .
 
 test_pass=[]
 res=[]
