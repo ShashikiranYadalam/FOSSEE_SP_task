@@ -15,23 +15,23 @@ res=[]
 
 /////////////////test case for pchip    /////////////////////////
 
-// x=[0 1 2 3 4 5]
-// y=[1 0 1 0 1 0]
-// xx=linspace(0,5,80);
+ x=[0 1 2 3 4 5]
+ y=[1 0 1 0 1 0]
+ xx=linspace(0,5,80);
   
-// vp=pchip(x,y,xx);
+ vp=pchip(x,y,xx);
  
-//vi=fscanfMat("txt4_pchip.txt");
+vi=fscanfMat("txt4_pchip.txt");
 
-//vi=roundn(vi,4);
-//vp=roundn(vp,4);
+vi=roundn(vi,4);
+vp=roundn(vp,4);
 
-//if(vp==vi)
-  //  test_pass=[test_pass,1];
-//else
-  //   test_pass=[test_pass, 0];
-    //disp('pchip test failed.');
-//end
+if(vp==vi)
+    test_pass=[test_pass,1];
+else
+     test_pass=[test_pass, 0];
+    disp('pchip test failed.');
+end
 
 
 
@@ -50,26 +50,26 @@ else
 end
 ///////////////              Test case for       peig            /////////
 //
-// fs = 100;
-//t = 0:1/fs:1-1/fs;
-//s = 2*sin(2*%pi*25*t)+sin(2*%pi*35*t);
-//[S,w]=peig(s,2,512,fs,'half');
-//
-//n=length(S);
-//
-//for i=1:n
-//    S(i)=round((S(i)*10^7)/10^7);
-//end
-//
-//M=fscanfMat("text4_peig.txt");
-//
-//if(M==S )
-//      test_pass=[test_pass 1];
-// else
-//     test_pass=[test_pass 0];
-//     disp("peig test failed");
-//     end
-//
+ fs = 100;
+t = 0:1/fs:1-1/fs;
+s = 2*sin(2*%pi*25*t)+sin(2*%pi*35*t);
+[S,w]=peig(s,2,512,fs,'half');
+
+n=length(S);
+
+for i=1:n
+    S(i)=round((S(i)*10^7)/10^7);
+end
+
+M=fscanfMat("text4_peig.txt");
+
+if(M==S )
+      test_pass=[test_pass 1];
+ else
+     test_pass=[test_pass 0];
+     disp("peig test failed");
+     end
+
 /////////////////test for periodogram   ///////////////////////////
 :
 //n = 0:319;
@@ -94,25 +94,25 @@ end
 
 
 ////////                   test case for pmusic.............//////////
-//n = 0:199;
-//x = cos(0.257*%pi*n) + sin(0.2*%pi*n);
-//[S,w]=pmusic(x,2,16,1);
-//S=roundn(S,6);
-//w=roundn(w,4);
-//       
-//si=[2.6425624,5.7475005, 77.1482210,1.5296243,0.4725347,0.2848481,0.2508128,0.2731036,0.2950648]';
-//si=roundn(si,6);
-//
-//Wi=[0,0.0625,0.125,0.1875,0.25,0.3125,0.375,0.4375,0.5]'; 
-//Wi=roundn(Wi,4);
-//
-// if(si==S & w==Wi)
-//      test_pass=[test_pass 1];
-// else
-//     test_pass=[test_pass 0];
-//     disp("pmusic test failed");
-//     end
-//
+n = 0:199;
+x = cos(0.257*%pi*n) + sin(0.2*%pi*n);
+[S,w]=pmusic(x,2,16,1);
+S=roundn(S,6);
+w=roundn(w,4);
+       
+si=[2.6425624,5.7475005, 77.1482210,1.5296243,0.4725347,0.2848481,0.2508128,0.2731036,0.2950648]';
+si=roundn(si,6);
+
+Wi=[0,0.0625,0.125,0.1875,0.25,0.3125,0.375,0.4375,0.5]'; 
+Wi=roundn(Wi,4);
+
+ if(si==S & w==Wi)
+      test_pass=[test_pass 1];
+ else
+     test_pass=[test_pass 0];
+     disp("pmusic test failed");
+     end
+
 //
 //
 ////////////                  test for poly2lsf     //////////////
