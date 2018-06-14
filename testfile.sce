@@ -1,8 +1,7 @@
 exec("loader.sce")
 exec("builder.sce")
 
-cd macros/
-getd .
+getd macros/
 
 
 test_pass=[]
@@ -21,7 +20,7 @@ res=[]
   
  vp=pchip(x,y,xx);
  
-vi=fscanfMat("txt4_pchip.txt");
+vi=fscanfMat("macros/txt4_pchip.txt");
 
 vi=roundn(vi,4);
 vp=roundn(vp,4);
@@ -61,7 +60,7 @@ for i=1:n
     S(i)=round((S(i)*10^7)/10^7);
 end
 
-M=fscanfMat("text4_peig.txt");
+M=fscanfMat("macros/text4_peig.txt");
 
 if(M==S )
       test_pass=[test_pass 1];
