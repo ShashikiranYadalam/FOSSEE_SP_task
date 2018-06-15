@@ -53,7 +53,7 @@ If alpha is a real value in the range [0 1], then the roots of a are radially sc
    </variablelist>
 <variablelist>
 <varlistentry><term>b:</term>
-      <listitem><para> </para></listitem></varlistentry>
+      <listitem><para>vector of scaled roots. </para></listitem></varlistentry>
    </variablelist>
 </refsection>
 

@@ -16,7 +16,7 @@
 
       </td>
       <td width="40%" class="center">
-      	<span class="top"><a href="section_2e98f8a1cb454f172f7800a3f418cac4.html">FOSSEE Signal Processing Toolbox</a></span>
+      	<span class="top"><a href="section_bb45a542725f0412ce4c44a5afd1c791.html">FOSSEE Signal Processing Toolbox</a></span>
 
       </td>
       <td width="30%" class="next">
@@ -29,11 +29,33 @@
 
 
 
-    <span class="path"><a href="index.html">FOSSEE Signal Processing Toolbox</a> &gt;&gt; <a href="section_2e98f8a1cb454f172f7800a3f418cac4.html">FOSSEE Signal Processing Toolbox</a> &gt; polyval</span>
+    <span class="path"><a href="index.html">FOSSEE Signal Processing Toolbox</a> &gt;&gt; <a href="section_bb45a542725f0412ce4c44a5afd1c791.html">FOSSEE Signal Processing Toolbox</a> &gt; polyval</span>
 
     <br /><br />
     <div class="refnamediv"><h1 class="refname">polyval</h1>
-    <p class="refpurpose"></p></div>
+    <p class="refpurpose">returns the value of a polynomial of degree n evaluated at x. y = polyval(p,x,[],mu) or [y,delta] = polyval(p,x,S,mu) use x^=(x−μ1)/μ2 in place of x. 
+In this equation, μ1=mean(x)and μ2=std(x). The centering and scaling parameters mu = [μ1,μ2] is optional</p></div>
+
+
+<div class="refsynopsisdiv"><h3 class="title">Calling Sequence</h3>
+   <div class="synopsis"><pre><span class="default">y</span><span class="default">= </span><span class="functionid">polyval</span><span class="default">(</span><span class="default">p</span><span class="default">,</span><span class="default">x</span><span class="default">)</span>
+<span class="default">[</span><span class="default">y</span><span class="default">,</span><span class="default">delta</span><span class="default">] = </span><span class="functionid">polyval</span><span class="default">(</span><span class="default">p</span><span class="default">,</span><span class="default">x</span><span class="default">,</span><span class="default">S</span><span class="default">)</span></pre></div></div>
+
+
+<div class="refsection"><h3 class="title">Parameters</h3>
+   <dl><dt><span class="term">p:</span>
+      <dd><p class="para">vector of length n+1 whose elements are the coefficients in descending powers of the polynomial to be evaluated.</p></dd></dt></dl>
+<dl><dt><span class="term">x:</span>
+      <dd><p class="para">-can be a matrix or a vector. In either case, polyval evaluates p at each element of x.</p></dd></dt></dl>
+<dl><dt><span class="term">delta:</span>
+      <dd><p class="para">-is an estimate of the standard deviation of the error in predicting a future observation at x by p(x).</p></dd></dt></dl></div>
+
+
+<div class="refsection"><h3 class="title">Examples</h3>
+   <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabid">p</span> <span class="scilaboperator">=</span> <span class="scilabopenclose">[</span><span class="scilabnumber">3</span> <span class="scilabnumber">2</span> <span class="scilabnumber">1</span><span class="scilabopenclose">]</span><span class="scilabdefault">;</span>
+<span class="scilabid">y</span><span class="scilaboperator">=</span><span class="scilabid">polyval</span><span class="scilabopenclose">(</span><span class="scilabid">p</span><span class="scilabdefault">,</span><span class="scilabopenclose">[</span><span class="scilabnumber">5</span> <span class="scilabnumber">7</span> <span class="scilabnumber">9</span><span class="scilabopenclose">]</span><span class="scilabopenclose">)</span>
+<span class="scilabcomment">//EXPECTED OUTPUT:</span>
+<span class="scilabcomment">//y=  86  162  262</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
     <br />
 
     <div class="manualnavbar">
@@ -45,7 +67,7 @@
 
       </td>
       <td width="40%" class="center">
-      	<span class="top"><a href="section_2e98f8a1cb454f172f7800a3f418cac4.html">FOSSEE Signal Processing Toolbox</a></span>
+      	<span class="top"><a href="section_bb45a542725f0412ce4c44a5afd1c791.html">FOSSEE Signal Processing Toolbox</a></span>
 
       </td>
       <td width="30%" class="next">

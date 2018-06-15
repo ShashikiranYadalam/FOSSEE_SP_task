@@ -16,7 +16,7 @@
 
       </td>
       <td width="40%" class="center">
-      	<span class="top"><a href="section_2e98f8a1cb454f172f7800a3f418cac4.html">FOSSEE Signal Processing Toolbox</a></span>
+      	<span class="top"><a href="section_bb45a542725f0412ce4c44a5afd1c791.html">FOSSEE Signal Processing Toolbox</a></span>
 
       </td>
       <td width="30%" class="next">
@@ -29,11 +29,42 @@
 
 
 
-    <span class="path"><a href="index.html">FOSSEE Signal Processing Toolbox</a> &gt;&gt; <a href="section_2e98f8a1cb454f172f7800a3f418cac4.html">FOSSEE Signal Processing Toolbox</a> &gt; polyscale</span>
+    <span class="path"><a href="index.html">FOSSEE Signal Processing Toolbox</a> &gt;&gt; <a href="section_bb45a542725f0412ce4c44a5afd1c791.html">FOSSEE Signal Processing Toolbox</a> &gt; polyscale</span>
 
     <br /><br />
     <div class="refnamediv"><h1 class="refname">polyscale</h1>
-    <p class="refpurpose">errcheck1</p></div>
+    <p class="refpurpose">scales the roots of a polynomial in the z plane</p></div>
+
+
+<div class="refsynopsisdiv"><h3 class="title">Calling Sequence</h3>
+   <div class="synopsis"><pre><span class="default">b</span><span class="default"> = </span><span class="functionid">polyscale</span><span class="default">(</span><span class="default">a</span><span class="default">,</span><span class="default">alpha</span><span class="default">)</span></pre></div></div>
+
+<div class="refsection"><h3 class="title">Description</h3>
+<p class="para">b = polyscale(a,alpha) scales the roots of a polynomial in the z-plane, where a is a vector containing the polynomial coefficients and alpha is the scaling factor.</p>
+<p class="para">If alpha is a real value in the range [0 1], then the roots of a are radially scaled toward the origin in the z-plane. Complex values for alpha allow arbitrary changes to the root locations.</p></div>
+
+<div class="refsection"><h3 class="title">Parameters</h3>
+   <dl><dt><span class="term">a:</span>
+      <dd><p class="para">vector containing the polynomial coefficients</p></dd></dt></dl>
+<dl><dt><span class="term">alpha:</span>
+      <dd><p class="para">the scaling vector</p></dd></dt></dl>
+<dl><dt><span class="term">b:</span>
+      <dd><p class="para"></p></dd></dt></dl></div>
+
+
+<div class="refsection"><h3 class="title">Examples</h3>
+   <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabid">p</span><span class="scilaboperator">=</span><span class="scilabopenclose">[</span><span class="scilabnumber">1</span> <span class="scilabnumber">0</span> <span class="scilabnumber">0</span> <span class="scilabnumber">0</span> <span class="scilabnumber">0</span> <span class="scilabnumber">0</span> <span class="scilabnumber">0</span> <span class="scilaboperator">-</span><span class="scilabnumber">1</span><span class="scilabopenclose">]</span>   <a class="scilabcommand" href="scilab://and">and</a> <span class="scilabstring">changing</span> <span class="scilabstring">the</span> <span class="scilabstring">scaling</span> <span class="scilabstring">factor</span><span class="scilabdefault">,</span>
+<span class="scilabid">b</span><span class="scilaboperator">=</span><span class="scilabid">polyscale</span><span class="scilabopenclose">(</span><span class="scilabid">p</span><span class="scilabdefault">,</span><span class="scilabnumber">0.95</span><span class="scilabopenclose">)</span>
+<span class="scilabcomment">//EXPECTED OUTPUT:b=1.    0.    0.    0.    0.    0.    0.  - 0.6983373</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
+
+<div class="refsection"><h3 class="title">Examples</h3>
+   <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabid">t</span>
+<span class="scilabid">p</span><span class="scilaboperator">=</span><span class="scilabopenclose">[</span><span class="scilabnumber">1</span> <span class="scilabnumber">0</span> <span class="scilabnumber">0</span> <span class="scilabnumber">0</span> <span class="scilabnumber">0</span> <span class="scilabnumber">0</span> <span class="scilabnumber">0</span> <span class="scilaboperator">-</span><span class="scilabnumber">1</span><span class="scilabopenclose">]</span>
+<span class="scilabid">b</span><span class="scilaboperator">=</span><span class="scilabid">polyscale</span><span class="scilabopenclose">(</span><span class="scilabid">p</span><span class="scilabdefault">,</span><span class="scilabnumber">0.85</span><span class="scilabopenclose">)</span>
+<span class="scilabcomment">//EXPECTED OUTPUT:b=1.    0.    0.    0.    0.    0.    0.  - 0.3205771</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
+
+<div class="refsection"><h3 class="title">Author</h3>
+<ul class="itemizedlist"><li class="member">Debdeep Dey</li></ul></div>
     <br />
 
     <div class="manualnavbar">
@@ -45,7 +76,7 @@
 
       </td>
       <td width="40%" class="center">
-      	<span class="top"><a href="section_2e98f8a1cb454f172f7800a3f418cac4.html">FOSSEE Signal Processing Toolbox</a></span>
+      	<span class="top"><a href="section_bb45a542725f0412ce4c44a5afd1c791.html">FOSSEE Signal Processing Toolbox</a></span>
 
       </td>
       <td width="30%" class="next">
