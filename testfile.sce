@@ -49,25 +49,25 @@ else
 end
 ///////////////              Test case for       peig            /////////
 
-//fs = 100;
-//t = 0:1/fs:1-1/fs;
-//s = 2*sin(2*%pi*25*t)+sin(2*%pi*35*t);
-//[S,w]=peig(s,2,512,fs,'half');
-//
-//n=length(S);
-//
-//for i=1:n
-//    S(i)=round((S(i)*10^7)/10^7);
-//end
-//
-//M=fscanfMat("macros/text4_peig.txt");
-//
-//if(M==S )
-//      test_pass=[test_pass 1];
-// else
-//     test_pass=[test_pass 0];
-//     disp("peig test failed");
-//     end
+fs = 100;
+t = 0:1/fs:1-1/fs;
+s = 2*sin(2*%pi*25*t)+sin(2*%pi*35*t);
+[S,w]=peig(s,2,512,fs,'half');
+
+n=length(S);
+
+for i=1:n
+    S(i)=round((S(i)*10^7)/10^7);
+end
+
+M=fscanfMat("macros/text4_peig.txt");
+
+if(M==S )
+      test_pass=[test_pass 1];
+ else
+     test_pass=[test_pass 0];
+     disp("peig test failed");
+     end
 
 /////////////////test for periodogram   ///////////////////////////
 :
@@ -76,7 +76,7 @@ end
 //[pxx,w] = periodogram(x);
 //
 //pxx=roundn(pxx,4);
-//qxx=fscanfMat("txt4_periodogram.txt");
+//qxx=fscanfMat("macros/txt4_periodogram.txt");
 //
 ////pxx=roundn(pxx,7);
 //qxx=roundn(qxx,4);
@@ -93,25 +93,25 @@ end
 
 
 ////////                   test case for pmusic.............//////////
-//n = 0:199;
-//x = cos(0.257*%pi*n) + sin(0.2*%pi*n);
-//[S,w]=pmusic(x,2,16,1);
-//S=roundn(S,6);
-//w=roundn(w,4);
-//       
-//si=[2.6425624,5.7475005, 77.1482210,1.5296243,0.4725347,0.2848481,0.2508128,0.2731036,0.2950648]';
-//si=roundn(si,6);
-//
-//Wi=[0,0.0625,0.125,0.1875,0.25,0.3125,0.375,0.4375,0.5]'; 
-//Wi=roundn(Wi,4);
-//
-// if(si==S & w==Wi)
-//      test_pass=[test_pass 1];
-// else
-//     test_pass=[test_pass 0];
-//     disp("pmusic test failed");
-//     end
-//
+n = 0:199;
+x = cos(0.257*%pi*n) + sin(0.2*%pi*n);
+[S,w]=pmusic(x,2,16,1);
+S=roundn(S,6);
+w=roundn(w,4);
+       
+si=[2.6425624,5.7475005, 77.1482210,1.5296243,0.4725347,0.2848481,0.2508128,0.2731036,0.2950648]';
+si=roundn(si,6);
+
+Wi=[0,0.0625,0.125,0.1875,0.25,0.3125,0.375,0.4375,0.5]'; 
+Wi=roundn(Wi,4);
+
+ if(si==S & w==Wi)
+      test_pass=[test_pass 1];
+ else
+     test_pass=[test_pass 0];
+     disp("pmusic test failed");
+     end
+
 
 
 ////////////                  test for poly2lsf     //////////////
@@ -461,8 +461,8 @@ end
 //s_real=roundn(real(s),4);
 //s_img=roundn(imag(s),4);
 //
-//m=fscanfMat('txt4_specgramreal.txt');
-//n=fscanfMat('txt4_specgramimag.txt');
+//m=fscanfMat('macros/txt4_specgramreal.txt');
+//n=fscanfMat('macros/txt4_specgramimag.txt');
 //
 //m=roundn(m,4);
 //n=roundn(n,4);
