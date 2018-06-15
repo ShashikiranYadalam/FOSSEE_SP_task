@@ -323,19 +323,19 @@ end
 
 
 /////////////test for sampled2continuos  /////////
-//y=sampled2continuous([1,2,3],5,6);
+y=sampled2continuous([1,2,3],5,6);
 //
-//x=2.4166806;
+x=2.4166806;
 //
-//y=roundn(y,7);
-//x=roundn(x,7);
+y=roundn(y,7);
+x=roundn(x,7);
 //
-//if(y==x)
-//    test_pass=[test_pass,1];
+if(y==x)
+    test_pass=[test_pass,1];
 //else
-//    test_pass=[test_pass,0];
-//    disp("test failed for sampled2continous");
-//end
+    test_pass=[test_pass,0];
+    disp("test failed for sampled2continous");
+end
 
 
 ////////////////test for schurrc    //////////
