@@ -51,6 +51,7 @@ If alpha is a real value in the range [0 1], then the roots of a are radially sc
    <varlistentry><term>alpha:</term>
       <listitem><para> the scaling vector</para></listitem></varlistentry>
    </variablelist>
+<variablelist>
 <varlistentry><term>b:</term>
       <listitem><para> </para></listitem></varlistentry>
    </variablelist>
@@ -72,7 +73,7 @@ b=polyscale(p,0.95)
    <title>Examples</title>
    <programlisting role="example"><![CDATA[
 t
-p=[1 0 0 0 0 0 0 -1]   and changing the scaling factor,
+p=[1 0 0 0 0 0 0 -1]
 b=polyscale(p,0.85)
 //EXPECTED OUTPUT:b=1.    0.    0.    0.    0.    0.    0.  - 0.3205771 
 
