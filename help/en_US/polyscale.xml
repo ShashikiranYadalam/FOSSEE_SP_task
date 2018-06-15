@@ -61,7 +61,7 @@ If alpha is a real value in the range [0 1], then the roots of a are radially sc
 <refsection>
    <title>Examples</title>
    <programlisting role="example"><![CDATA[
-p=[1 0 0 0 0 0 0 -1]   and changing the scaling factor,
+p=[1 0 0 0 0 0 0 -1]   
 b=polyscale(p,0.95)
 //EXPECTED OUTPUT:b=1.    0.    0.    0.    0.    0.    0.  - 0.6983373  
 
