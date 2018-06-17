@@ -17,17 +17,50 @@
 
   <refnamediv>
     <refname>rlevinson</refname>
-    <refpurpose></refpurpose>
+    <refpurpose>This function computes the autocorrelation coefficients using prediction polynomial method.</refpurpose>
   </refnamediv>
 
 
 <refsynopsisdiv>
    <title>Calling Sequence</title>
    <synopsis>
-   a = rlevinson(a, efinal)
-   [a, U] = rlevinson(a, efinal)
-   [a, U, kr] = rlevinson(a, efinal)
-   [a, U, kr, e] = rlevinson(a, efinal)
+   R = rlevinson(a, efinal)
+   [R, U] = rlevinson(a, efinal)
+   [R, U, kr] = rlevinson(a, efinal)
+   [R, U, kr, e] = rlevinson(a, efinal)
    </synopsis>
 </refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+   <varlistentry><term>a:</term>
+      <listitem><para>Input argument ,prediction polynomial coefficients.</para></listitem></varlistentry>
+   <varlistentry><term>efinal:</term>
+      <listitem><para>Input argument, final prediction error.</para></listitem></varlistentry>
+   <varlistentry><term>R:</term>
+      <listitem><para>Returns the auto-correlation coefficients.</para></listitem></varlistentry>
+   </variablelist>
+<varlistentry><term>U:</term>
+      <listitem><para>Returns  upper triangular matrix of order length(a)*length(a).</para></listitem></varlistentry>
+   </variablelist>
+<varlistentry><term>kr:</term>
+      <listitem><para>Reflection coefficients.</para></listitem></varlistentry>
+   </variablelist>
+<varlistentry><term>e:</term>
+      <listitem><para>Prediction error.</para></listitem></varlistentry>
+   </variablelist>
+
+</refsection>
+
+<refsection>
+   <title>Description</title>
+<para>The reverse Levinson-Durbin recursion implements the step-down algorithm for solving the following symmetric Toeplitz system of linear equations for r, where r = [r(1) … r(p + 1)] and r(i)* denotes the complex conjugate of r(i).</para>
+<para></para>
+</refsection>
+
+
+
+
+
 </refentry>

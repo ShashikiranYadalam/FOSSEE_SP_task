@@ -17,7 +17,7 @@
 
   <refnamediv>
     <refname>pmusic</refname>
-    <refpurpose>Psuedospectrum using MUSIC algorithm</refpurpose>
+    <refpurpose>Computes Psuedospectrum using MUSIC algorithm</refpurpose>
   </refnamediv>
 
 
@@ -134,6 +134,15 @@
 </variablelist>
 </refsection>
 
+<refsection>
+   <title>Description</title>
+<para>[S,w] = pmusic(x,p) implements the MUSIC (Multiple Signal Classification) algorithm and returns S, the pseudospectrum estimate of the input signal x, and a vector w of normalized frequencies (in rad/sample) at which the pseudospectrum is evaluated. The pseudospectrum is calculated using estimates of the eigenvectors of a correlation matrix associated with the input data x, where x is specified as either:</para>
+
+  <para>  A row or column vector representing one observation of the signal
+
+     </para>
+<para>A rectangular array for which each row of x represents a separate observation of the signal (for example, each row is one output of an array of sensors, as in array processing), such that x'*x is an estimate of the correlation matrix</para>
+</refsection>
 
 
 <refsection>

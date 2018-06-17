@@ -33,7 +33,43 @@
 
     <br /><br />
     <div class="refnamediv"><h1 class="refname">rcosdesign</h1>
-    <p class="refpurpose">RCOSDESIGN computes the raised cosine FIR filter</p></div>
+    <p class="refpurpose"><p class="para">RCOSDESIGN computes the raised cosine FIR filter.</p>
+<p class="para">The output result for the input parameter of shape &#0039;normal&#0039; is not equivalent to the matlab output because of the use of sinc function in the computation. Matlab and scilab sinc functions seem to not be equivalent.</p></p></div>
+
+
+
+<div class="refsynopsisdiv"><h3 class="title">Calling Sequence</h3>
+   <div class="synopsis"><pre><span class="default">h</span><span class="default"> = </span><span class="functionid">rcosdesign</span><span class="default">(</span><span class="default">rollof_factor</span><span class="default">, </span><span class="default">num_of_symb</span><span class="default">, </span><span class="default">samp_per_symb</span><span class="default">, </span><span class="default">varargin</span><span class="default">)</span></pre></div></div>
+
+<div class="refsection"><h3 class="title">Parameters</h3>
+   <dl><dt><span class="term">rollof_factor:</span>
+      <dd><p class="para">roll-off factor of the designed filter</p></dd></dt></dl>
+
+
+   <dl><dt><span class="term">num_of_symb:</span>
+      <dd><p class="para">filter truncated to these many number of symbols</p></dd></dt></dl>
+
+
+   <dl><dt><span class="term">samp_of_symb:</span>
+      <dd><p class="para">each symbol represented by these many samples</p></dd></dt></dl>
+
+
+
+   <dl><dt><span class="term">shape:</span>
+      <dd><p class="para">returns a normal raised-cosine FIR filter when set to &#0039;normal&#0039;.</p>
+<p class="para">returns a square-root raised cosing filter when set to &#0039;sqrt&#0039;.</p></dd></dt></dl>
+
+
+   <dl><dt><span class="term">h:</span>
+      <dd><p class="para">returned filter coefficients</p></dd></dt></dl></div>
+
+<div class="refsection"><h3 class="title">Examples</h3>
+   <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabid">rolloff</span> <span class="scilaboperator">=</span> <span class="scilabnumber">0.25</span><span class="scilabdefault">;</span>  
+<span class="scilabid">span</span> <span class="scilaboperator">=</span> <span class="scilabnumber">3</span><span class="scilabdefault">;</span> 
+<a class="scilabmacro" href="scilab://sample">sample</a> <span class="scilabstring">per</span> <span class="scilabstring">symbol=sps=2</span><span class="scilabdefault">;</span>
+<span class="scilabid">b</span><span class="scilaboperator">=</span><span class="scilabid">rcosdesign</span><span class="scilabopenclose">(</span><span class="scilabid">rolloff</span><span class="scilabdefault">,</span><span class="scilabid">span</span><span class="scilabdefault">,</span><span class="scilabid">sps</span><span class="scilabopenclose">)</span><span class="scilabdefault">;</span>
+<span class="scilabcomment">//OUTPUT:</span>
+<span class="scilabcomment">//b=- 0.1210006  - 0.0456421    0.4418023    0.7590604    0.4418023  - 0.0456421  - 0.1210006</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
     <br />
 
     <div class="manualnavbar">
