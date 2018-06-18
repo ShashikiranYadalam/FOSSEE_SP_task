@@ -100,6 +100,11 @@
    Presence indicates that the primary input x is actually a
    correlation matrix</p></dd></dt></dl></div>
 
+<div class="refsection"><h3 class="title">Description</h3>
+<p class="para">[S,w] = pmusic(x,p) implements the MUSIC (Multiple Signal Classification) algorithm and returns S, the pseudospectrum estimate of the input signal x, and a vector w of normalized frequencies (in rad/sample) at which the pseudospectrum is evaluated. The pseudospectrum is calculated using estimates of the eigenvectors of a correlation matrix associated with the input data x, where x is specified as either:</p>
+
+  <p class="para">A row or column vector representing one observation of the signal</p>
+<p class="para">A rectangular array for which each row of x represents a separate observation of the signal (for example, each row is one output of an array of sensors, as in array processing), such that x&#0039;*x is an estimate of the correlation matrix</p></div>
 
 
 <div class="refsection"><h3 class="title">Examples</h3>

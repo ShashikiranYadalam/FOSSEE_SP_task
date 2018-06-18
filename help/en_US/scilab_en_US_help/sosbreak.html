@@ -34,6 +34,33 @@
     <br /><br />
     <div class="refnamediv"><h1 class="refname">sosbreak</h1>
     <p class="refpurpose">function for breaking a polynomial in second order polynomials (and an extra linear)</p></div>
+<div class="refsynopsisdiv"><h3 class="title">Calling Sequence</h3>
+   <div class="synopsis"><pre><span class="default">[</span><span class="default">zerosort</span><span class="default">,</span><span class="default">g</span><span class="default">]=</span><span class="functionid">sosbreak</span><span class="default">(</span><span class="default">p</span><span class="default">)</span></pre></div></div>
+
+<div class="refsection"><h3 class="title">Parameters</h3>
+   <dl><dt><span class="term">p:</span>
+      <dd><p class="para">-the input polynomial.</p></dd></dt>
+   <dt><span class="term">zerosort:</span>
+      <dd><p class="para">-the array of the broken polynomials</p></dd></dt>
+   <dt><span class="term">g:</span>
+      <dd><p class="para">the interger multiple obtained after breaking the polynomial</p></dd></dt></dl></div>
+
+<div class="refsection"><h3 class="title">Examples</h3>
+   <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabid">v</span><span class="scilaboperator">=</span><span class="scilabopenclose">[</span><span class="scilabnumber">1</span><span class="scilaboperator">+</span><span class="scilabnumber">4</span><span class="scilaboperator">*</span><span class="scilabconstants">%s</span><span class="scilaboperator">+</span><span class="scilabnumber">6</span><span class="scilaboperator">*</span><span class="scilabconstants">%s</span><span class="scilaboperator">^</span><span class="scilabnumber">2</span><span class="scilaboperator">+</span><span class="scilabnumber">4</span><span class="scilaboperator">*</span><span class="scilabconstants">%s</span><span class="scilaboperator">^</span><span class="scilabnumber">3</span><span class="scilaboperator">+</span><span class="scilabconstants">%s</span><span class="scilaboperator">^</span><span class="scilabnumber">4</span><span class="scilabopenclose">]</span><span class="scilabdefault">;</span>
+<span class="scilabopenclose">[</span><span class="scilabid">zerosort</span><span class="scilabdefault">,</span><span class="scilabid">g</span><span class="scilabopenclose">]</span><span class="scilaboperator">=</span><span class="scilabid">sosbreak</span><span class="scilabopenclose">(</span><span class="scilabid">v</span><span class="scilabopenclose">)</span><span class="scilabdefault">;</span>
+<span class="scilabcomment">//OUTPUT:</span>
+<span class="scilabcomment">// g  =1.  </span>
+ <span class="scilabcomment">//zerosort  =</span>
+ <span class="scilabcomment">//   zerosort(1)</span>
+<span class="scilabcomment">//           2</span>
+<span class="scilabcomment">// 1 + 2s + s   </span>
+<span class="scilabcomment">// zerosort(2)</span>
+<span class="scilabcomment">//                  2 </span>
+<span class="scilabcomment">//1.0000000 + 2s + s</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
+
+
+<div class="refsection"><h3 class="title">Authors</h3>
+   <ul class="itemizedlist"><li class="member">Parthasarathi Panda</li></ul></div>
     <br />
 
     <div class="manualnavbar">

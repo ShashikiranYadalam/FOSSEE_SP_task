@@ -35,7 +35,6 @@ function [w,pow] = rootmusic(x,p,varargin)
     //
 //              n=0:99;   
 //   s=exp(1*%i*%pi/2*n)+2*exp(1*%i*%pi/4*n)+exp(1*%i*%pi/3*n)+rand(1,100,"normal");
-//exec('/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox-master/macros/corrmtx.sci',-1); //NOTE THAT the     location of the function 'corrmtx.sci' has to be mentioned properely.
 // [A,R]=corrmtx(s,12,'mod');
 // [W,P] = rootmusic(R,3,'corr');
  

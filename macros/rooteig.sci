@@ -43,7 +43,7 @@ function [w,pow] = rooteig(x,p,varargin)
     //      1) 3 complex exponentials:
     //
     //          n=0:99;   
-    //          s=exp(1i*pi/2*n)+2*exp(1i*pi/4*n)+exp(1i*pi/3*n)+randn(1,100);  //ERROR  pi and i should have a '%'     prefix
+    //          s=exp(1i*pi/2*n)+2*exp(1i*pi/4*n)+exp(1i*pi/3*n)+randn(1,100); 
     //          [W,P] = rooteig(s,3);
     //
 //    n=0:99;   

@@ -37,19 +37,54 @@
 
 
 <div class="refsynopsisdiv"><h3 class="title">Calling Sequence</h3>
-   <div class="synopsis"><pre><span class="default">w</span><span class="default"> = </span><span class="functionid">rooteig</span><span class="default">(</span><span class="default">x</span><span class="default">,</span><span class="default">p</span><span class="default">)</span>
-<span class="default">[</span><span class="default">w</span><span class="default">,</span><span class="default">pow</span><span class="default">] = </span><span class="functionid">rooteig</span><span class="default">(</span><span class="default">x</span><span class="default">,</span><span class="default">p</span><span class="default">)</span>
-<span class="default">[</span><span class="default">f</span><span class="default">,</span><span class="default">pow</span><span class="default">] = </span><span class="functionid">rooteig</span><span class="default">(...,</span><span class="default">fs</span><span class="default">)</span>
+   <div class="synopsis"><pre><span class="default">[</span><span class="default">w</span><span class="default">,</span><span class="default">pow</span><span class="default">] = </span><span class="functionid">rooteig</span><span class="default">(</span><span class="default">x</span><span class="default">,</span><span class="default">p</span><span class="default">)</span>
+<span class="default">[</span><span class="default">w</span><span class="default">,</span><span class="default">pow</span><span class="default">] = </span><span class="functionid">rooteig</span><span class="default">(...,</span><span class="default">fs</span><span class="default">)</span>
 <span class="default">[</span><span class="default">w</span><span class="default">,</span><span class="default">pow</span><span class="default">] = </span><span class="functionid">rooteig</span><span class="default">(...,</span>&#0039;<span class="default">corr</span>&#0039;<span class="default">)</span></pre></div></div>
 
 <div class="refsection"><h3 class="title">Parameters</h3>
-   <dl><dt><span class="term">Examples:</span>
-      <dd><p class="para"></p></dd></dt>
-   <dt><span class="term">1) 3 complex exponentials:</span>
-      <dd><p class="para"></p></dd></dt>
-   <dt><span class="term">n=0:</span>
-      <dd><p class="para">99;</p></dd></dt></dl></div>
+   <dl><dt><span class="term">x:</span>
+      <dd><p class="para">int|double - vector|matrix</p>
+<p class="para">Input signal. In case of a matrix, each row of x represents a
+   seperate observation of the signal. If &#0039;corr&#0039; flag is specified,
+   then x is the correlation matrix.
+   If w is not specified in the input, it is determined by the
+   algorithm. If x is real valued, then range of w is [0, pi].
+   Otherwise, the range of w is [0, 2pi)</p></dd></dt></dl>
 
+<dl><dt><span class="term">p:</span>
+      <dd><p class="para">int|double - scalar|vector</p>
+<p class="para">p(1) is the dimension of the signal subspace
+   p(2), if specified, represents a threshold that is multiplied by
+   the smallest estimated eigenvalue of the signal&#0039;s correlation matrix.</p></dd></dt></dl>
+
+<dl><dt><span class="term">w:</span>
+      <dd><p class="para">int|double - vector</p>
+<p class="para">w is the vector of normalized frequencies over which the
+   pseuspectrogram is to be computed.</p></dd></dt></dl>
+
+
+
+
+<dl><dt><span class="term">fs:</span>
+      <dd><p class="para">int|double - scalar (Default = 1)</p>
+<p class="para">Sampling rate. Used to convert the normalized frequencies (w) to
+   actual values (f) and vice-versa.</p></dd></dt></dl></div>
+
+
+
+
+
+
+
+<div class="refsection"><h3 class="title">Description</h3>
+[w,pow] = rooteig(x,p) estimates the frequency content in the time samples of a signal x, and returns w, a vector of frequencies in rad/sample, and the corresponding signal power in the vector pow in units of power, such as volts^2. The input signal x is specified either as:
+ <p class="para">A row or column vector representing one observation of the signal</p>
+<p class="para">A rectangular array for which each row of x represents a separate observation of the signal (for example, each row is one output of an array of sensors, as in array processing), such that x&#0039;*x is an estimate of the correlation matrix</p></div>
+<div class="refsection"><h3 class="title">Examples</h3>
+   <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabid">n</span><span class="scilaboperator">=</span><span class="scilabnumber">0</span><span class="scilabspecial">:</span><span class="scilabnumber">99</span><span class="scilabdefault">;</span>  
+<span class="scilabid">s</span><span class="scilaboperator">=</span><a class="scilabcommand" href="scilab://exp">exp</a><span class="scilabopenclose">(</span><span class="scilabnumber">1</span><span class="scilaboperator">*</span><span class="scilabconstants">%i</span><span class="scilaboperator">*</span><span class="scilabconstants">%pi</span><span class="scilaboperator">/</span><span class="scilabnumber">2</span><span class="scilaboperator">*</span><span class="scilabid">n</span><span class="scilabopenclose">)</span><span class="scilaboperator">+</span><span class="scilabnumber">2</span><span class="scilaboperator">*</span><a class="scilabcommand" href="scilab://exp">exp</a><span class="scilabopenclose">(</span><span class="scilabnumber">1</span><span class="scilaboperator">*</span><span class="scilabconstants">%i</span><span class="scilaboperator">*</span><span class="scilabconstants">%pi</span><span class="scilaboperator">/</span><span class="scilabnumber">4</span><span class="scilaboperator">*</span><span class="scilabid">n</span><span class="scilabopenclose">)</span><span class="scilaboperator">+</span><a class="scilabcommand" href="scilab://exp">exp</a><span class="scilabopenclose">(</span><span class="scilabnumber">1</span><span class="scilaboperator">*</span><span class="scilabconstants">%i</span><span class="scilaboperator">*</span><span class="scilabconstants">%pi</span><span class="scilaboperator">/</span><span class="scilabnumber">3</span><span class="scilaboperator">*</span><span class="scilabid">n</span><span class="scilabopenclose">)</span><span class="scilaboperator">+</span><a class="scilabcommand" href="scilab://rand">rand</a><span class="scilabopenclose">(</span><span class="scilabnumber">1</span><span class="scilabdefault">,</span><span class="scilabnumber">100</span><span class="scilabdefault">,</span><span class="scilabstring">&#0034;</span><span class="scilabstring">normal</span><span class="scilabstring">&#0034;</span><span class="scilabopenclose">)</span><span class="scilabdefault">;</span>  
+<span class="scilabid">X</span> <span class="scilaboperator">=</span> <span class="scilabid">corrmtx</span><span class="scilabopenclose">(</span><span class="scilabid">s</span><span class="scilabdefault">,</span><span class="scilabnumber">12</span><span class="scilabdefault">,</span><span class="scilabstring">&#0039;</span><span class="scilabstring">mod</span><span class="scilabstring">&#0039;</span><span class="scilabopenclose">)</span><span class="scilabdefault">;</span>
+<span class="scilabopenclose">[</span><span class="scilabid">W</span><span class="scilabdefault">,</span><span class="scilabid">P</span><span class="scilabopenclose">]</span> <span class="scilaboperator">=</span> <span class="scilabid">rooteig</span><span class="scilabopenclose">(</span><span class="scilabid">X</span><span class="scilabdefault">,</span><span class="scilabnumber">3</span><span class="scilabopenclose">)</span><span class="scilabdefault">;</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
 <div class="refsection"><h3 class="title">See also</h3>
    <ul class="itemizedlist"><li class="member"><a href="corrmtx.html" class="link">| peig | pmusic | rootmusic</a></li>
    <li class="member"><a href="scilab://References" class="link">References</a></li>

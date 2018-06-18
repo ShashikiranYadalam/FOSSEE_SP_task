@@ -40,13 +40,12 @@
       <listitem><para>Input argument, final prediction error.</para></listitem></varlistentry>
    <varlistentry><term>R:</term>
       <listitem><para>Returns the auto-correlation coefficients.</para></listitem></varlistentry>
-   </variablelist>
+   
 <varlistentry><term>U:</term>
       <listitem><para>Returns  upper triangular matrix of order length(a)*length(a).</para></listitem></varlistentry>
-   </variablelist>
-<varlistentry><term>kr:</term>
+   <varlistentry><term>kr:</term>
       <listitem><para>Reflection coefficients.</para></listitem></varlistentry>
-   </variablelist>
+   
 <varlistentry><term>e:</term>
       <listitem><para>Prediction error.</para></listitem></varlistentry>
    </variablelist>

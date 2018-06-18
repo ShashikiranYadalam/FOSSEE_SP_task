@@ -73,13 +73,13 @@ If the elements of matrix are complex the absolute values are considered in the 
 <refsection>
    <title>Examples</title>
    <programlisting role="example"><![CDATA[
-To calculate peak2rms of a vector:
+//To calculate peak2rms of a vector:
 IN=[6 19 10 25]
 OUT=peak2rms(IN)
-The output is OUT=
-1.4638501
-1.3887301
-1.119186
+//The output is OUT=
+//1.4638501
+//1.3887301
+//1.119186
 
    ]]></programlisting>
 </refsection>

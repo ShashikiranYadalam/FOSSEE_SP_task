@@ -33,7 +33,35 @@
 
     <br /><br />
     <div class="refnamediv"><h1 class="refname">schurrc</h1>
-    <p class="refpurpose">narginchk(1,1,argn(2));</p></div>
+    <p class="refpurpose">Computes reflection coefficients from auto-correlation sequence using Schrur algorithm.</p></div>
+<div class="refsynopsisdiv"><h3 class="title">Calling Sequence</h3>
+   <div class="synopsis"><pre><span class="default">k</span><span class="default"> = </span><span class="functionid">schurrc</span><span class="default">(</span><span class="default">r</span><span class="default">)</span>
+<span class="default">[</span><span class="default">k</span><span class="default">,</span><span class="default">e</span><span class="default">] = </span><span class="functionid">schurrc</span><span class="default">(</span><span class="default">r</span><span class="default">)</span></pre></div></div>
+
+<div class="refsection"><h3 class="title">Parameters</h3>
+   <dl><dt><span class="term">k:</span>
+      <dd><p class="para">reflection coefficients or lattice parameters of prediction filter</p></dd></dt>
+   <dt><span class="term">e:</span>
+      <dd><p class="para">prediction error variance</p></dd></dt>
+   <dt><span class="term">r:</span>
+      <dd><p class="para">auto correltion sequence</p></dd></dt></dl></div>
+
+
+<div class="refsection"><h3 class="title">Description</h3>
+   <p class="para">k = schurrc(r) uses the Schur algorithm to compute a vector k of reflection coefficients from a vector r representing an autocorrelation sequence. k and r are the same size. The reflection coefficients represent the lattice parameters of a prediction filter for a signal with the given autocorrelation sequence, r. When r is a matrix, schurrc treats each column of r as an independent autocorrelation sequence, and produces a matrix k, the same size as r. Each column of k represents the reflection coefficients for the lattice filter for predicting the process with the corresponding autocorrelation sequence r.</p>
+
+<p class="para">[k,e] = schurrc(r) also computes the scalar e, the prediction error variance. When r is a matrix, e is a column vector. The number of rows of e is the same as the number of columns of r.</p></div>
+
+
+
+<div class="refsection"><h3 class="title">Examples</h3>
+   <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabid">m</span><span class="scilaboperator">=</span><a class="scilabmacro" href="scilab://linspace">linspace</a><span class="scilabopenclose">(</span><span class="scilabnumber">1</span><span class="scilabdefault">,</span><span class="scilabnumber">100</span><span class="scilabopenclose">)</span><span class="scilabdefault">;</span>
+<span class="scilabid">r</span> <span class="scilaboperator">=</span> <a class="scilabmacro" href="scilab://xcorr">xcorr</a><span class="scilabopenclose">(</span><span class="scilabid">m</span><span class="scilabopenclose">(</span><span class="scilabnumber">1</span><span class="scilabspecial">:</span><span class="scilabnumber">5</span><span class="scilabopenclose">)</span><span class="scilabdefault">,</span><span class="scilabstring">&#0039;</span><span class="scilabstring">unbiased</span><span class="scilabstring">&#0039;</span><span class="scilabopenclose">)</span><span class="scilabdefault">;</span>
+<span class="scilabopenclose">[</span><span class="scilabid">k</span><span class="scilabdefault">,</span><span class="scilabid">e</span><span class="scilabopenclose">]</span> <span class="scilaboperator">=</span> <span class="scilabid">schurrc</span><span class="scilabopenclose">(</span><span class="scilabid">r</span><span class="scilabopenclose">(</span><span class="scilabnumber">5</span><span class="scilabspecial">:</span><span class="scilabspecial">$</span><span class="scilabopenclose">)</span><span class="scilabopenclose">)</span>
+
+<span class="scilabcomment">//EXPECTED OUTPUT</span>
+<span class="scilabcomment">//e  =1.6212406  </span>
+ <span class="scilabcomment">//k  = - 0.9090909  0.2222222  0.2244898  0.2434211</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
     <br />
 
     <div class="manualnavbar">

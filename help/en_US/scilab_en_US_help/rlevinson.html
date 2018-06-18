@@ -33,14 +33,34 @@
 
     <br /><br />
     <div class="refnamediv"><h1 class="refname">rlevinson</h1>
-    <p class="refpurpose"></p></div>
+    <p class="refpurpose">This function computes the autocorrelation coefficients using prediction polynomial method.</p></div>
 
 
 <div class="refsynopsisdiv"><h3 class="title">Calling Sequence</h3>
-   <div class="synopsis"><pre><span class="default">a</span><span class="default"> = </span><span class="functionid">rlevinson</span><span class="default">(</span><span class="default">a</span><span class="default">, </span><span class="default">efinal</span><span class="default">)</span>
-<span class="default">[</span><span class="default">a</span><span class="default">, </span><span class="default">U</span><span class="default">] = </span><span class="functionid">rlevinson</span><span class="default">(</span><span class="default">a</span><span class="default">, </span><span class="default">efinal</span><span class="default">)</span>
-<span class="default">[</span><span class="default">a</span><span class="default">, </span><span class="default">U</span><span class="default">, </span><span class="default">kr</span><span class="default">] = </span><span class="functionid">rlevinson</span><span class="default">(</span><span class="default">a</span><span class="default">, </span><span class="default">efinal</span><span class="default">)</span>
-<span class="default">[</span><span class="default">a</span><span class="default">, </span><span class="default">U</span><span class="default">, </span><span class="default">kr</span><span class="default">, </span><span class="default">e</span><span class="default">] = </span><span class="functionid">rlevinson</span><span class="default">(</span><span class="default">a</span><span class="default">, </span><span class="default">efinal</span><span class="default">)</span></pre></div></div>
+   <div class="synopsis"><pre><span class="default">R</span><span class="default"> = </span><span class="functionid">rlevinson</span><span class="default">(</span><span class="default">a</span><span class="default">, </span><span class="default">efinal</span><span class="default">)</span>
+<span class="default">[</span><span class="default">R</span><span class="default">, </span><span class="default">U</span><span class="default">] = </span><span class="functionid">rlevinson</span><span class="default">(</span><span class="default">a</span><span class="default">, </span><span class="default">efinal</span><span class="default">)</span>
+<span class="default">[</span><span class="default">R</span><span class="default">, </span><span class="default">U</span><span class="default">, </span><span class="default">kr</span><span class="default">] = </span><span class="functionid">rlevinson</span><span class="default">(</span><span class="default">a</span><span class="default">, </span><span class="default">efinal</span><span class="default">)</span>
+<span class="default">[</span><span class="default">R</span><span class="default">, </span><span class="default">U</span><span class="default">, </span><span class="default">kr</span><span class="default">, </span><span class="default">e</span><span class="default">] = </span><span class="functionid">rlevinson</span><span class="default">(</span><span class="default">a</span><span class="default">, </span><span class="default">efinal</span><span class="default">)</span></pre></div></div>
+
+<div class="refsection"><h3 class="title">Parameters</h3>
+   <dl><dt><span class="term">a:</span>
+      <dd><p class="para">Input argument ,prediction polynomial coefficients.</p></dd></dt>
+   <dt><span class="term">efinal:</span>
+      <dd><p class="para">Input argument, final prediction error.</p></dd></dt>
+   <dt><span class="term">R:</span>
+      <dd><p class="para">Returns the auto-correlation coefficients.</p></dd></dt>
+   
+<dt><span class="term">U:</span>
+      <dd><p class="para">Returns  upper triangular matrix of order length(a)*length(a).</p></dd></dt>
+   <dt><span class="term">kr:</span>
+      <dd><p class="para">Reflection coefficients.</p></dd></dt>
+   
+<dt><span class="term">e:</span>
+      <dd><p class="para">Prediction error.</p></dd></dt></dl></div>
+
+<div class="refsection"><h3 class="title">Description</h3>
+<p class="para">The reverse Levinson-Durbin recursion implements the step-down algorithm for solving the following symmetric Toeplitz system of linear equations for r, where r = [r(1) … r(p + 1)] and r(i)* denotes the complex conjugate of r(i).</p>
+<p class="para"></p></div>
     <br />
 
     <div class="manualnavbar">

@@ -33,7 +33,49 @@
 
     <br /><br />
     <div class="refnamediv"><h1 class="refname">sos2ss</h1>
-    <p class="refpurpose">[nargout,nargin]=argn();</p></div>
+    <p class="refpurpose">Converts Digital Filter Second order section parameters to steady state form.</p></div>
+
+
+<div class="refsection"><h3 class="title">Calling Sequence</h3>
+
+[A,B,C,D] = sos2ss(sos)
+[A,B,C,D] = sos2ss(sos,g)</div>
+<div class="refsection"><h3 class="title">Parameters</h3>
+   <dl><dt><span class="term">[A,B,C,D]:</span>
+      <dd><p class="para">Steady state parameters.</p></dd></dt>
+   <dt><span class="term">sos:</span>
+      <dd><p class="para">Second order sectional matrix.</p></dd></dt>
+   <dt><span class="term">g:</span>
+      <dd><p class="para">gain of the system.</p></dd></dt></dl></div>
+
+
+<div class="refsection"><h3 class="title">Description</h3>
+<p class="para">sos2ss converts a second-order section representation of a digital filter to an equivalent state-space representation.</p>
+<p class="para">[A,B,C,D] = sos2ss(sos) converts sos, a system expressed in second-order section form, to a single-input, single-output state-space representation:
+
+x(n+1)=Ax(n)+Bu(n),
+y(n)=Cx(n)+Du(n).</p></div>
+
+<div class="refsection"><h3 class="title">Examples</h3>
+   <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabid">sos</span> <span class="scilaboperator">=</span> <span class="scilabopenclose">[</span><span class="scilabnumber">1</span>  <span class="scilabnumber">1</span>  <span class="scilabnumber">1</span>  <span class="scilabnumber">1</span>   <span class="scilabnumber">0</span>  <span class="scilaboperator">-</span><span class="scilabnumber">1</span> <span class="scilabdefault">;</span>
+         <span class="scilaboperator">-</span><span class="scilabnumber">2</span>  <span class="scilabnumber">3</span>  <span class="scilabnumber">1</span>  <span class="scilabnumber">1</span>  <span class="scilabnumber">10</span>   <span class="scilabnumber">1</span><span class="scilabopenclose">]</span><span class="scilabdefault">;</span>
+<span class="scilabopenclose">[</span><span class="scilabid">A</span><span class="scilabdefault">,</span><span class="scilabid">B</span><span class="scilabdefault">,</span><span class="scilabid">C</span><span class="scilabdefault">,</span><span class="scilabid">D</span><span class="scilabopenclose">]</span> <span class="scilaboperator">=</span> <span class="scilabid">sos2ss</span><span class="scilabopenclose">(</span><span class="scilabid">sos</span><span class="scilabdefault">,</span><span class="scilabnumber">2</span><span class="scilabopenclose">)</span><span class="scilabdefault">;</span>
+<span class="scilabcomment">//EXPECTED OUTPUT:</span>
+<span class="scilabcomment">//D  =- 4.  </span>
+<span class="scilabcomment">//C  =42.    4.  - 32.  - 2.  </span>
+<span class="scilabcomment">//B  =[1.  0.  0.    0.    0.]</span><span class="scilabcomment">&#0039;</span><span class="scilabcomment">  </span>
+<span class="scilabcomment">//A  =[- 10.    0.    10.    1. ; 1.     0.    0.     0.  ; 0.     1.    0.     0.  ;  0.     0.    1.     0.  ]</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
+
+
+<div class="refsection"><h3 class="title">Authors</h3>
+   <ul class="itemizedlist"><li class="member">Parthasrathi Panda</li></ul></div>
+
+
+
+<div class="refsection"><h3 class="title">See also</h3>
+   <ul class="itemizedlist"><li class="member"><a href="sos2tf.html" class="link">abs</a></li>
+   <li class="member"><a href="sosbreak.html" class="link">mean</a></li>
+   <li class="member"><a href="sos2ss.html" class="link">max</a></li></ul></div>
     <br />
 
     <div class="manualnavbar">

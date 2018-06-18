@@ -209,7 +209,7 @@ rooteig
 rootmusic
 roundn
 rssq
-sampled2continuous(changed)
+sampled2continuous
 sawtooth
 schtrig
 schurrc
@@ -258,7 +258,7 @@ unshiftdata
 unwrap2
 upfirdn
 upsample
-upsamplefillll
+upsamplefill
 var
 vco
 wconv

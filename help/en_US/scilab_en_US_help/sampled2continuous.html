@@ -40,22 +40,21 @@
    <div class="synopsis"><pre><span class="default">x</span><span class="default"> = </span><span class="functionid">sampled2continuous</span><span class="default"> (</span><span class="default">n</span><span class="default">, </span><span class="default">s</span><span class="default">, </span><span class="default">t</span><span class="default">)</span></pre></div></div>
 
 <div class="refsection"><h3 class="title">Parameters</h3>
-   <dl><dt><span class="term">n:</span>
-      <dd><p class="para"></p></dd></dt>
+   <dl><dt><span class="term">xn:</span>
+      <dd><p class="para">sampled signal</p></dd></dt>
    <dt><span class="term">s:</span>
-      <dd><p class="para"></p></dd></dt>
+      <dd><p class="para">sampling rate</p></dd></dt>
    <dt><span class="term">t:</span>
-      <dd><p class="para"></p></dd></dt></dl></div>
+      <dd><p class="para">all instants of time t at which we need x(t) from x[n]</p></dd></dt></dl></div>
 
 <div class="refsection"><h3 class="title">Description</h3>
-   <p class="para">This is an Octave function.
-This function calculates the output reconstructed from the samples n supplied as input, at a rate of 1/s samples per unit time.
+   <p class="para">This function calculates the output reconstructed from the samples n supplied as input, at a rate of 1/s samples per unit time.
 The third parameter t is all the instants where output x is needed from intput n and this time is relative to x(0).</p></div>
 
 <div class="refsection"><h3 class="title">Examples</h3>
    <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabid">sampled2continuous</span><span class="scilabopenclose">(</span><span class="scilabopenclose">[</span><span class="scilabnumber">1</span><span class="scilabdefault">,</span><span class="scilabnumber">2</span><span class="scilabdefault">,</span><span class="scilabnumber">3</span><span class="scilabopenclose">]</span><span class="scilabdefault">,</span><span class="scilabnumber">5</span><span class="scilabdefault">,</span><span class="scilabnumber">6</span><span class="scilabopenclose">)</span>
-<span class="scilabid">ans</span>  <span class="scilaboperator">=</span>
-<span class="scilabnumber">2.4166806</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
+<span class="scilabcomment">//ans  =</span>
+<span class="scilabcomment">//2.4166806</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
     <br />
 
     <div class="manualnavbar">
