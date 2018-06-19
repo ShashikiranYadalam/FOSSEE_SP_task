@@ -33,26 +33,32 @@
 
     <br /><br />
     <div class="refnamediv"><h1 class="refname">zerocrossing</h1>
-    <p class="refpurpose">This function estimates the points at which a given waveform crosses the x-axis.</p></div>
+    <p class="refpurpose">This function estimates the points at which a given waveform y=y(x) crosses the x-axis using linear interpolation.</p></div>
 
 
 <div class="refsynopsisdiv"><h3 class="title">Calling Sequence</h3>
-   <div class="synopsis"><pre><span class="default">x</span><span class="default"> = </span><span class="functionid">zerocrossing</span><span class="default"> (</span><span class="default">w</span><span class="default">, </span><span class="default">y</span><span class="default">)</span></pre></div></div>
+   <div class="synopsis"><pre><span class="default">w</span><span class="default"> = </span><span class="functionid">zerocrossing</span><span class="default"> (</span><span class="default">x</span><span class="default">, </span><span class="default">y</span><span class="default">)</span></pre></div></div>
 
 <div class="refsection"><h3 class="title">Parameters</h3>
    <dl><dt><span class="term">w:</span>
-      <dd><p class="para"></p></dd></dt>
+      <dd><p class="para">vector of points at which the function y(x) crosses x-axis.</p></dd></dt>
    <dt><span class="term">y:</span>
-      <dd><p class="para"></p></dd></dt>
+      <dd><p class="para">The dependant variable,y(x)</p></dd></dt>
    <dt><span class="term">x:</span>
-      <dd><p class="para"></p></dd></dt></dl></div>
+      <dd><p class="para">The independant variable</p></dd></dt></dl></div>
 
 <div class="refsection"><h3 class="title">Description</h3>
    <p class="para">This is an Octave function.
 This function estimates the points at which a given waveform y = y(w) crosses the x-axis. It uses linear interpolation.</p></div>
 
 <div class="refsection"><h3 class="title">Examples</h3>
-   <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
+   <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabid">x</span> <span class="scilaboperator">=</span> <a class="scilabmacro" href="scilab://linspace">linspace</a><span class="scilabopenclose">(</span><span class="scilabnumber">0</span><span class="scilabdefault">,</span><span class="scilabnumber">1</span><span class="scilabdefault">,</span><span class="scilabnumber">100</span><span class="scilabopenclose">)</span><span class="scilabdefault">;</span>
+<span class="scilabid">y</span> <span class="scilaboperator">=</span> <span class="scilabnumber">2</span><span class="scilaboperator">*</span><a class="scilabcommand" href="scilab://sin">sin</a><span class="scilabopenclose">(</span><span class="scilabnumber">2</span><span class="scilaboperator">*</span><span class="scilabconstants">%pi</span><span class="scilaboperator">*</span><span class="scilabid">x</span><span class="scilabopenclose">)</span><span class="scilabdefault">;</span>
+<span class="scilabid">x0</span><span class="scilaboperator">=</span> <span class="scilabid">zerocrossing</span><span class="scilabopenclose">(</span><span class="scilabid">x</span><span class="scilabdefault">,</span><span class="scilabid">y</span><span class="scilabopenclose">)</span><span class="scilabdefault">;</span>
+<span class="scilabcomment">//ans:</span>
+<span class="scilabcomment">// x0  =  0.    0.5  </span>
+<span class="scilabid">y0</span><span class="scilaboperator">=</span><a class="scilabmacro" href="scilab://interp1">interp1</a><span class="scilabopenclose">(</span><span class="scilabid">x</span><span class="scilabdefault">,</span><span class="scilabid">y</span><span class="scilabdefault">,</span><span class="scilabid">x0</span><span class="scilabopenclose">)</span>
+<a class="scilabmacro" href="scilab://plot">plot</a><span class="scilabopenclose">(</span><span class="scilabid">x</span><span class="scilabdefault">,</span><span class="scilabid">y</span><span class="scilabdefault">,</span><span class="scilabid">x0</span><span class="scilabdefault">,</span><span class="scilabid">y0</span><span class="scilabdefault">,</span><span class="scilabstring">&#0039;</span><span class="scilabstring">x</span><span class="scilabstring">&#0039;</span><span class="scilabopenclose">)</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
     <br />
 
     <div class="manualnavbar">

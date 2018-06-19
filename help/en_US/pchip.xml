@@ -24,7 +24,7 @@
    <title>Calling Sequence</title>
    <synopsis>
    d=pchip(x,y)
-   d= pchip(X,,y,xx) 
+   d= pchip(x,y,xx) 
    </synopsis>
 </refsynopsisdiv>
 
@@ -32,11 +32,11 @@
    <title>Parameters</title>
    <variablelist>
    <varlistentry><term>x:</term>
-      <listitem><para> real or complex vector input</para></listitem></varlistentry>
+      <listitem><para> points at which the function is defined</para></listitem></varlistentry>
    </variablelist>
 <variablelist>
    <varlistentry><term>y:</term>
-      <listitem><para> is Y is vector then it must have the same length as x and Y is matrix then  the last dimension of Y must equal length(X)</para></listitem></varlistentry>
+      <listitem><para> function of variable x</para><para>Note that the lengths of x and y should be the same.</para></listitem></varlistentry>
    </variablelist>
 <variablelist>
    <varlistentry><term>xx:</term>
@@ -48,6 +48,7 @@
 </para></listitem></varlistentry>
    </variablelist>
 
+</refsection>
 
 <refsection>
    <title>Examples</title>
@@ -59,7 +60,16 @@
  v=pchip(x,y,xx)
  plot(x,y,xx,v,'o')
    ]]></programlisting>
-</refsection>
+
+<scilab:image>
+
+ x=[0 1 2 3 4 5]
+ y=[1 0 1 0 1 0]
+ xx=linspace(0,5,800)
+ v=pchip(x, y) 
+ v=pchip(x,y,xx)
+ plot(x,y,xx,v,'o')
+</scilab:image>
 
 </refsection>
 

@@ -49,6 +49,11 @@ else
     test_pass=[test_pass, 0];
     disp('peak2rms test failed.');
 end
+
+
+
+
+
 ///////////////              Test case for       peig            /////////
 
 //fs = 100;
@@ -70,6 +75,7 @@ end
 //     test_pass=[test_pass 0];
 //     disp("peig test failed");
 //     end
+
 
 /////////////////test for periodogram   ///////////////////////////
 
@@ -116,6 +122,8 @@ end
 //
 //
 
+
+
 ////////////                  test for poly2lsf     //////////////
 //
 X=[1 0.6149 0.9899 0 0.0031 -0.0082] ;
@@ -136,6 +144,10 @@ else
 end
 //
 //
+
+
+
+
 ///////////       test for polyscale          ////////////////
 //
 x=[1 0 0 0 0 0 0 -1];
@@ -150,6 +162,7 @@ else
     test_pass=[test_pass,0];
     disp("test failed for polyscale ");
     end
+
 
 
 
@@ -169,6 +182,8 @@ else
     disp("test failed for polyval");
     
 end
+
+
 
 ////////////////test for prony /////////////
 V=filter([1,1],[1,1,2],[1 zeros(1,31)]);
@@ -205,6 +220,7 @@ else
     disp("test failed for rc2poly");
 end
     
+
 //////////test for rcosdesign  //////////////
 rolloff = 0.25;  
 span = 3; 
@@ -223,6 +239,8 @@ else
     test_pass=[test_pass,0];
     disp("test failed for rcosdesign");
 end
+
+
 
 ////////////test for rlevinson  ////////////
 X=[1 6/7 5/7 8/7 3/7 6/7];
@@ -273,6 +291,8 @@ else
     disp("test failed for rlevinson");
 end 
 
+
+
 /////////////      test for rooteig            //////////////
 
    n=0:99;   
@@ -298,6 +318,8 @@ else
     test_pass=[test_pass,0];
     disp("test failed for rooteig");
 end 
+ 
+ 
  
 ///////////      test for rootmusic      ///////////
 
@@ -436,7 +458,7 @@ else
     disp("test failed for sos2tf")
 
 end
-
+//
 ///////////test for sosbreak    ////////////
 v=[1+4*%s+6*%s^2+4*%s^3+%s^4];
  [zerosort,g]=sosbreak(v);
@@ -452,6 +474,10 @@ else
     test_pass=[test_pass,0];
     disp("test failed for sosbreak");
 end
+
+
+
+
 //////////////test for specgram//////////
 N = 1024;
 n = 0:N-1;
@@ -475,7 +501,7 @@ else
     test_pass=[test_pass,0];
     disp("test failed for specgram");
 end
-
+//
 
 ///////////test for upsample fill////////
 
@@ -490,6 +516,8 @@ else
     test_pass=[test_pass,0];
     disp("test failed for upsample fill");
 end
+
+
 //////////////test for wreverse/////////////
 q=wrev([1 2 3]);
 qi=[3 2 1];
@@ -500,6 +528,8 @@ else
     test_pass=[test_pass,0];
     disp("test failed for wreverse");
 end
+
+
 ///////////////test for zerocrossings///////
 
 x = linspace(0,1,100);
@@ -519,11 +549,24 @@ end
 
 
 
+disp("all worked!!")
+pause
+////////////////////////////////////////////////////
 
-
-//////////////////////////////////////////////////////
 res=find(test_pass==0)
 
+
+if(getscilabmode()=="NW") then
+if(res~=[])
+	disp("One or more tests failed")
+	//exit(1)
+else
+    disp("pass")
+	//exit
+end
+
+
+else
 if(res~=[])
 	disp("One or more tests failed")
 	exit(1)
@@ -532,4 +575,6 @@ else
 	exit
 end
 
+
+end
     

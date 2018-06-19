@@ -9,7 +9,7 @@ function v = pchip(x,y,xx)
     
 // Parameters
 // x: a vector
-// y: is Y is vector then it must have the same length as x and Y is matrix then  the last dimension of Y must equal length(X).
+// y: if Y is vector then it must have the same length as x and Y is matrix then  the last dimension of Y must equal length(X).
 // xx: Points for interpolation
 // v: vector of interpolantant at xx
     

@@ -67,6 +67,14 @@ x = cos(%pi/4*n)+rand(size(n,"r"),"normal");
 [pxx,w] = periodogram(x);
 plot(w,10*log10(pxx))
    ]]></programlisting>
+<scilab:image>
+n = 0:319;
+x = cos(%pi/4*n)+rand(size(n,"r"),"normal");
+[pxx,w] = periodogram(x);
+plot(w,10*log10(pxx))
+</scilab:image>
+
+
 </refsection>
 
 
