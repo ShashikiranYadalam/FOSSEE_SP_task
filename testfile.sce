@@ -1,5 +1,7 @@
-exec("/home/shashi/Desktop/FOSSEE_Scilab_Octave_Interface_Toolbox/loader.sce")
+exec FOSSEE_Scilab_Octave_Interface_Toolbox/loader.sce
 
+
+//exec("/home/shashi/Desktop/FOSSEE_Scilab_Octave_Interface_Toolbox/loader.sce")
 exec("loader.sce")
 exec("builder.sce")
 
