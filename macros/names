@@ -265,12 +265,12 @@ wconv
 welchwin
 window
 wkeep
-wreverse
+wrev
 xcorr1
 xcorr2
 xcov1
 yulewalker
-zerocrossings
+zerocrossing
 zp2sos
 zp2ss
 zp2tf
