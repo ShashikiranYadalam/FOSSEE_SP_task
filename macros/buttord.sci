@@ -22,7 +22,7 @@ function [n, Wc] = buttord(Wp, Ws, Rp, Rs)
 //Ws = 150/500
 //[n, Wn] = buttord(Wp, Ws, 3, 60)
 //n =  5
-//Wn =  0.080038
+////Wn =  0.080038
 
 rhs = argn(2)
 lhs = argn(1)
@@ -32,8 +32,8 @@ end
 
 	select(lhs)
 	case 1 then
-	n = callOctave(Wp,Ws,Rp,Rs)
+	n = callOctave("buttord",Wp,Ws,Rp,Rs)
 	case 2 then
-	[n,Wc] = callOctave(Wp,Ws,Rp,Rs)
+	[n,Wc] = callOctave("buttord",Wp,Ws,Rp,Rs)
 	end
 endfunction

@@ -556,17 +556,7 @@ pause
 res=find(test_pass==0)
 
 
-if(getscilabmode()=="NW") then
-if(res~=[])
-	disp("One or more tests failed")
-	//exit(1)
-else
-    disp("pass")
-	//exit
-end
 
-
-else
 if(res~=[])
 	disp("One or more tests failed")
 	exit(1)
@@ -576,5 +566,4 @@ else
 end
 
 
-end
     

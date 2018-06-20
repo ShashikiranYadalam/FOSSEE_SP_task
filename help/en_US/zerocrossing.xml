@@ -43,8 +43,7 @@
 <refsection>
    <title>Description</title>
    <para>
-This is an Octave function.
-This function estimates the points at which a given waveform y = y(w) crosses the x-axis. It uses linear interpolation.
+This function estimates the points at which a given waveform y = y(x) crosses the x-axis. It uses linear interpolation.
 </para>
 </refsection>
 
@@ -60,5 +59,15 @@ y0=interp1(x,y,x0)
 plot(x,y,x0,y0,'x')
 
    ]]></programlisting>
+
+<scilab:image>
+x = linspace(0,2,200);
+y = 2*sin(2*%pi*x);
+x0= zerocrossing(x,y);
+y0=interp1(x,y,x0)
+plot(x,y,x0,y0,'x')
+
+</scilab:image>
+
 </refsection>
 </refentry>
