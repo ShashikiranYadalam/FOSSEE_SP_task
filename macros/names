@@ -238,7 +238,7 @@ statelevels
 stft
 stmcb
 strips
-subspaceMethodsInputParser
+subspaceMethodsInputPars
 synthesis
 tf2sos
 tf2zp

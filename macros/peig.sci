@@ -66,7 +66,7 @@ function [S,f,v,e] = peig(varargin)
 //[S,w]=peig(s,2,512,fs,'half');
 //plot(w,S);
     
-    //EXECUTE  FUNCTIONS subspaceMethodsInputParser.sci, musicBase.sci PRIOR  THE EXECUTION OF THIS FUNCTION
+    //EXECUTE  FUNCTIONS subspaceMethodsInputPars.sci, musicBase.sci PRIOR  THE EXECUTION OF THIS FUNCTION
     
     
     // See also
@@ -86,7 +86,7 @@ function [S,f,v,e] = peig(varargin)
     //exec('/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox-master/macros/subspaceMethodsInputParser.sci',-1);
    // exec('/home/shashi/Desktop/FOSSEE-Signal-Processing-Toolbox-master/macros/musicBase.sci',-1);
 
-    [data, msg, err_num] = subspaceMethodsInputParser(varargin);
+    [data, msg, err_num] = subspaceMethodsInputPars(varargin);
     
     if length(msg)==0 then
         // no error occured

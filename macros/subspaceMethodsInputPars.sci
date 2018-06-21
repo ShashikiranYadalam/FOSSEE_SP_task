@@ -1,5 +1,5 @@
 // Date of creation: 17 Dec, 2015
-function [data, msg, err_num] = subspaceMethodsInputParser(inputArgsList)
+function [data, msg, err_num] = subspaceMethodsInputParsS(inputArgsList)
     // Input parser to be used by pmusic and peig
 
     // primaryInput, p, w, nfft, fs, nwin, noverlap, freqrange, isCorrFlag
