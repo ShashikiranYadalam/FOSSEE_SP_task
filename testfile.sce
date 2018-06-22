@@ -61,12 +61,12 @@ fs = 100;
 t = 0:1/fs:1-1/fs;
 s = 2*sin(2*%pi*25*t)+sin(2*%pi*35*t);
 [S,w]=peig(s,2,512,fs,'half');
-
 n=length(S);
 
 for i=1:n
     S(i)=round((S(i)*10^7)/10^7);
-end
+    end 
+
 
 M=fscanfMat("macros/text4_peig.txt");
 
@@ -518,6 +518,30 @@ else
     disp("test failed for upsample fill");
 end
 
+///////////test for ss2sos///////////////
+a =[0.5095,0,0,0,0;
+0.3007, 0.2260, -0.3984, 0, 0;
+0.0977, 0.3984, 0.8706, 0, 0;
+0.0243, 0.0991, 0.4652, 0.5309, -0.4974;
+0.0079, 0.0322, 0.1512, 0.4974, 0.8384];
+
+
+b =[0.6936 0.1382 0.0449 0.0112 0.0036]';
+
+
+c =[0.0028 0.0114 0.0534 0.1759 0.6500];
+
+
+d =0.0013;
+
+a=roundn(a,3);
+b=roundn(b,3);
+c=roundn(c,3);
+d=roundn(d,3);
+
+
+
+
 
 //////////////test for wreverse/////////////
 q=wrev([1 2 3]);
@@ -564,7 +588,7 @@ if(res~=[])
 	exit(1)
 else
     disp("pass")
-	exit
+	//exit
 end
 
 

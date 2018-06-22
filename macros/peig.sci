@@ -53,14 +53,15 @@ function [S,f,v,e] = peig(varargin)
     //      correlation matrix
     //
     // Examples:
+//1.
 //       fs = 100;
 //       t = 0:1/fs:1-1/fs;
 //       s = 2*sin(2*%pi*25*t)+sin(2*%pi*35*t)+rand(1,100,"normal");
 //       [S,w]=peig(s,2,512,fs,'half');
 //       plot(w,S);
     //OUTPUT:   gives the plot of power vs normalised frequencies 
-    
-    //// fs = 100;
+////2.    
+// fs = 100;
 //t = 0:1/fs:1-1/fs;
 //s = 2*sin(2*%pi*25*t)+sin(2*%pi*35*t);
 //[S,w]=peig(s,2,512,fs,'half');

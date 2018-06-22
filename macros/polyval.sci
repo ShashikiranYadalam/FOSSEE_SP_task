@@ -15,7 +15,7 @@ function [y, delta] = polyval(p,x,S,mu)
 //y=  86  162  262
 
 if ~(isvector(p) | isempty(p))  // Check input is a vector
-    error(message('polyval:InvalidP'));
+    error('polyval:InvalidP');
 end
 
 nc = length(p);
@@ -41,7 +41,7 @@ end
 
 if argn(1) > 1
     if argn(2) < 3 | isempty(S)
-        error(message('polyval:RequiresS'));
+        error('polyval:Requires S');
     end
     
     // Extract parameters from S
@@ -52,7 +52,7 @@ if argn(1) > 1
     else             // Use output matrix from previous versions of polyfit.
       [ms,ns] = size(S);
       if (ms ~= ns+2) | (nc ~= ns)
-          error(message('polyval:SizeS'));
+          error('polyval:SizeS');
       end
       R = S(1:nc,1:nc);
       df = S(nc+1,1);
@@ -72,12 +72,12 @@ if argn(1) > 1
     E = V/R;
     e = sqrt(1+sum(E.*E,2));
     if df == 0
-        warning(message('polyval:ZeroDOF'));
-        delta = Inf(size(e));
+        warning('polyval:ZeroDOF');
+        delta = %inf(size(e));
     else
         delta = normr/sqrt(df)*e;
     end
-    delta = reshape(delta,siz_x);
+    delta = matrix(delta,siz_x);
 end
 endfunction
 
