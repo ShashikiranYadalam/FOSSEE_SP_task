@@ -1,10 +1,10 @@
 //exec FOSSEE_Scilab_Octave_Interface_Toolbox/loader.sce
 exec("/home/shashi/Desktop/FOSSEE_Scilab_Octave_Interface_Toolbox/loader.sce")
-
+getd macros/
 exec("loader.sce")
 exec("builder.sce")
 
-getd macros/
+
 
 
 test_pass=[]
@@ -550,6 +550,22 @@ else
      test_pass=[test_pass,0];
     disp("test failed for ss2sos");
 end
+
+
+///////////////test for upfirdn/////////////
+
+yout=upfirdn(1:100,1,1,1);
+eout=1:100;
+
+if (eout==yout)
+    test_pass=[test_pass 1];
+else
+    test_pass=[test_pass 0];
+    disp("test failed for upfirdn");
+end
+
+
+
 
 
 //////////////test for wreverse/////////////

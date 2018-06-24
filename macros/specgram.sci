@@ -13,9 +13,9 @@ function [S_r, f_r, t_r] = specgram(x,n,fs,window,overlap)
 //n = 0:N-1;
 //w= 2*%pi/5;
 //x = sin(w*n)+10*sin(2*w*n);
-//s = specgram(x);// returns the short-time Fourier transform of the input signal, x.
- //Matplot(s)      //to see the spectrogram(partially)
-
+//[s,f,t] = specgram(x);// returns the short-time Fourier transform of the input signal, x.
+// grayplot(f,t,s)      //to see the spectrogram
+//
 funcprot(0);
 rhs = argn(2)
 
