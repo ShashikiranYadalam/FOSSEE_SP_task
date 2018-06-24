@@ -1,4 +1,4 @@
-function [d,n]=periodogram(a,b,c,d,e)
+function [p,n]=periodogram(a,b,c,d,e)
 //Return the periodogram (Power Spectral Density) of X
 //Calling Sequence
 // [PXX, W] = periodogram (X)
@@ -18,11 +18,11 @@ function [d,n]=periodogram(a,b,c,d,e)
 //If a sampling frequency is specified, FS, then the output frequencies F will be in the range [0, FS/2] or [0, FS/2) for one-sided calculations. For two-sided calculations the range will be [0, FS).
 //
 //
-////EXAMPLE:
-//n = 0:319;
-//x = cos(%pi/4*n)+rand(size(n,"r"),"normal");
-//[pxx,w] = periodogram(x);
-//plot(w,10*log10(pxx))
+//////EXAMPLE:
+////n = 0:319;
+////x = cos(%pi/4*n)+rand(size(n,"r"),"normal");
+////[pxx,w] = periodogram(x);
+////plot(w,10*log10(pxx))
 //
     funcprot(0);
     lhs= argn(1);
@@ -35,18 +35,18 @@ function [d,n]=periodogram(a,b,c,d,e)
     end
     select(rhs)
     case 1 then
-            [d,n]= callOctave('periodogram',a);
+            [p,n]= callOctave('periodogram',a);
     case 2 then
-            [d,n]= callOctave('periodogram',a,b);
+            [p,n]= callOctave('periodogram',a,b);
 
     case 3 then
-            [d,n]= callOctave('periodogram',a,b,c);
+            [p,n]= callOctave('periodogram',a,b,c);
 
     case 4 then
-            [d,n]= callOctave('periodogram',a,b,c,d);
+            [p,n]= callOctave('periodogram',a,b,c,d);
   
     case 5 then
-            [d,n]= callOctave('periodogram',a,b,c,d,e);
+            [p,n]= callOctave('periodogram',a,b,c,d,e);
     end
 endfunction
 

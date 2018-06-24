@@ -4,7 +4,7 @@ exec("/home/shashi/Desktop/FOSSEE_Scilab_Octave_Interface_Toolbox/loader.sce")
 exec("loader.sce")
 exec("builder.sce")
 
-//getd macros/
+getd macros/
 
 
 test_pass=[]
@@ -539,8 +539,17 @@ b=roundn(b,3);
 c=roundn(c,3);
 d=roundn(d,3);
 
+[sos,g]=ss2sos(a,b,c,d);
+e=[0.509,0,0,0,0;0.301,0.226,-0.398,0,0;0.098,0.398,0.871,0,0;0.024,0.099,0.465,0.531,-0.497;0.008,0.032,0.151,0.497,0.838 ]; 
 
-
+if(g==0.001)
+    if (a==e) then
+        test_pass=[test_pass 1];
+    end
+else
+     test_pass=[test_pass,0];
+    disp("test failed for ss2sos");
+end
 
 
 //////////////test for wreverse/////////////
@@ -570,7 +579,7 @@ else
     disp("test failed for zerocrossings");
 end
 
-        
+    
 
 
 
@@ -585,7 +594,7 @@ res=find(test_pass==0)
 
 if(res~=[])
 	disp("One or more tests failed")
-	exit(1)
+	//exit(1)
 else
     disp("pass")
 	//exit
