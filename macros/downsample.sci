@@ -1,17 +1,12 @@
 
-// @deftypefn  {Function File} {@var{y} =} downsample (@var{x}, @var{n})
-// @deftypefnx {Function File} {@var{y} =} downsample (@var{x}, @var{n}, @var{offset})
-// Downsample the signal, selecting every @var{n}th element.  If @var{x}
+//Function File vary = downsample (x, n)
+//Function File y = downsample (x, n, offset)
+// Downsample the signal, selecting every nth element.  If x
 // is a matrix, downsample every column.
 //
-// For most signals you will want to use @code{decimate} instead since
-// it prefilters the high frequency components of the signal and
-// avoids aliasing effects.
-//
-// If @var{offset} is defined, select every @var{n}th element starting at
-// sample @var{offset}.
-// @seealso{decimate, interp, resample, upfirdn, upsample}
-// @end deftypefn
+// If offset is defined, select every nth element starting at
+// sample offset.
+// 
 //
 
 //Test cases:
