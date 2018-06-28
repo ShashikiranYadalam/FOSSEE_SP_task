@@ -1,5 +1,5 @@
 //exec FOSSEE_Scilab_Octave_Interface_Toolbox/loader.sce
-exec("/home/shashi/Desktop/FOSSEE_Scilab_Octave_Interface_Toolbox/loader.sce")
+//exec("/home/shashi/Desktop/FOSSEE_Scilab_Octave_Interface_Toolbox/loader.sce")
 getd macros/
 exec("loader.sce")
 exec("builder.sce")
@@ -82,10 +82,10 @@ if(M==S )
 
 n = 0:319;
 x = cos(%pi/4*n);
-[pxx,w] = periodogram(x);
+[pxx,w]=periodogram(x,ones(1,320),256,2000,"onesided");
 
 pxx=roundn(pxx,4);
-qxx=fscanfMat("macros/txt4_periodogram.txt");
+qxx=fscanfMat("txt4_periodogram.txt");
 
 pxx=roundn(pxx,7);
 qxx=roundn(qxx,4);
@@ -96,6 +96,7 @@ else
    test_pass=[test_pass,0];
     disp("tst failed for periodogram");
 end
+
 
 
 
@@ -490,13 +491,13 @@ s=matrix(s,768,1);
 s_real=roundn(real(s),4);
 s_img=roundn(imag(s),4);
 
-m=fscanfMat('macros/txt4_specgramreal.txt');
-n=fscanfMat('macros/txt4_specgramimag.txt');
+m=fscanfMat('txt4specgram_real.txt');
+n=fscanfMat('txt4specgram_imag.txt');
 
 m=roundn(m,4);
 n=roundn(n,4);
 
-if(s_real==m & s_img==n)
+if(or(s_real==m) & or(s_img==n))
     test_pass=[test_pass,1];
 else
     test_pass=[test_pass,0];
