@@ -33,7 +33,50 @@
 
     <br /><br />
     <div class="refnamediv"><h1 class="refname">specgram</h1>
-    <p class="refpurpose"></p></div>
+    <p class="refpurpose">Generate a spectrogram for the signal x.</p></div>
+<div class="refsynopsisdiv"><h3 class="title">Calling Sequence</h3>
+   <div class="synopsis"><pre><span class="default">[</span><span class="default">S</span><span class="default">, </span><span class="default">f</span><span class="default">, </span><span class="default">t</span><span class="default">] = </span><span class="functionid">specgram</span><span class="default"> (</span><span class="default">x</span><span class="default">,</span><span class="default">n</span><span class="default">,</span><span class="default">fs</span><span class="default">,</span><span class="default">win</span><span class="default">,</span><span class="default">overlap</span><span class="default">)</span>
+<span class="default">[</span><span class="default">S</span><span class="default">, </span><span class="default">f</span><span class="default">, </span><span class="default">t</span><span class="default">] =</span><span class="functionid">specgram</span><span class="default">(</span><span class="default">x</span><span class="default">)</span></pre></div></div>
+
+
+<div class="refsection"><h3 class="title">Parameters</h3>
+   <dl><dt><span class="term">S:</span>
+      <dd><p class="para">is the complex output of the FFT, one row per slice.</p></dd></dt>
+   <dt><span class="term">f:</span>
+      <dd><p class="para">is the frequency indices corresponding to the rows of S.</p></dd></dt>
+   <dt><span class="term">t:</span>
+      <dd><p class="para">is the time indices corresponding to the columns of S.</p></dd></dt>
+   
+<dt><span class="term">x:</span>
+      <dd><p class="para">the input signal.</p></dd></dt>
+   <dt><span class="term">n:</span>
+      <dd><p class="para">length of the overlapping segments(default,n=256).</p></dd></dt>
+   
+<dt><span class="term">fs:</span>
+      <dd><p class="para">sampling rate of input signal (if specified).</p></dd></dt>
+<dt><span class="term">win:</span>
+      <dd><p class="para">window vector,alternate window to apply rather than the default of hanning (n).</p></dd></dt>
+<dt><span class="term">overlap:</span>
+      <dd><p class="para">specifies the number of samples overlap between successive segments of the input signal. The default overlap is length (window)/2.</p></dd></dt></dl></div>
+
+
+<div class="refsection"><h3 class="title">Description</h3>
+<p class="para">Generates a spectrogram for the signal x. The signal is chopped into overlapping segments of length n, and each segment is windowed and transformed into the frequency domain using the FFT. The default segment size is 256. If fs is given, it specifies the sampling rate of the input signal. The argument window specifies an alternate window to apply rather than the default of hanning (n). The argument overlap specifies the number of samples overlap between successive segments of the input signal. The default overlap is length (window)/2.</p></div>
+
+
+
+
+
+<div class="refsection"><h3 class="title">Examples</h3>
+   <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabid">N</span><span class="scilaboperator">=</span><span class="scilabnumber">1024</span><span class="scilabdefault">;</span>
+<span class="scilabid">n</span><span class="scilaboperator">=</span><span class="scilabnumber">0</span><span class="scilabspecial">:</span><span class="scilabid">N</span><span class="scilaboperator">-</span><span class="scilabnumber">1</span><span class="scilabdefault">;</span>
+<span class="scilabid">w</span><span class="scilaboperator">=</span><span class="scilabnumber">2</span><span class="scilaboperator">*</span><span class="scilabconstants">%pi</span><span class="scilaboperator">/</span><span class="scilabnumber">5</span><span class="scilabdefault">;</span>
+<span class="scilabid">x</span><span class="scilaboperator">=</span><a class="scilabcommand" href="scilab://sin">sin</a><span class="scilabopenclose">(</span><span class="scilabid">w</span><span class="scilaboperator">*</span><span class="scilabid">n</span><span class="scilabopenclose">)</span><span class="scilaboperator">+</span><span class="scilabnumber">10</span><span class="scilaboperator">*</span><a class="scilabcommand" href="scilab://sin">sin</a><span class="scilabopenclose">(</span><span class="scilabnumber">2</span><span class="scilaboperator">*</span><span class="scilabid">w</span><span class="scilaboperator">*</span><span class="scilabid">n</span><span class="scilabopenclose">)</span><span class="scilabdefault">;</span>
+<span class="scilabopenclose">[</span><span class="scilabid">s</span><span class="scilabdefault">,</span><span class="scilabid">f</span><span class="scilabdefault">,</span><span class="scilabid">t</span><span class="scilabopenclose">]</span><span class="scilaboperator">=</span><span class="scilabid">specgram</span><span class="scilabopenclose">(</span><span class="scilabid">x</span><span class="scilabopenclose">)</span><span class="scilabdefault">;</span>
+<span class="scilabcomment">//grayplot(f,t,s)</span>
+<span class="scilabcomment">//xlabel(</span><span class="scilabcomment">&#0034;</span><span class="scilabcomment">frequency</span><span class="scilabcomment">&#0034;</span><span class="scilabcomment">)</span>
+<span class="scilabcomment">//ylabel(</span><span class="scilabcomment">&#0034;</span><span class="scilabcomment">time</span><span class="scilabcomment">&#0034;</span><span class="scilabcomment">)</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div>
+<img src='./specgram_1.png'/></div>
     <br />
 
     <div class="manualnavbar">

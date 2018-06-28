@@ -269,7 +269,7 @@
 <!ENTITY ace5b8fd6a692bedc219602a68eec4308 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/vco.xml">
 <!ENTITY aaf7bc09ecb55c7077306a5790a439dee SYSTEM "/home/shashi/Desktop/FSP/help/en_US/wconv.xml">
 <!ENTITY a4cc1eda1d503e395cf77e0cd0d6030b8 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/welchwin.xml">
-<!ENTITY a8a007f54412cf70ae470b9ba8a9f0b36 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/window.xml">
+<!ENTITY a84e4bf867e44548afb6ff00cc46442a8 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/wind.xml">
 <!ENTITY a38b574c15bab79e50798d1731a2db83f SYSTEM "/home/shashi/Desktop/FSP/help/en_US/wkeep.xml">
 <!ENTITY aa2003febcd6ae18c652281b7c452b860 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/wrev.xml">
 <!ENTITY a7c4aae39f58dcd38d3a14a89c60481a9 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/xcorr1.xml">
@@ -565,7 +565,7 @@
 &ace5b8fd6a692bedc219602a68eec4308;
 &aaf7bc09ecb55c7077306a5790a439dee;
 &a4cc1eda1d503e395cf77e0cd0d6030b8;
-&a8a007f54412cf70ae470b9ba8a9f0b36;
+&a84e4bf867e44548afb6ff00cc46442a8;
 &a38b574c15bab79e50798d1731a2db83f;
 &aa2003febcd6ae18c652281b7c452b860;
 &a7c4aae39f58dcd38d3a14a89c60481a9;

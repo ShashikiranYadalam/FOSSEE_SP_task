@@ -1,4 +1,4 @@
-function [A,V]= yulewalker(C)
+function [A,V]= yulewalker(c)
 // Fit an AR (p)-model with Yule-Walker estimates given a vector C of autocovariances '[gamma_0, ..., gamma_p]'.
 //Calling Sequence
 //A    = yulewalker(C)
@@ -8,25 +8,38 @@ function [A,V]= yulewalker(C)
 //Description
 //Fit an AR (p)-model with Yule-Walker estimates given a vector C of autocovariances '[gamma_0, ..., gamma_p]'.
 //Returns the AR coefficients, A, and the variance of white noise, V.
+
+//Test cases
+//[A,V]=yulewalker([1 2 3])
+// V  = - 2.6666667  
+// A  =1.3333333  
+//     0.3333333  
+
+
 funcprot(0);
 lhs=argn(1);
 rhs= argn(2);
 
-if(rhs<1 | rhs>1)
-	error("Wrong number of input arguments");
-end
+ if (rhs ~= 1)
+    error ("wrong number of input arguments");
+  end
 
-if(lhs<1 | lhs>2)
-	error("Wrong number of output arguments");
-end
+  p = length (c) - 1;
 
-select(lhs)
+  if (size (c,"c") > 1)
+    c = c';
+  end
 
-	case 1 then
-		A= callOctave("yulewalker", C);
-	case 2 then
-		[A,V]= callOctave("yulewalker", C);
-end
-endfunction 
+  cp = c(2 : p+1);
+  CP = zeros (p, p);
 
+  for i = 1:p
+    for j = 1:p
+      CP (i, j) = c (abs (i-j) + 1);
+    end
+  end
 
+  A = inv (CP) * cp;
+  V = c(1) -A' * cp;
+
+endfunction
