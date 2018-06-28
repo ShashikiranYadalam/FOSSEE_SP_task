@@ -20,7 +20,7 @@ function [S_r, f_r, t_r] = specgram(x, n , Fs , win , overlap)
 //grayplot(f,t,s)
 //xlabel("frequency")
 //ylabel("time")
-//
+////
 [nargout,nargin]=argn();
   if nargin < 1 | nargin > 5
     error("wrong no. of input arguments");

@@ -85,7 +85,7 @@ x = cos(%pi/4*n);
 [pxx,w]=periodogram(x,ones(1,320),256,2000,"onesided");
 
 pxx=roundn(pxx,4);
-qxx=fscanfMat("txt4_periodogram.txt");
+qxx=fscanfMat("macros/txt4_periodogram.txt");
 
 pxx=roundn(pxx,7);
 qxx=roundn(qxx,4);
@@ -438,28 +438,6 @@ if(A==Ai)
     end
     
 
-/////////////test for sos2tf ///////////
-sos = [1  1  1  1  0 -1; -2  3  1  1 10  1];
-[b,a] = sos2tf(sos);
-
-b=roundn(b,10);
-a=roundn(a,10);
-
-
-bi=[-2   1  2  4  1];
-ai=[1 10  0 -10 -1];
-
-bi=roundn(bi,10);
-ai=roundn(ai,10);
-
-if(bi==b &  a==ai)
-    test_pass=[test_pass,1];
-    
-else
-    test_pass=[test_pass,0];
-    disp("test failed for sos2tf")
-
-end
 //
 ///////////test for sosbreak    ////////////
 v=[1+4*%s+6*%s^2+4*%s^3+%s^4];
@@ -491,8 +469,8 @@ s=matrix(s,768,1);
 s_real=roundn(real(s),4);
 s_img=roundn(imag(s),4);
 
-m=fscanfMat('txt4specgram_real.txt');
-n=fscanfMat('txt4specgram_imag.txt');
+m=fscanfMat('macros/txt4specgram_real.txt');
+n=fscanfMat('macros/txt4specgram_imag.txt');
 
 m=roundn(m,4);
 n=roundn(n,4);
@@ -596,7 +574,156 @@ else
     disp("test failed for zerocrossings");
 end
 
-    
+////////////////test for deconv ////////////
+[b, r] = deconv ([3, 6, 9, 9], [1, 2, 3]);
+
+bi=[3,0];
+ri=[0, 0 ,0  ,9];
+
+b=roundn(b,1);
+r=roundn(r,1);
+
+if(and(r==ri) & and(b==bi))
+     test_pass=[test_pass,1];
+else
+   test_pass=[test_pass,0];
+    disp("tst failed for deconv");
+end 
+
+
+
+//////////////test for downsample////////
+g=downsample([1,2,3,4,5],2);
+gi=[1 3 5];
+
+g=round(g);
+
+if(g==gi)
+     test_pass=[test_pass,1];
+else
+   test_pass=[test_pass,0];
+    disp("tst failed for downsample");
+end 
+
+//////////////////test for mpoles////////////
+
+[m,n]=mpoles([2 3 1 1 2]);
+
+mi=[1;1;2;1;2];
+ni=[2;5;1;4;3];
+
+m=round(m);
+n=round(n);
+
+
+if(and(m==mi) & and(n==ni))
+     test_pass=[test_pass,1];
+else
+   test_pass=[test_pass,0];
+    disp("tst failed for mpoles");
+end 
+ 
+
+/////////////test for polyreduce///////////////
+
+b=polyreduce ([0, 0, 1, 2, 3]);
+
+b=round(b);
+
+if(b==[1,2,3])
+    test_pass=[test_pass,1];
+else
+   test_pass=[test_pass,0];
+    disp("tst failed for polyreduce");
+end 
+
+
+
+
+////////////////test for prepad////////////////
+a=prepad ([1,2], 4,0,2);
+
+a=round(a);
+
+if(a==[0 0 1 2])
+    test_pass=[test_pass,1];
+else
+   test_pass=[test_pass,0];
+    disp("tst failed for prepad");
+end 
+
+
+//////////////////test for residue/////////////
+b = [1, 1, 1];
+a = [1, -5, 8, -4];
+
+[r, p, k, e] = residue (b, a);
+
+
+ ei  =[1;2;1]; 
+ ki  =[];
+ pi  =[2;2;1];
+ ri  =[-2;7;3];
+ 
+ r=round(r);
+ e=round(e);
+ k=round(k);
+ p=round(p);
+ 
+ 
+ if(and(ri==r) & and(ei==e)  & and(pi==p) & and(ki==k))
+     test_pass=[test_pass,1];
+else
+   test_pass=[test_pass,0];
+    disp("tst failed for residue");
+end 
+
+
+
+
+///////////////////test for residued/////////////////////
+
+[r,p,f,m] = residued([1 1],[1 -2 1]);
+
+mi=[1;2];
+fi=[];
+pi=[1;1];
+ri=[-1;2];
+
+r=round(r);
+p=round(p);
+f=round(f);
+m=round(m);
+
+ if(and(ri==r) & and(fi==f)  & and(pi==p) & and(mi==m))
+     test_pass=[test_pass,1];
+else
+   test_pass=[test_pass,0];
+    disp("tst failed for residue");
+end 
+ 
+ 
+  ///////////////////test for residuez/////////////////////
+
+[r,p,f,m] = residuez([1 1],[1 -2 1]);
+
+mi=[1;2];
+fi=[];
+pi=[1;1];
+ri=[-1;2];
+
+r=round(r);
+p=round(p);
+f=round(f);
+m=round(m);
+
+ if(and(ri==r) & and(fi==f)  & and(pi==p) & and(mi==m))
+     test_pass=[test_pass,1];
+else
+   test_pass=[test_pass,0];
+    disp("tst failed for residue");
+end 
+
 
 
 
@@ -611,10 +738,10 @@ res=find(test_pass==0)
 
 if(res~=[])
 	disp("One or more tests failed")
-	//exit(1)
+	exit(1)
 else
     disp("pass")
-	//exit
+	exit
 end
 
 

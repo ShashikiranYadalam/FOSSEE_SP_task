@@ -54,6 +54,7 @@ db
 db2pow
 dctmtx
 decimate
+deconv
 detrend1
 dftmtx
 diffpara
@@ -157,6 +158,7 @@ midcross
 modulate
 morlet
 movingrms
+mpoles
 mscohere
 musicBase
 ncauer
@@ -177,10 +179,12 @@ pmusic
 poly2ac
 poly2lsf
 poly2rc
+polyreduce
 polyscale
 polystab
 polyval
 pow2db
+prepad
 primitive
 prony
 pulseperiod
@@ -200,6 +204,7 @@ rectpuls
 rectwin
 remez1
 resample
+residue
 residued
 residuez
 risetime
@@ -263,7 +268,7 @@ var
 vco
 wconv
 welchwin
-window
+wind
 wkeep
 wrev
 xcorr1

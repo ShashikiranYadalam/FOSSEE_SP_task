@@ -1,4 +1,4 @@
-function [w] = window (f, m, varargin)
+function [w] = wind (f, m, varargin)
 //This function creates an m-point window from the function f given as input.
 //Calling Sequence
 //w = window(f, m)
