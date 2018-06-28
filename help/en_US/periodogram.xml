@@ -62,16 +62,20 @@ If a sampling frequency is specified, FS, then the output frequencies F will be 
 <refsection>
    <title>Examples</title>
    <programlisting role="example"><![CDATA[
-n = 0:319;
-x = cos(%pi/4*n)+rand(size(n,"r"),"normal");
-[pxx,w] = periodogram(x);
-plot(w,10*log10(pxx))
+n=0:319;
+x=cos(%pi/4*n)+rand(size(n,"r"),"normal");
+[pxx,w]=periodogram(x,ones(1,320),256,2000,"onesided");
+plot2d(w,10*log10(pxx))
+xtitle('periodogram','frequency','magnitude(db)')
+xgrid()
    ]]></programlisting>
 <scilab:image>
-n = 0:319;
-x = cos(%pi/4*n)+rand(size(n,"r"),"normal");
-[pxx,w] = periodogram(x);
-plot(w,10*log10(pxx))
+n=0:319;
+x=cos(%pi/4*n)+rand(size(n,"r"),"normal");
+[pxx,w]=periodogram(x,ones(1,320),256,2000,"onesided");
+plot2d(w,10*log10(pxx))
+xtitle('periodogram','frequency','magnitude(db)')
+xgrid()
 </scilab:image>
 
 
