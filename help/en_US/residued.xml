@@ -41,8 +41,14 @@
 <refsection>
    <title>Description</title>
    <para>
-Similar to the "residuez" function. The difference being in the function "residuez", the IIR part (poles p and residues r) is driven in parallel with the FIR part(f) whereas in the function "residued", the IIR part is driven by the output of the FIR part. In signal modeling applications, this structure can be more accurate.
- 
+Similar to the "residuez" function. The difference being in the function "residuez", the IIR part (poles p and residues r) is driven in parallel with the FIR part(f) whereas in the function "residued", the IIR part is driven by the output of the FIR part. In signal modeling applications, this structure can be more accurate.NOTE that the polynomials 'b' and 'a' should have real coefficients(because of the function 'filter' used in polyval)
+</para>
+<para> 
+<latex>
+\begin{eqnarray}
+\frac{B(s)}{A(s)}=\sum_{m=1}^{M}\frac{r(m)}{(s-p(m))^{e(m)}}+\sum_{i=1}^{N}k(i)*{s^{N-i}}
+\end{eqnarray}
+</latex>
 </para>
 </refsection>
 

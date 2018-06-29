@@ -46,7 +46,8 @@
       <dd><p class="para">Real or complex valued vector or matrix</p></dd></dt></dl></div>
 
 <div class="refsection"><h3 class="title">Description</h3>
-   <p class="para">Similar to the &#0034;residuez&#0034; function. The difference being in the function &#0034;residuez&#0034;, the IIR part (poles p and residues r) is driven in parallel with the FIR part(f) whereas in the function &#0034;residued&#0034;, the IIR part is driven by the output of the FIR part. In signal modeling applications, this structure can be more accurate.</p></div>
+   <p class="para">Similar to the &#0034;residuez&#0034; function. The difference being in the function &#0034;residuez&#0034;, the IIR part (poles p and residues r) is driven in parallel with the FIR part(f) whereas in the function &#0034;residued&#0034;, the IIR part is driven by the output of the FIR part. In signal modeling applications, this structure can be more accurate.NOTE that the polynomials &#0039;b&#0039; and &#0039;a&#0039; should have real coefficients(because of the function &#0039;filter&#0039; used in polyval)</p>
+<p class="para"><span><img src='./_LaTeX_residued.xml_1.png' style='position:relative;top:14px;width:316px;height:36px'/></span></p></div>
 
 <div class="refsection"><h3 class="title">Examples</h3>
    <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabnumber">1.</span>

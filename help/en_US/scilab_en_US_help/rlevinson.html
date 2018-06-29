@@ -59,7 +59,14 @@
       <dd><p class="para">Prediction error.</p></dd></dt></dl></div>
 
 <div class="refsection"><h3 class="title">Description</h3>
-<p class="para">The reverse Levinson-Durbin recursion implements the step-down algorithm for solving the following symmetric Toeplitz system of linear equations for r, where r = [r(1) … r(p + 1)] and r(i)* denotes the complex conjugate of r(i).</p></div>
+<p class="para">The reverse Levinson-Durbin recursion implements the step-down algorithm for solving the following symmetric Toeplitz system of linear equations for r, where r = [r(1) … r(p + 1)] and r(i)* denotes the complex conjugate of r(i).</p>
+<p class="para"><span><img src='./_LaTeX_rlevinson.xml_1.png' style='position:relative;top:61px;width:391px;height:130px'/></span></p>
+
+<p class="para">Input vector a represents the polynomial coefficients of this prediction error filter in descending powers of z.
+<p class="para"><span><img src='./_LaTeX_rlevinson.xml_2.png' style='position:relative;top:10px;width:325px;height:28px'/></span></p></p>
+<p class="para">[r,u] = rlevinson(a,efinal) returns upper triangular matrix U from the UDU* decomposition</p>
+<span><img src='./_LaTeX_rlevinson.xml_3.png' style='position:relative;top:8px;width:126px;height:24px'/></span>
+<p class="para"><span><img src='./_LaTeX_rlevinson.xml_4.png' style='position:relative;top:2px;width:4px;height:4px'/></span></p></div>
 
 <div class="refsection"><h3 class="title">Examples</h3>
    <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabid">X</span><span class="scilaboperator">=</span><span class="scilabopenclose">[</span><span class="scilabnumber">1</span> <span class="scilabnumber">6</span><span class="scilaboperator">/</span><span class="scilabnumber">7</span> <span class="scilabnumber">5</span><span class="scilaboperator">/</span><span class="scilabnumber">7</span> <span class="scilabnumber">8</span><span class="scilaboperator">/</span><span class="scilabnumber">7</span> <span class="scilabnumber">3</span><span class="scilaboperator">/</span><span class="scilabnumber">7</span> <span class="scilabnumber">6</span><span class="scilaboperator">/</span><span class="scilabnumber">7</span><span class="scilabopenclose">]</span><span class="scilabdefault">;</span>  

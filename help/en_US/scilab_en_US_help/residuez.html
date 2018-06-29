@@ -46,7 +46,8 @@
       <dd><p class="para">Real or complex valued vector or matrix</p></dd></dt></dl></div>
 
 <div class="refsection"><h3 class="title">Description</h3>
-   <p class="para">It computes the partial fraction expansion of filter H(z)= B(z)/A(z) where inputs b and a are vectors specifying the digital filter.</p></div>
+   <p class="para">It computes the partial fraction expansion of filter H(z)= B(z)/A(z) where inputs b and a are vectors specifying the digital filter.NOTE that the polynomials &#0039;b&#0039; and &#0039;a&#0039; should have real coefficients(because of the function &#0039;filter&#0039; used in polyval)</p>
+<p class="para"><span><img src='./_LaTeX_residuez.xml_1.png' style='position:relative;top:15px;width:282px;height:38px'/></span></p></div>
 
 <div class="refsection"><h3 class="title">Examples</h3>
    <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabnumber">1.</span><span class="scilabid">B</span><span class="scilaboperator">=</span><span class="scilabopenclose">[</span><span class="scilabnumber">1</span> <span class="scilabnumber">1</span> <span class="scilabnumber">1</span><span class="scilabopenclose">]</span><span class="scilabdefault">;</span> <span class="scilabid">A</span><span class="scilaboperator">=</span><span class="scilabopenclose">[</span><span class="scilabnumber">1</span> <span class="scilaboperator">-</span><span class="scilabnumber">2</span> <span class="scilabnumber">1</span><span class="scilabopenclose">]</span><span class="scilabdefault">;</span>

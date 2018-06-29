@@ -2,24 +2,24 @@
 
 //  Function File [r, p, f, m] = residued (b, a)
 // Compute the partial fraction expansion (PFE) of filter
-// mathH(z) = B(z)/A(z).  In the usual PFE function coderesiduez, the
-// IIR part (poles p and residues r) is driven emphin parallel
-// with the FIR part (f).  In this iant, the IIR part is driven by
-// the emphoutput of the FIR part.  This structure can be more accurate in
+// H(z) = B(z)/A(z).  In the usual PFE function coderesiduez, the
+// IIR part (poles p and residues r) is driven in parallel
+// with the FIR part (f).  In this variant, the IIR part is driven by
+// the output of the FIR part.  This structure can be more accurate in
 // signal modeling applications.
 //
 // INPUTS:
 // b and a are vectors specifying the digital filter
-// mathH(z) = B(z)/A(z).  See codehelp filter for documentation of the
-// b and a filter coefficients.
+// H(z) = B(z)/A(z).  
+//NOTE that the polynomials 'b' and 'a' should have real coefficients(because of the function 'filter' used in polyval)
 //
 // RETURNED:
-// ize
+// 
 //  r = column vector containing the filter-pole residues
 //  p = column vector containing the filter poles
 //  f = row vector containing the FIR part, if any
 //  m = column vector of pole multiplicities
-// end ize
+// 
 //
 // Test cases:
 //1.

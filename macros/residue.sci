@@ -9,10 +9,6 @@ function [r, p, k, e] = residue (b, a, varargin)
 //
 // The quotient is defined as
 
-// B(s)\over A(s) = \sum_m=1^M r_m\over (s-p_m)^e_m
-//   + \sum_i=1^N k_i s^N-i.
-
-
 // B(s)    M       r(m)        N
 // ---- = SUM ------------- + SUM k(i)*s^(N-i)
 // A(s)   m=1 (s-p(m))^e(m)   i=1
@@ -22,7 +18,7 @@ function [r, p, k, e] = residue (b, a, varargin)
 // representing the direct contribution, and the e vector specifies the
 // multiplicity of the m-th residue's pole.
 //
-//
+//NOTE that the polynomials 'b' and 'a' should have real coefficients(because of the function 'filter' used in polyval)
 //
 //Test case
 //1.

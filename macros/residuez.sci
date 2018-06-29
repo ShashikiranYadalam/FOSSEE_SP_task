@@ -22,6 +22,8 @@
   // response. To obtain a decomposition in which the impulse response of
   // the IIR part R(z) starts after that of the FIR part F(z), use RESIDUED.
   //
+  
+  //NOTE that the polynomials 'b' and 'a' should have real coefficients(because of the function 'filter' used in polyval)
   //Testcase
   //B=[1 1 1]; A=[1 -2 1];
   //[r,p,f,m] = residuez(B,A)
