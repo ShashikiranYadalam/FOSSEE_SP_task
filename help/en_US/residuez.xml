@@ -41,7 +41,7 @@
 <refsection>
    <title>Description</title>
    <para>
-It computes the partial fraction expansion of filter H(z)= B(z)/A(z) where inputs b and a are vectors specifying the digital filter.NOTE that the polynomials 'b' and 'a' should have real coefficients(because of the function 'filter' used in polyval)
+It computes the partial fraction expansion of filter H(z)= B(z)/A(z) where inputs b and a are vectors specifying the digital filter.NOTE that the polynomials 'b' and 'a' should have real coefficients(because of the function 'filter' used in polyval). This function works for transfer functions which are proper fractions.
 </para>
 <para> 
 <latex>

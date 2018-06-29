@@ -45,7 +45,7 @@
 <refsection>
    <title>Description</title>
    <para>
-This is an Octave function.
+
 This function upsamples the input data in the matrix by a factor of n. Then the upsampled data is FIR filtered. After this, the resultant is downsampled.
 </para>
 </refsection>
@@ -54,9 +54,9 @@ This function upsamples the input data in the matrix by a factor of n. Then the 
    <title>Examples</title>
    <programlisting role="example"><![CDATA[
 upfirdn([1,2,3],2,3,5)
-ans  =
+//ans  =
 
-2.    0.
+//2.    0.
    ]]></programlisting>
 </refsection>
 </refentry>

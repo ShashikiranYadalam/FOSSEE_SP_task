@@ -59,6 +59,7 @@
 <mapID target="db2pow" url="db2pow.html"/>
 <mapID target="dctmtx" url="dctmtx.html"/>
 <mapID target="decimate" url="decimate.html"/>
+<mapID target="deconv" url="deconv.html"/>
 <mapID target="detrend1" url="detrend1.html"/>
 <mapID target="dftmtx" url="dftmtx.html"/>
 <mapID target="diffpara" url="diffpara.html"/>
@@ -164,6 +165,7 @@
 <mapID target="modulate" url="modulate.html"/>
 <mapID target="morlet" url="morlet.html"/>
 <mapID target="movingrms" url="movingrms.html"/>
+<mapID target="mpoles" url="mpoles.html"/>
 <mapID target="mscohere" url="mscohere.html"/>
 <mapID target="musicBase" url="musicBase.html"/>
 <mapID target="ncauer" url="ncauer.html"/>
@@ -186,10 +188,12 @@
 <mapID target="poly2ac" url="poly2ac.html"/>
 <mapID target="poly2lsf" url="poly2lsf.html"/>
 <mapID target="poly2rc" url="poly2rc.html"/>
+<mapID target="polyreduce" url="polyreduce.html"/>
 <mapID target="polyscale" url="polyscale.html"/>
 <mapID target="polystab" url="polystab.html"/>
 <mapID target="polyval" url="polyval.html"/>
 <mapID target="pow2db" url="pow2db.html"/>
+<mapID target="prepad" url="prepad.html"/>
 <mapID target="primitive" url="primitive.html"/>
 <mapID target="prony" url="prony.html"/>
 <mapID target="pulseperiod" url="pulseperiod.html"/>
@@ -209,6 +213,7 @@
 <mapID target="rectwin" url="rectwin.html"/>
 <mapID target="remez1" url="remez1.html"/>
 <mapID target="resample" url="resample.html"/>
+<mapID target="residue" url="residue.html"/>
 <mapID target="residued" url="residued.html"/>
 <mapID target="residuez" url="residuez.html"/>
 <mapID target="risetime" url="risetime.html"/>

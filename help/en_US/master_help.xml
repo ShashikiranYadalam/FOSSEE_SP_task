@@ -57,6 +57,7 @@
 <!ENTITY af3acc95760cbcb301aec659894886eab SYSTEM "/home/shashi/Desktop/FSP/help/en_US/db2pow.xml">
 <!ENTITY a180c3801dc6ec21d565cda89950d50be SYSTEM "/home/shashi/Desktop/FSP/help/en_US/dctmtx.xml">
 <!ENTITY a8e9d6e7d74dc80071435b2611ce7b40e SYSTEM "/home/shashi/Desktop/FSP/help/en_US/decimate.xml">
+<!ENTITY add35ca6ef7b8d8f4c028140fe3b2fce0 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/deconv.xml">
 <!ENTITY ab5069afc8a3a4fdac36f3b72874170e3 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/detrend1.xml">
 <!ENTITY ae2fe206d867483be93606474fe663714 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/dftmtx.xml">
 <!ENTITY aac8f1a6f9b3ece1a4ba93cd76339f0af SYSTEM "/home/shashi/Desktop/FSP/help/en_US/diffpara.xml">
@@ -162,6 +163,7 @@
 <!ENTITY a9b14d4fbc192f2b47f0a505891b9f94e SYSTEM "/home/shashi/Desktop/FSP/help/en_US/modulate.xml">
 <!ENTITY a43c5a8450714c9efe53c39efb132615b SYSTEM "/home/shashi/Desktop/FSP/help/en_US/morlet.xml">
 <!ENTITY ad1f812deb34d3f9cc2e1244e29fcb6d3 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/movingrms.xml">
+<!ENTITY a21ac8f5865bccd15e9bbaf73bd1d1272 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/mpoles.xml">
 <!ENTITY a55cb1770a0e5dcd2c0a726000e288651 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/mscohere.xml">
 <!ENTITY a47e82d6ee91dce2ecb820ba37ce94c91 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/musicBase.xml">
 <!ENTITY afe953031910e012d09204550ccf7a693 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/ncauer.xml">
@@ -184,10 +186,12 @@
 <!ENTITY a56f6bf365ab61d0ab4d4dcbe32346f9a SYSTEM "/home/shashi/Desktop/FSP/help/en_US/poly2ac.xml">
 <!ENTITY a5e19306184dbf567f58f87200dd4ab2c SYSTEM "/home/shashi/Desktop/FSP/help/en_US/poly2lsf.xml">
 <!ENTITY ad0187373d8445522d14cf68be94f0f6b SYSTEM "/home/shashi/Desktop/FSP/help/en_US/poly2rc.xml">
+<!ENTITY ad1a5430fd8254b44b2a6669945c565ee SYSTEM "/home/shashi/Desktop/FSP/help/en_US/polyreduce.xml">
 <!ENTITY a3af5d5f75abd7dc75e08ed11cb4bd1af SYSTEM "/home/shashi/Desktop/FSP/help/en_US/polyscale.xml">
 <!ENTITY ad3fd06ec720a5ba1034848ac70a0594d SYSTEM "/home/shashi/Desktop/FSP/help/en_US/polystab.xml">
 <!ENTITY adb838cc2548157dad2c764222dc13ff9 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/polyval.xml">
 <!ENTITY a1ae23f2709b9469371f477538eb4cd27 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/pow2db.xml">
+<!ENTITY a4ac6103d6b24b4032deaca7e610acc0e SYSTEM "/home/shashi/Desktop/FSP/help/en_US/prepad.xml">
 <!ENTITY a53e23efc8839fe1ced044eb78bf0203b SYSTEM "/home/shashi/Desktop/FSP/help/en_US/primitive.xml">
 <!ENTITY a0f7160a0b865f3e8a73199cc99e95482 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/prony.xml">
 <!ENTITY a778b2e7cba53a6e7d85559b0978daa1a SYSTEM "/home/shashi/Desktop/FSP/help/en_US/pulseperiod.xml">
@@ -207,6 +211,7 @@
 <!ENTITY a5348029b068e8f9fde429d8593480d2e SYSTEM "/home/shashi/Desktop/FSP/help/en_US/rectwin.xml">
 <!ENTITY a4e23bd52f76a4f5aaac2624073a0b56f SYSTEM "/home/shashi/Desktop/FSP/help/en_US/remez1.xml">
 <!ENTITY a06e7cc8fbc287d434a6f1c7108539c90 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/resample.xml">
+<!ENTITY a372a969748b70e57f61194b127f5c636 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/residue.xml">
 <!ENTITY a05dd1309040f3972da9fe56203ce803f SYSTEM "/home/shashi/Desktop/FSP/help/en_US/residued.xml">
 <!ENTITY a8c766f651b033d46229a3c675e5dfdd3 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/residuez.xml">
 <!ENTITY aebae68b5c2ae81dd0df99a5cc8884f59 SYSTEM "/home/shashi/Desktop/FSP/help/en_US/risetime.xml">
@@ -353,6 +358,7 @@
 &af3acc95760cbcb301aec659894886eab;
 &a180c3801dc6ec21d565cda89950d50be;
 &a8e9d6e7d74dc80071435b2611ce7b40e;
+&add35ca6ef7b8d8f4c028140fe3b2fce0;
 &ab5069afc8a3a4fdac36f3b72874170e3;
 &ae2fe206d867483be93606474fe663714;
 &aac8f1a6f9b3ece1a4ba93cd76339f0af;
@@ -458,6 +464,7 @@
 &a9b14d4fbc192f2b47f0a505891b9f94e;
 &a43c5a8450714c9efe53c39efb132615b;
 &ad1f812deb34d3f9cc2e1244e29fcb6d3;
+&a21ac8f5865bccd15e9bbaf73bd1d1272;
 &a55cb1770a0e5dcd2c0a726000e288651;
 &a47e82d6ee91dce2ecb820ba37ce94c91;
 &afe953031910e012d09204550ccf7a693;
@@ -480,10 +487,12 @@
 &a56f6bf365ab61d0ab4d4dcbe32346f9a;
 &a5e19306184dbf567f58f87200dd4ab2c;
 &ad0187373d8445522d14cf68be94f0f6b;
+&ad1a5430fd8254b44b2a6669945c565ee;
 &a3af5d5f75abd7dc75e08ed11cb4bd1af;
 &ad3fd06ec720a5ba1034848ac70a0594d;
 &adb838cc2548157dad2c764222dc13ff9;
 &a1ae23f2709b9469371f477538eb4cd27;
+&a4ac6103d6b24b4032deaca7e610acc0e;
 &a53e23efc8839fe1ced044eb78bf0203b;
 &a0f7160a0b865f3e8a73199cc99e95482;
 &a778b2e7cba53a6e7d85559b0978daa1a;
@@ -503,6 +512,7 @@
 &a5348029b068e8f9fde429d8593480d2e;
 &a4e23bd52f76a4f5aaac2624073a0b56f;
 &a06e7cc8fbc287d434a6f1c7108539c90;
+&a372a969748b70e57f61194b127f5c636;
 &a05dd1309040f3972da9fe56203ce803f;
 &a8c766f651b033d46229a3c675e5dfdd3;
 &aebae68b5c2ae81dd0df99a5cc8884f59;

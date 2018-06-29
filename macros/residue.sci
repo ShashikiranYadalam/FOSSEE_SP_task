@@ -3,7 +3,7 @@ function [r, p, k, e] = residue (b, a, varargin)
 
 //  [r, p, k, e] = residue (b, a)
 //  [b, a] = residue (r, p, k)
-// [varb, vara] = residue (r, p, k, e)
+// [b, a] = residue (r, p, k, e)
 // The first calling form computes the partial fraction expansion for the
 // quotient of the polynomials, b and a.
 //

@@ -80,26 +80,7 @@ function [multp, indx] = mpoles (p, tol, reorder)
   n = find (multp == 0, 1);
   
   
-//  dp = abs (p-p(n));
-//    if (p(n) == 0.0)
-//      if (or (abs (p) > 0 & (p==%inf)))
-//        p0 = mean (abs (p((abs (p) )> 0 & (p==%inf))));
-//      else
-//        p0 = 1;
-//      end
-//    else
-//      p0 = abs (p(n));
-//    end
-//    k = find (dp < tol * p0);
-//    // Poles can only be members of one multiplicity group.
-//    if (length(indx))
-//        mk=members(k,indx);
-//      k = (~ bool2s(mk~=0));
-//    end
-//    m = 1:length (k);
-//    multp(k) = m;
-//    indx = [indx; k];
-//    n = find (multp == 0, 1);
+
   
   
   
