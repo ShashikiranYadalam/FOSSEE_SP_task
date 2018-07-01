@@ -9,10 +9,19 @@ function R=rc2ac(k, R0)
 // R0: input argument zero lag autocorrelation
 // R: return  autocorrelation sequence.
 
-// Examples
-//X = [7 6 5 8 3 6]
-// R = rc2ac(X, 0.3)
-
+// Test cases
+//k = [0.3090 0.9800 0.0031 0.0082 -0.0082];
+//r0 = 0.1;
+//Output:
+//R  =
+//    0.1        
+//  - 0.0309     
+//  - 0.0790948  
+//    0.0786627  
+//    0.0293629  
+//  - 0.0950000  
+ 
+//
 // See also
 //
 // Author

@@ -1,0 +1,86 @@
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>deconv</title>
+    <style type="text/css" media="all">
+      @import url("scilab_code.css");
+      @import url("xml_code.css");
+      @import url("c_code.css");
+      @import url("style.css");
+    </style>
+  </head>
+  <body>
+    <div class="manualnavbar">
+    <table width="100%"><tr>
+      <td width="30%">
+    	<span class="previous"><a href="decimate.html">&lt;&lt; decimate</a></span>
+
+      </td>
+      <td width="40%" class="center">
+      	<span class="top"><a href="section_bb45a542725f0412ce4c44a5afd1c791.html">FOSSEE Signal Processing Toolbox</a></span>
+
+      </td>
+      <td width="30%" class="next">
+      	<span class="next"><a href="detrend1.html">detrend1 &gt;&gt;</a></span>
+
+      </td>
+    </tr></table>
+      <hr />
+    </div>
+
+
+
+    <span class="path"><a href="index.html">FOSSEE Signal Processing Toolbox</a> &gt;&gt; <a href="section_bb45a542725f0412ce4c44a5afd1c791.html">FOSSEE Signal Processing Toolbox</a> &gt; deconv</span>
+
+    <br /><br />
+    <div class="refnamediv"><h1 class="refname">deconv</h1>
+    <p class="refpurpose">Deconvolve two vectors.</p></div>
+
+
+<div class="refsynopsisdiv"><h3 class="title">Calling Sequence</h3>
+   <div class="synopsis"><pre><span class="default">[</span><span class="default">b</span><span class="default">,</span><span class="default">r</span><span class="default">]= </span><span class="functionid">deconv</span><span class="default"> (</span><span class="default">y</span><span class="default">, </span><span class="default">a</span><span class="default">)</span></pre></div></div>
+
+<div class="refsection"><h3 class="title">Parameters</h3>
+   <dl><dt><span class="term">y:</span>
+      <dd><p class="para">Input vector. The convolution of a and b.</p></dd></dt>
+   <dt><span class="term">a:</span>
+      <dd><p class="para">The input vector.</p></dd></dt>
+   <dt><span class="term">b:</span>
+      <dd><p class="para">The quotient polynomial coeffecients vector.</p></dd></dt>
+   <dt><span class="term">r:</span>
+      <dd><p class="para">The remainder polynomial coefficients vector.</p></dd></dt></dl></div>
+
+<div class="refsection"><h3 class="title">Description</h3>
+   <p class="para">[b, r] = deconv (y, a) solves for b and r such that
+ y = conv (a, b) + r.</p>
+<p class="para">If y and a are polynomial coefficient vectors, b will
+ contain the coefficients of the polynomial quotient and r will be
+ a remainder polynomial of lowest order.</p></div>
+
+<div class="refsection"><h3 class="title">Examples</h3>
+   <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabopenclose">[</span><span class="scilabid">b</span><span class="scilabdefault">,</span> <span class="scilabid">r</span><span class="scilabopenclose">]</span> <span class="scilaboperator">=</span> <span class="scilabid">deconv</span> <span class="scilabopenclose">(</span><span class="scilabopenclose">[</span><span class="scilabnumber">3</span><span class="scilabdefault">,</span> <span class="scilabnumber">6</span><span class="scilabdefault">,</span> <span class="scilabnumber">9</span><span class="scilabdefault">,</span> <span class="scilabnumber">9</span><span class="scilabopenclose">]</span><span class="scilabdefault">,</span> <span class="scilabopenclose">[</span><span class="scilabnumber">1</span><span class="scilabdefault">,</span> <span class="scilabnumber">2</span><span class="scilabdefault">,</span> <span class="scilabnumber">3</span><span class="scilabopenclose">]</span><span class="scilabopenclose">)</span>
+<span class="scilabcomment">//Output:</span>
+<span class="scilabcomment">//b=[3, 0]</span>
+<span class="scilabcomment">//r=[0, 0, 0, 9]</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
+    <br />
+
+    <div class="manualnavbar">
+    <table width="100%">
+    <tr><td colspan="3" class="next"><a href="http://bugzilla.scilab.org/enter_bug.cgi?product=Scilab%20software&component=Documentation%20pages" class="ulink">Report an issue</a></td></tr>
+<tr>
+      <td width="30%">
+    	<span class="previous"><a href="decimate.html">&lt;&lt; decimate</a></span>
+
+      </td>
+      <td width="40%" class="center">
+      	<span class="top"><a href="section_bb45a542725f0412ce4c44a5afd1c791.html">FOSSEE Signal Processing Toolbox</a></span>
+
+      </td>
+      <td width="30%" class="next">
+      	<span class="next"><a href="detrend1.html">detrend1 &gt;&gt;</a></span>
+
+      </td>
+    </tr></table>
+      <hr />
+    </div>
+  </body>
+</html>

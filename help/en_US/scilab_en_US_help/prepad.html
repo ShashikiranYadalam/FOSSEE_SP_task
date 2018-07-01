@@ -1,0 +1,93 @@
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>prepad</title>
+    <style type="text/css" media="all">
+      @import url("scilab_code.css");
+      @import url("xml_code.css");
+      @import url("c_code.css");
+      @import url("style.css");
+    </style>
+  </head>
+  <body>
+    <div class="manualnavbar">
+    <table width="100%"><tr>
+      <td width="30%">
+    	<span class="previous"><a href="pow2db.html">&lt;&lt; pow2db</a></span>
+
+      </td>
+      <td width="40%" class="center">
+      	<span class="top"><a href="section_bb45a542725f0412ce4c44a5afd1c791.html">FOSSEE Signal Processing Toolbox</a></span>
+
+      </td>
+      <td width="30%" class="next">
+      	<span class="next"><a href="primitive.html">primitive &gt;&gt;</a></span>
+
+      </td>
+    </tr></table>
+      <hr />
+    </div>
+
+
+
+    <span class="path"><a href="index.html">FOSSEE Signal Processing Toolbox</a> &gt;&gt; <a href="section_bb45a542725f0412ce4c44a5afd1c791.html">FOSSEE Signal Processing Toolbox</a> &gt; prepad</span>
+
+    <br /><br />
+    <div class="refnamediv"><h1 class="refname">prepad</h1>
+    <p class="refpurpose"></p></div>
+<div class="refsynopsisdiv"><h3 class="title">Calling Sequence</h3>
+   <div class="synopsis"><pre><span class="default">y</span><span class="default">= </span><span class="functionid">prepad</span><span class="default"> (</span><span class="default">x</span><span class="default">, </span><span class="default">l</span><span class="default">)</span>
+<span class="default">y</span><span class="default">= </span><span class="functionid">prepad</span><span class="default"> (</span><span class="default">x</span><span class="default">, </span><span class="default">l</span><span class="default">, </span><span class="default">c</span><span class="default">)</span>
+<span class="default">y</span><span class="default">= </span><span class="functionid">prepad</span><span class="default"> (</span><span class="default">x</span><span class="default">, </span><span class="default">l</span><span class="default">, </span><span class="default">c</span><span class="default">, </span><span class="default">dim</span><span class="default">)</span></pre></div></div>
+
+<div class="refsection"><h3 class="title">Parameters</h3>
+   <dl><dt><span class="term">x:</span>
+      <dd><p class="para">Input vector or matrix of real numbers.</p></dd></dt>
+   <dt><span class="term">l:</span>
+      <dd><p class="para">The length of the final prepadded sequence.</p></dd></dt>
+   <dt><span class="term">c:</span>
+      <dd><p class="para">number used for prepadding.</p></dd></dt>
+   <dt><span class="term">dim:</span>
+      <dd><p class="para">The dimension along which the prepadding should happen.</p></dd></dt>
+   <dt><span class="term">y:</span>
+      <dd><p class="para">Output</p></dd></dt></dl></div>
+
+<div class="refsection"><h3 class="title">Description</h3>
+   <p class="para">Prepend the scalar value c to the vector x until it is of length
+ l.  If c is not given, a value of 0 is used.
+
+ If length (x) &gt; l, elements from the beginning of x
+ are removed until a vector of length l is obtained.
+
+ If x is a matrix, elements are prepended or removed from each row.
+
+ If the optional argument dim is given, operate along this dimension.
+
+ If dim is larger than the dimensions of x, the result will have
+ dim dimensions.</p></div>
+
+<div class="refsection"><h3 class="title">Examples</h3>
+   <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabid">prepad</span> <span class="scilabopenclose">(</span><span class="scilabopenclose">[</span><span class="scilabnumber">1</span><span class="scilabdefault">,</span><span class="scilabnumber">2</span><span class="scilabopenclose">]</span><span class="scilabdefault">,</span> <span class="scilabnumber">4</span><span class="scilabdefault">,</span><span class="scilabnumber">0</span><span class="scilabdefault">,</span><span class="scilabnumber">2</span><span class="scilabopenclose">)</span>
+<span class="scilabcomment">//Output: [0,0,1,2]</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
+    <br />
+
+    <div class="manualnavbar">
+    <table width="100%">
+    <tr><td colspan="3" class="next"><a href="http://bugzilla.scilab.org/enter_bug.cgi?product=Scilab%20software&component=Documentation%20pages" class="ulink">Report an issue</a></td></tr>
+<tr>
+      <td width="30%">
+    	<span class="previous"><a href="pow2db.html">&lt;&lt; pow2db</a></span>
+
+      </td>
+      <td width="40%" class="center">
+      	<span class="top"><a href="section_bb45a542725f0412ce4c44a5afd1c791.html">FOSSEE Signal Processing Toolbox</a></span>
+
+      </td>
+      <td width="30%" class="next">
+      	<span class="next"><a href="primitive.html">primitive &gt;&gt;</a></span>
+
+      </td>
+    </tr></table>
+      <hr />
+    </div>
+  </body>
+</html>

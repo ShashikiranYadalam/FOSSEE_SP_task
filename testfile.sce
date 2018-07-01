@@ -766,6 +766,40 @@ end
 
 
 
+//////////////////////test for wkeep////////////////
+
+y=wkeep([1 2 3;4 5 6],[2 2]);
+yi=[1,2];
+
+if(yi==round(y))
+    test_pass=[test_pass,1];
+else
+   test_pass=[test_pass,0];
+    disp("tst failed for wkeep"); 
+end
+
+
+
+
+//////////////////test for rc2ac////////////////
+k = [0.3090 0.9800 0.0031 0.0082 -0.0082];
+r0 = 0.1;
+
+R = rc2ac(k,r0);
+
+R=roundn(R,4);
+
+ Ri  =[0.1 ;-0.0309;-0.0790948 ;0.0786627 ;0.0293629 ;-0.0950000];
+ Ri=roundn(Ri,4);
+ 
+ if(R==Ri)
+      test_pass=[test_pass,1];
+else
+   test_pass=[test_pass,0];
+    disp("tst failed for rc2ac"); 
+end 
+
+
 
 
 

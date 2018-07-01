@@ -38,6 +38,31 @@
 
 <div class="refsynopsisdiv"><h3 class="title">Calling Sequence</h3>
    <div class="synopsis"><pre><span class="default">a</span><span class="default"> = </span><span class="functionid">rc2ac</span><span class="default">(</span><span class="default">k</span><span class="default">, </span><span class="default">R0</span><span class="default">)</span></pre></div></div>
+
+<div class="refsection"><h3 class="title">Parameters</h3>
+   <dl><dt><span class="term">k:</span>
+      <dd><p class="para">Lattice form reflection coefficients.</p></dd></dt>
+   <dt><span class="term">r0:</span>
+      <dd><p class="para">Initial zero lag autocorrelation.</p></dd></dt>
+   <dt><span class="term">a:</span>
+      <dd><p class="para">Autocorrelation coefficients.</p></dd></dt></dl></div>
+
+<div class="refsection"><h3 class="title">Description</h3>
+   <p class="para">Uses rlevinson to function convert reflection coefficients to autocorrelation sequence.</p>
+<p class="para">r = rc2ac(k,r0) finds the autocorrelation coefficients, r, of the output of the discrete-time prediction error filter from the lattice-form reflection coefficients k and initial zero-lag autocorrelation r0</p></div>
+
+<div class="refsection"><h3 class="title">Examples</h3>
+   <div class="programlisting"><table border="0" width="100%"><tr><td width="98%"><pre class="scilabcode"><span class="scilabid">k</span> <span class="scilaboperator">=</span> <span class="scilabopenclose">[</span><span class="scilabnumber">0.3090</span> <span class="scilabnumber">0.9800</span> <span class="scilabnumber">0.0031</span> <span class="scilabnumber">0.0082</span> <span class="scilaboperator">-</span><span class="scilabnumber">0.0082</span><span class="scilabopenclose">]</span><span class="scilabdefault">;</span>
+<span class="scilabid">r0</span> <span class="scilaboperator">=</span> <span class="scilabnumber">0.1</span><span class="scilabdefault">;</span>
+<span class="scilabid">R</span><span class="scilaboperator">=</span><span class="scilabid">rc2ac</span><span class="scilabopenclose">(</span><span class="scilabid">k</span><span class="scilabdefault">,</span><span class="scilabid">r0</span><span class="scilabopenclose">)</span>
+<span class="scilabcomment">//Output:</span>
+<span class="scilabcomment">//R  =</span>
+<span class="scilabcomment">//    0.1        </span>
+<span class="scilabcomment">//  - 0.0309     </span>
+<span class="scilabcomment">//  - 0.0790948  </span>
+<span class="scilabcomment">//    0.0786627  </span>
+<span class="scilabcomment">//    0.0293629  </span>
+<span class="scilabcomment">//  - 0.0950000</span></pre></td><td valign="top"><a href="scilab://scilab.execexample/"><img src="ScilabExecute.png" border="0"/></a></td><td valign="top"><a href="scilab://scilab.editexample/"><img src="ScilabEdit.png" border="0"/></a></td><td></td></tr></table></div></div>
     <br />
 
     <div class="manualnavbar">
