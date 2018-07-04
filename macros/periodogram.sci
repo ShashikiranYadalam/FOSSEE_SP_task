@@ -1,11 +1,8 @@
 function [pxx, f] = periodogram (x, varargin)
 //Calling Sequence:    
-//[PXX, W] = periodogram (X)
-//[PXX, W] = periodogram (X, WIN)
-//[PXX, W] = periodogram (X, WIN, NFFT)
 //[PXX, F] = periodogram (X, WIN, NFFT, FS)
 //[PXX, F] = periodogram (..., "RANGE")
-//periodogram (...).........plots the periodogram
+
 //     The possible inputs are:
 //
 //     X

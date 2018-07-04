@@ -24,9 +24,7 @@
 <refsynopsisdiv>
    <title>Calling Sequence</title>
    <synopsis>
-   [PXX, W] = periodogram (X)
-   [PXX, W] = periodogram (X, WIN)
-   [PXX, W] = periodogram (X, WIN, NFFT)
+   
    [PXX, W] = periodogram (X, WIN, NFFT, FS)
    [PXX, W] = periodogram (..., "RANGE")
    </synopsis>

@@ -1,3 +1,15 @@
+// Copyright (C) 2018 - IIT Bombay - FOSSEE
+//
+// This file must be used under the terms of the CeCILL.
+// This source file is licensed as described in the file COPYING, which
+// you should have received as part of this distribution.  The terms
+// are also available at
+// http://www.cecill.info/licences/Licence_CeCILL_V2-en.txt
+// Author:[insert name]
+// Organization: FOSSEE, IIT Bombay
+// Email: toolbox@scilab.in
+
+
 function y = wrev(x)
     
     
@@ -7,7 +19,7 @@ function y = wrev(x)
 // Parameters
 //	x: Input vector of string, real or complex values
 // Description
-//	This is an Octave function.
+//	This is an Octave function which is built in scilab.
 //	This function reverses the order of elements of the input vector x.
 // Examples
 // 1.	wrev([1 2 3])
