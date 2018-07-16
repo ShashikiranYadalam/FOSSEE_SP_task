@@ -1,3 +1,16 @@
+// Copyright (C) 2018 - IIT Bombay - FOSSEE
+//
+// This file must be used under the terms of the CeCILL.
+// This source file is licensed as described in the file COPYING, which
+// you should have received as part of this distribution.  The terms
+// are also available at
+// http://www.cecill.info/licences/Licence_CeCILL_V2-en.txt
+// Author:[insert name]
+// Organization: FOSSEE, IIT Bombay
+// Email: toolbox@scilab.in
+
+
+
 function [S_r, f_r, t_r] = specgram(x, n , Fs , win , overlap)
 //Generate a spectrogram for the signal x. The signal is chopped into overlapping segments of length n, and each segment is windowed and transformed into the frequency domain using the FFT. The default segment size is 256. If fs is given, it specifies the sampling rate of the input signal. The argument window specifies an alternate window to apply rather than the default of hanning (n). The argument overlap specifies the number of samples overlap between successive segments of the input signal. The default overlap is length (window)/2. 
 
